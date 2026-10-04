@@ -1,0 +1,64 @@
+{
+ "doc_id": "freight-trip-reference-3",
+ "file": "documents/freight-trip-reference-3.pdf",
+ "category": "freight",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Transport invoice with Trip No / Load Ref / truck registration printed.",
+ "sha256": "5e76f6bfff2e8cbe5c13b03f6e6997ea37b851a7f79f7e47edb657cf03cb9158",
+ "bytes": 2924,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZMW",
+ "tags": [
+  "trip_reference"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Zambezi Reach Transport Limited",
+  "invoice_number": "INV-2026-94104",
+  "invoice_date": "2025-07-03",
+  "due_date": "2025-09-01",
+  "currency": "ZMW",
+  "subtotal": 15769.2,
+  "tax": 2523.07,
+  "total": 18292.27,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Abnormal load escort",
+    "amount": 6272.36,
+    "alt_amounts": []
+   },
+   {
+    "description": "Local delivery, 8t rigid",
+    "amount": 9496.84,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "TR45899",
+   "LD-248097"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

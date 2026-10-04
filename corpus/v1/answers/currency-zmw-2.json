@@ -1,0 +1,68 @@
+{
+ "doc_id": "currency-zmw-2",
+ "file": "documents/currency-zmw-2.pdf",
+ "category": "currency",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "ZMW invoice, amounts printed with 'ZMW'.",
+ "sha256": "c3ef550012203d1c2f7b8700d31c9d5d818ae470fba31ee55ac3e836040a2cc8",
+ "bytes": 3046,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZMW",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Chisamba Office Supplies Limited",
+  "invoice_number": "IN0009050",
+  "invoice_date": "2025-12-02",
+  "due_date": "2026-01-01",
+  "currency": "ZMW",
+  "subtotal": 62396.32,
+  "tax": 9983.41,
+  "total": 72379.73,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 6386.4,
+    "alt_amounts": []
+   },
+   {
+    "description": "Copy paper A4 80gsm, box of 5 reams",
+    "amount": 2476.72,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 47547.2,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 5986.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

@@ -1,0 +1,60 @@
+{
+ "doc_id": "clean-us-tax-only",
+ "file": "documents/clean-us-tax-only.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_tax_only': Professional services invoice: subtotal, tax, total.",
+ "sha256": "99d329d10b55379fa8b0121a1324c6ee5b65810b11d9a487b34aa7fa1ea7f7e9",
+ "bytes": 2604,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Brightware Software Inc",
+  "invoice_number": "BW-2024-1142",
+  "invoice_date": "2024-03-31",
+  "due_date": "2024-04-30",
+  "currency": "USD",
+  "subtotal": 12000.0,
+  "tax": 1035.0,
+  "total": 13035.0,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Senior engineering consulting (40 hrs @ $245)",
+    "amount": 9800.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Architecture review and documentation",
+    "amount": 2200.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

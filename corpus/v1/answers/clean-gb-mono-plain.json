@@ -1,0 +1,68 @@
+{
+ "doc_id": "clean-gb-mono-plain",
+ "file": "documents/clean-gb-mono-plain.pdf",
+ "category": "clean",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "UK supplier, typewriter font, no table lines.",
+ "sha256": "5e33434870de6f39715e5e492c51e70cf9e6f975e8aa4f5288405cc3ec62d8b3",
+ "bytes": 2910,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "GBP",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Mersey Office Supplies Ltd",
+  "invoice_number": "IN0003904",
+  "invoice_date": "2025-08-08",
+  "due_date": "2025-09-07",
+  "currency": "GBP",
+  "subtotal": 12491.95,
+  "tax": 2498.39,
+  "total": 14990.34,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Hydraulic hose 1/2in, per metre",
+    "amount": 1618.11,
+    "alt_amounts": []
+   },
+   {
+    "description": "Ratchet straps 50mm x 9m (4)",
+    "amount": 3134.32,
+    "alt_amounts": []
+   },
+   {
+    "description": "Nitrile work gloves, size L (pack 12)",
+    "amount": 1545.9,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 6193.62,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

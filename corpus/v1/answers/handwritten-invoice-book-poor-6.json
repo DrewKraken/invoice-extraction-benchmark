@@ -1,0 +1,70 @@
+{
+ "doc_id": "handwritten-invoice-book-poor-6",
+ "file": "documents/handwritten-invoice-book-poor-6.jpg",
+ "category": "handwritten",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Pre-printed delivery note / invoice book filled in by hand (poor handwriting).",
+ "sha256": "7f44ad5a03bf6fe2f14b157ea0f91404dfc3fcd1a496b10ae9605ade22a577a4",
+ "bytes": 220741,
+ "pages": 1,
+ "render": "image",
+ "severity": null,
+ "degradations": [],
+ "legibility": "poor",
+ "currency": "NAD",
+ "tags": [
+  "handwritten",
+  "legibility_poor"
+ ],
+ "base_id": null,
+ "pixels": [
+  1654,
+  2339
+ ],
+ "dpi": 200,
+ "expected": {
+  "vendor_name": "Erongo Workshop Supplies (Pty) Ltd",
+  "invoice_number": "9518",
+  "invoice_date": "2025-04-17",
+  "due_date": null,
+  "currency": "NAD",
+  "subtotal": 6284.61,
+  "tax": 942.69,
+  "total": 7227.3,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 1392.65,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hex bolts M12 x 50 galvanised (box 50)",
+    "amount": 3243.04,
+    "alt_amounts": []
+   },
+   {
+    "description": "LED work lamp 24V",
+    "amount": 1648.92,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

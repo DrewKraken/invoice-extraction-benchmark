@@ -1,0 +1,71 @@
+{
+ "doc_id": "handwritten-invoice-book-neat-1",
+ "file": "documents/handwritten-invoice-book-neat-1.jpg",
+ "category": "handwritten",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Pre-printed cash invoice book filled in by hand (neat handwriting).",
+ "sha256": "3eb1b910d85da062daa11f65aecf3abde4b7fc17b01ecb571a1664b8ba4ec2ca",
+ "bytes": 196674,
+ "pages": 1,
+ "render": "image",
+ "severity": null,
+ "degradations": [],
+ "legibility": "neat",
+ "currency": "NAD",
+ "tags": [
+  "handwritten",
+  "legibility_neat"
+ ],
+ "base_id": null,
+ "pixels": [
+  1654,
+  2339
+ ],
+ "dpi": 200,
+ "expected": {
+  "vendor_name": "Etosha Gate Office Supplies (Pty) Ltd",
+  "invoice_number": "2431",
+  "invoice_date": "2025-07-24",
+  "due_date": "2025-09-22",
+  "currency": "NAD",
+  "subtotal": 24476.08,
+  "tax": 3671.41,
+  "total": 28147.49,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Pallet strapping kit",
+    "amount": 1006.58,
+    "alt_amounts": []
+   },
+   {
+    "description": "LED work lamp 24V",
+    "amount": 3239.39,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 20230.11,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

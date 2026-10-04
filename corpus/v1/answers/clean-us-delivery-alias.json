@@ -1,0 +1,59 @@
+{
+ "doc_id": "clean-us-delivery-alias",
+ "file": "documents/clean-us-delivery-alias.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_delivery_alias': Shipping printed as 'Delivery Charge'.",
+ "sha256": "95324c0f70c7fec49d04b43123c5345eb9fece671fdb3093fdd62e9a457271e1",
+ "bytes": 2601,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Greenleaf Office Supply",
+  "invoice_number": "GLO-9015",
+  "invoice_date": "2024-03-14",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 747.0,
+  "tax": 59.76,
+  "total": 841.76,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Whiteboard, 6ft x 4ft magnetic",
+    "amount": 567.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Dry-erase marker set (12 colors)",
+    "amount": 180.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

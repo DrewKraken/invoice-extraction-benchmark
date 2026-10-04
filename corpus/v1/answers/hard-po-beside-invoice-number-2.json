@@ -1,0 +1,69 @@
+{
+ "doc_id": "hard-po-beside-invoice-number-2",
+ "file": "documents/hard-po-beside-invoice-number-2.pdf",
+ "category": "hard",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "'Invoice No' and 'Your Ref' printed side by side in the same format.",
+ "sha256": "056d9599e6cc1240f7414924fb09fd8dab69f43b126f3e3db7ea7c7f7e5cc5be",
+ "bytes": 2747,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "po_beside_number"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Vaalrand Tyre & Parts (Pty) Ltd",
+  "invoice_number": "TWSINV439966",
+  "invoice_date": "2025-09-26",
+  "due_date": null,
+  "currency": "ZAR",
+  "subtotal": 11656.87,
+  "tax": 1748.53,
+  "total": 13405.4,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Air filter element, heavy duty",
+    "amount": 3300.52,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 4919.87,
+    "alt_amounts": []
+   },
+   {
+    "description": "Nitrile work gloves, size L (pack 12)",
+    "amount": 652.33,
+    "alt_amounts": []
+   },
+   {
+    "description": "LED work lamp 24V",
+    "amount": 2784.15,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

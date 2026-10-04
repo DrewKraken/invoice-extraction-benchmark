@@ -1,0 +1,53 @@
+{
+ "doc_id": "tax-zero-rated-na",
+ "file": "documents/tax-zero-rated-na.pdf",
+ "category": "tax",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Zero-rated export: 'VAT 0% (zero-rated)' 0.00.",
+ "sha256": "a6a699005e49dad94217a505c67691257f4a6091035aa35a5622bc0bc55a8d04",
+ "bytes": 2568,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Namib Sands Logistics CC",
+  "invoice_number": "IN0006855",
+  "invoice_date": "2025-03-27",
+  "due_date": "2025-04-10",
+  "currency": "NAD",
+  "subtotal": 25649.63,
+  "tax": 0.0,
+  "total": 25649.63,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Export transport Dallas - Lusaka",
+    "amount": 25649.63,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

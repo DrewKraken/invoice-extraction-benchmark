@@ -1,0 +1,70 @@
+{
+ "doc_id": "currency-multi-line-nad",
+ "file": "documents/currency-multi-line-nad.pdf",
+ "category": "currency",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Line items priced in USD, EUR and NAD, each converted to NAD.",
+ "sha256": "070409c69c6d56321b3b0bde9c84d602d8a1ad24c23b8b9a475143a15b0fd707",
+ "bytes": 2918,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "multi_currency_lines"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Etosha Gate Clearing & Forwarding (Pty) Ltd",
+  "invoice_number": "AA-80309",
+  "invoice_date": "2026-08-15",
+  "due_date": "2026-09-14",
+  "currency": "NAD",
+  "subtotal": 51530.43,
+  "tax": 7729.56,
+  "total": 59259.99,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Ocean freight Shanghai - Walvis Bay",
+    "amount": 41968.58,
+    "alt_amounts": []
+   },
+   {
+    "description": "Origin handling",
+    "amount": 7424.51,
+    "alt_amounts": []
+   },
+   {
+    "description": "Port dues",
+    "amount": 1069.8,
+    "alt_amounts": []
+   },
+   {
+    "description": "Cargo dues",
+    "amount": 1067.54,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

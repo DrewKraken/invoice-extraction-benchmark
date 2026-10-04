@@ -1,0 +1,60 @@
+{
+ "doc_id": "credit-note-minus-za",
+ "file": "documents/credit-note-minus-za.pdf",
+ "category": "credit",
+ "difficulty": "easy",
+ "kind": "credit_note",
+ "description": "CREDIT NOTE, negatives printed as 'minus'.",
+ "sha256": "4de376f7c33e4aff5c41741382c72522950198ad49ebd0dab5a4ae237e52d342",
+ "bytes": 2700,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "credit_note",
+  "neg_minus"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Suidkus Packaging (Pty) Ltd",
+  "invoice_number": "CN-2026-0933",
+  "invoice_date": "2026-02-28",
+  "due_date": null,
+  "currency": "ZAR",
+  "subtotal": 7010.28,
+  "tax": 1051.54,
+  "total": 8061.82,
+  "document_type": "credit_note",
+  "lines": [
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 5209.6,
+    "alt_amounts": []
+   },
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 1800.68,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

@@ -1,0 +1,70 @@
+{
+ "doc_id": "tax-inclusive-subtotal-na",
+ "file": "documents/tax-inclusive-subtotal-na.pdf",
+ "category": "tax",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "VAT-inclusive 'Sub Total' equal to the total, VAT shown as included.",
+ "sha256": "cdab9d78123f5a5c78f52d1a621ea67e1b64219da7938b422e308e37c0f3e620",
+ "bytes": 2843,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "vat_inclusive"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Etosha Gate Workshop Supplies (Pty) Ltd",
+  "invoice_number": "IN0044014",
+  "invoice_date": "2025-01-15",
+  "due_date": "2025-02-14",
+  "currency": "NAD",
+  "subtotal": 23265.33,
+  "tax": 3489.8,
+  "total": 26755.13,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 1887.08,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 23255.32,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hex bolts M12 x 50 galvanised (box 50)",
+    "amount": 204.05,
+    "alt_amounts": []
+   },
+   {
+    "description": "Nitrile work gloves, size L (pack 12)",
+    "amount": 1408.68,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

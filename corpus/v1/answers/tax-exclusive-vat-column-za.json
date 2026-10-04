@@ -1,0 +1,73 @@
+{
+ "doc_id": "tax-exclusive-vat-column-za",
+ "file": "documents/tax-exclusive-vat-column-za.pdf",
+ "category": "tax",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "VAT-exclusive prices with a VAT % column per line.",
+ "sha256": "952b6d5f3d4361e39c701b57073094d42e3feb98b72df3a4417cdbc7598dfaa5",
+ "bytes": 3294,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Vaalrand Packaging (Pty) Ltd",
+  "invoice_number": "TN-6058",
+  "invoice_date": "2025-12-17",
+  "due_date": "2026-02-15",
+  "currency": "ZAR",
+  "subtotal": 13838.26,
+  "tax": 2075.74,
+  "total": 15914.0,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 8466.39,
+    "alt_amounts": []
+   },
+   {
+    "description": "Angle grinder discs 115mm (10)",
+    "amount": 189.77,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hex bolts M12 x 50 galvanised (box 50)",
+    "amount": 1950.48,
+    "alt_amounts": []
+   },
+   {
+    "description": "Air filter element, heavy duty",
+    "amount": 992.24,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 2239.38,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

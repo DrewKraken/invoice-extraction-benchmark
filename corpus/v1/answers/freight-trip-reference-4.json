@@ -1,0 +1,64 @@
+{
+ "doc_id": "freight-trip-reference-4",
+ "file": "documents/freight-trip-reference-4.pdf",
+ "category": "freight",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Transport invoice with Trip No / Load Ref / truck registration printed.",
+ "sha256": "49f3f193cd745c552830e8e3d865a30a04c1f2a72aee793f1c1816680a7d8f69",
+ "bytes": 2866,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "trip_reference"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Etosha Gate Cargo (Pty) Ltd",
+  "invoice_number": "2026/6798",
+  "invoice_date": "2025-04-28",
+  "due_date": "2025-05-28",
+  "currency": "NAD",
+  "subtotal": 22402.07,
+  "tax": 3360.31,
+  "total": 25762.38,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Abnormal load escort",
+    "amount": 5721.05,
+    "alt_amounts": []
+   },
+   {
+    "description": "Container haulage 40ft {a} depot",
+    "amount": 16681.02,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "TR22541",
+   "LD-748985"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

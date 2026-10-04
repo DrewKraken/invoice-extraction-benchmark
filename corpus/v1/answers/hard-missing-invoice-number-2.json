@@ -1,0 +1,70 @@
+{
+ "doc_id": "hard-missing-invoice-number-2",
+ "file": "documents/hard-missing-invoice-number-2.pdf",
+ "category": "hard",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "No invoice number printed; only a PO / delivery note number.",
+ "sha256": "089782933f907ce7aedd0d1624d49ccdd552eb404a77498e9a30f90695ee2e6e",
+ "bytes": 2825,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "missing_number"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Kransberg Hardware (Pty) Ltd",
+  "invoice_number": null,
+  "invoice_date": "2025-10-17",
+  "due_date": "2025-10-31",
+  "currency": "ZAR",
+  "subtotal": 51102.25,
+  "tax": 7665.34,
+  "total": 58767.59,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 2967.8,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 43093.76,
+    "alt_amounts": []
+   },
+   {
+    "description": "Nitrile work gloves, size L (pack 12)",
+    "amount": 2172.96,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hydraulic hose 1/2in, per metre",
+    "amount": 2867.73,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

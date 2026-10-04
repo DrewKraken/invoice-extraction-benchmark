@@ -1,0 +1,54 @@
+{
+ "doc_id": "clean-us-zero-shipping-explicit",
+ "file": "documents/clean-us-zero-shipping-explicit.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_zero_shipping_explicit': Prints 'Shipping: $0.00' explicitly.",
+ "sha256": "d2892b69048c44948379ba182c85da4d600e7504782641ea040c17acb1baa3d4",
+ "bytes": 2560,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Greenleaf Office Supply",
+  "invoice_number": "GLO-9412",
+  "invoice_date": "2024-04-30",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 2225.0,
+  "tax": 178.0,
+  "total": 2403.0,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Digital download \u2014 office productivity suite (per seat, annual)",
+    "amount": 2225.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

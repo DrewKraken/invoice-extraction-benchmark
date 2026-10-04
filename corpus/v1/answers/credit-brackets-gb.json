@@ -1,0 +1,60 @@
+{
+ "doc_id": "credit-brackets-gb",
+ "file": "documents/credit-brackets-gb.pdf",
+ "category": "credit",
+ "difficulty": "medium",
+ "kind": "credit_note",
+ "description": "CREDIT NOTE, negatives printed as 'brackets'.",
+ "sha256": "251bb37f3fea31cd65941952b2bdf5105a97fc553bc04847e998ec5600df4c14",
+ "bytes": 2644,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "GBP",
+ "tags": [
+  "credit_note",
+  "neg_brackets"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Wolds Packaging Limited",
+  "invoice_number": "CN082351",
+  "invoice_date": "2025-09-28",
+  "due_date": null,
+  "currency": "GBP",
+  "subtotal": 2265.45,
+  "tax": 453.09,
+  "total": 2718.54,
+  "document_type": "credit_note",
+  "lines": [
+   {
+    "description": "Pallet strapping kit",
+    "amount": 344.4,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hydraulic hose 1/2in, per metre",
+    "amount": 1921.05,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

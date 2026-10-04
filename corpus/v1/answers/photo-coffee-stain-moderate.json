@@ -1,0 +1,87 @@
+{
+ "doc_id": "photo-coffee-stain-moderate",
+ "file": "documents/photo-coffee-stain-moderate.jpg",
+ "category": "photo",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Carrier invoice Walvis Bay - Lubumbashi: linehaul, fuel surcharge %, accessorials. -> coffee stain (moderate).",
+ "sha256": "d43fef5cfa070e3f8d4a0433c151081ea099cd9471316337af1d09194153034c",
+ "bytes": 219917,
+ "pages": 1,
+ "render": "image",
+ "severity": "moderate",
+ "degradations": [
+  {
+   "kind": "coffee_stain",
+   "severity": "moderate"
+  }
+ ],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "carrier",
+  "fuel_surcharge",
+  "accessorials",
+  "coffee_stain"
+ ],
+ "base_id": "base-carrier-na",
+ "pixels": [
+  1654,
+  2339
+ ],
+ "dpi": 200,
+ "expected": {
+  "vendor_name": "Skeleton Bay Logistics (Pty) Ltd",
+  "invoice_number": "INV-2026-44556",
+  "invoice_date": "2025-09-29",
+  "due_date": "2025-10-29",
+  "currency": "NAD",
+  "subtotal": 33324.16,
+  "tax": 4998.62,
+  "total": 38322.78,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Linehaul Walvis Bay - Lubumbashi",
+    "amount": 26912.73,
+    "alt_amounts": []
+   },
+   {
+    "description": "Fuel surcharge 15%",
+    "amount": 4036.91,
+    "alt_amounts": []
+   },
+   {
+    "description": "Border crossing fee",
+    "amount": 1459.04,
+    "alt_amounts": []
+   },
+   {
+    "description": "Waiting time at consignee",
+    "amount": 915.48,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "TR52368",
+   "LD-826687"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

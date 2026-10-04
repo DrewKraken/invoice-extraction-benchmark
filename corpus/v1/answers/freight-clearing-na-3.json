@@ -1,0 +1,84 @@
+{
+ "doc_id": "freight-clearing-na-3",
+ "file": "documents/freight-clearing-na-3.pdf",
+ "category": "freight",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Clearing & forwarding: VAT-free disbursements plus VAT-able agency fees, 'Supplier Inv No' printed.",
+ "sha256": "4fcca536457fd9a0bf7ab71791cc2e6c88bed1a7953d19011e4f3cc79d32a8ff",
+ "bytes": 3200,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "clearing",
+  "disbursements"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Erongo Border Services CC",
+  "invoice_number": "BS-25746",
+  "invoice_date": "2025-10-31",
+  "due_date": "2025-11-07",
+  "currency": "NAD",
+  "subtotal": 53625.87,
+  "tax": 457.53,
+  "total": 54083.4,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Shipping line release fee (disbursement)",
+    "amount": 3435.15,
+    "alt_amounts": []
+   },
+   {
+    "description": "Container storage, 4 days (disbursement)",
+    "amount": 3210.98,
+    "alt_amounts": []
+   },
+   {
+    "description": "Customs duty (disbursement)",
+    "amount": 43929.56,
+    "alt_amounts": []
+   },
+   {
+    "description": "Delivery order handling",
+    "amount": 393.71,
+    "alt_amounts": []
+   },
+   {
+    "description": "Customs clearance fee",
+    "amount": 2234.01,
+    "alt_amounts": []
+   },
+   {
+    "description": "Documentation fee",
+    "amount": 422.46,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "IPPU4962012"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

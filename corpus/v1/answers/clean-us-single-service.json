@@ -1,0 +1,54 @@
+{
+ "doc_id": "clean-us-single-service",
+ "file": "documents/clean-us-single-service.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_single_service': One-line services invoice, minimal layout.",
+ "sha256": "8a11c0d5762cd9ef839eedf4f2a80d3e2012ec35a462dc3665e7f67dd3ecac9d",
+ "bytes": 2487,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Brightware Software Inc",
+  "invoice_number": "BW-2024-1287",
+  "invoice_date": "2024-04-25",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 4500.0,
+  "tax": 388.13,
+  "total": 4888.13,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Monthly security monitoring and incident response (April 2024)",
+    "amount": 4500.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

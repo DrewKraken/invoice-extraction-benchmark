@@ -1,0 +1,61 @@
+{
+  "system": "Example Reader 1.0",
+  "run_date": "2026-10-04",
+  "notes": "Two documents only; run with --allow-missing to score a partial file.",
+  "documents": {
+    "clean-gb-serif": {
+      "vendor_name": "Pennine Tyre & Parts Limited",
+      "invoice_number": "IN0049923",
+      "invoice_date": "2025-08-27",
+      "due_date": "2025-09-26",
+      "currency": "GBP",
+      "subtotal": 18011.58,
+      "tax": 3602.32,
+      "total_amount": 21613.9,
+      "document_type": "invoice",
+      "line_items": [
+        {
+          "description": "Hydraulic hose 1/2in, per metre",
+          "amount": 2386.4
+        },
+        {
+          "description": "LED work lamp 24V",
+          "amount": 4513.6
+        },
+        {
+          "description": "Safety boots, steel toe, size 9",
+          "amount": 4764.18
+        },
+        {
+          "description": "Brake pads, trailer axle set",
+          "amount": 6347.4
+        }
+      ],
+      "flagged": false,
+      "references": []
+    },
+    "credit-note-minus-za": {
+      "vendor_name": "Suidkus Packaging (Pty) Ltd",
+      "invoice_number": "CN-2026-0933",
+      "invoice_date": "2026-02-28",
+      "due_date": null,
+      "currency": "ZAR",
+      "subtotal": -7010.28,
+      "tax": -1051.54,
+      "total_amount": -8061.82,
+      "document_type": "credit_note",
+      "line_items": [
+        {
+          "description": "Stretch wrap film 500mm x 300m",
+          "amount": -5209.6
+        },
+        {
+          "description": "Safety boots, steel toe, size 9",
+          "amount": -1800.68
+        }
+      ],
+      "flagged": false,
+      "references": []
+    }
+  }
+}

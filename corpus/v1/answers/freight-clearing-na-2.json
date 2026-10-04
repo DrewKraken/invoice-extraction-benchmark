@@ -1,0 +1,84 @@
+{
+ "doc_id": "freight-clearing-na-2",
+ "file": "documents/freight-clearing-na-2.pdf",
+ "category": "freight",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Clearing & forwarding: VAT-free disbursements plus VAT-able agency fees, 'Supplier Inv No' printed.",
+ "sha256": "570c0f722b25b0d44760c93b097fc6169dd99b618a43d137380141ef99f93110",
+ "bytes": 3112,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "clearing",
+  "disbursements"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Etosha Gate Border Services (Pty) Ltd",
+  "invoice_number": "2026/4896",
+  "invoice_date": "2026-05-20",
+  "due_date": "2026-05-27",
+  "currency": "NAD",
+  "subtotal": 19795.95,
+  "tax": 247.4,
+  "total": 20043.35,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Customs duty (disbursement)",
+    "amount": 6205.79,
+    "alt_amounts": []
+   },
+   {
+    "description": "Container storage, 4 days (disbursement)",
+    "amount": 2676.45,
+    "alt_amounts": []
+   },
+   {
+    "description": "Import VAT paid on behalf (disbursement)",
+    "amount": 9264.4,
+    "alt_amounts": []
+   },
+   {
+    "description": "Cargo inspection attendance",
+    "amount": 716.72,
+    "alt_amounts": []
+   },
+   {
+    "description": "Delivery order handling",
+    "amount": 449.55,
+    "alt_amounts": []
+   },
+   {
+    "description": "Bill of entry preparation",
+    "amount": 483.04,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "IPPU2317776"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "doc_id": "currency-gbp-1",
+ "file": "documents/currency-gbp-1.pdf",
+ "category": "currency",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "GBP invoice, amounts printed with '\u00a3'.",
+ "sha256": "9fb5e128256f52dacbe723e73f32652345402607f6f921257d343f0cfb32b89f",
+ "bytes": 3144,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "GBP",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Mersey Engineering Supplies Limited",
+  "invoice_number": "INV-2026-52362",
+  "invoice_date": "2025-08-27",
+  "due_date": "2025-09-10",
+  "currency": "GBP",
+  "subtotal": 20266.25,
+  "tax": 4053.25,
+  "total": 24319.5,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Hex bolts M12 x 50 galvanised (box 50)",
+    "amount": 740.68,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 12916.76,
+    "alt_amounts": []
+   },
+   {
+    "description": "LED work lamp 24V",
+    "amount": 3691.89,
+    "alt_amounts": []
+   },
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 2916.92,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

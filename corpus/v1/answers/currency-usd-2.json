@@ -1,0 +1,68 @@
+{
+ "doc_id": "currency-usd-2",
+ "file": "documents/currency-usd-2.pdf",
+ "category": "currency",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "USD invoice, amounts printed with '$'.",
+ "sha256": "faf7c1d3d811e324c802fdbede3476b236c137ca062796e3df50d1662b560d99",
+ "bytes": 2872,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Ironbridge Packaging Corp",
+  "invoice_number": "KS-30440",
+  "invoice_date": "2026-05-02",
+  "due_date": "2026-06-01",
+  "currency": "USD",
+  "subtotal": 4062.72,
+  "tax": 360.57,
+  "total": 4423.29,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Angle grinder discs 115mm (10)",
+    "amount": 846.25,
+    "alt_amounts": []
+   },
+   {
+    "description": "Pallet strapping kit",
+    "amount": 1081.11,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hydraulic hose 1/2in, per metre",
+    "amount": 1950.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Nitrile work gloves, size L (pack 12)",
+    "amount": 185.36,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

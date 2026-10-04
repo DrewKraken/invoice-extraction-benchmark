@@ -1,0 +1,54 @@
+{
+ "doc_id": "clean-us-freight-alias",
+ "file": "documents/clean-us-freight-alias.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_freight_alias': Shipping printed as 'Freight'.",
+ "sha256": "fa31cfc926f25c64091ac839677640656e4963f8303ab1841c2eadcdc757aded",
+ "bytes": 2572,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Northwind Logistics LLC",
+  "invoice_number": "NWL-20240322-008",
+  "invoice_date": "2024-03-22",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 770.0,
+  "tax": 50.05,
+  "total": 945.05,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Reinforced shipping pallets, 48x40",
+    "amount": 770.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

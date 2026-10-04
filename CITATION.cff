@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite it as below."
+type: dataset
+title: "Invoice Extraction Benchmark v1: 181 synthetic invoices, photos, scans and handwritten documents with answer keys"
+abstract: >-
+  A synthetic test set for invoice data extraction: 181 documents (clean PDFs,
+  phone photos and scans at three damage grades, handwritten invoice books,
+  credit notes, dual-currency and VAT-inclusive invoices, multi-page invoices,
+  several invoices in one file, supplier statements, and invoices whose printed
+  totals deliberately do not add up), with an answer key per document, a scorer,
+  and the generator that reproduces the documents from seed 42. Made by
+  InvoiceParser Pro, an invoice extraction vendor.
+authors:
+  - name: "InvoiceParser Pro"
+    website: "https://invoiceparserpro.com"
+version: "1.0"
+date-released: "2026-10-04"
+repository-code: "https://github.com/DrewKraken/invoice-extraction-benchmark"
+url: "https://invoiceparserpro.com/accuracy"
+license: CC-BY-4.0
+keywords:
+  - invoice extraction
+  - invoice OCR
+  - document AI
+  - intelligent document processing
+  - accounts payable
+  - benchmark
+  - synthetic dataset

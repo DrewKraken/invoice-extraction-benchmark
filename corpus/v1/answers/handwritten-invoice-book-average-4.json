@@ -1,0 +1,76 @@
+{
+ "doc_id": "handwritten-invoice-book-average-4",
+ "file": "documents/handwritten-invoice-book-average-4.jpg",
+ "category": "handwritten",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Pre-printed delivery note / invoice book filled in by hand (average handwriting).",
+ "sha256": "ddee666ae05f9425e54b957f9d4941be111fb2f97d6cf008075e7fcfcbb21275",
+ "bytes": 250362,
+ "pages": 1,
+ "render": "image",
+ "severity": null,
+ "degradations": [],
+ "legibility": "average",
+ "currency": "NAD",
+ "tags": [
+  "handwritten",
+  "legibility_average"
+ ],
+ "base_id": null,
+ "pixels": [
+  1654,
+  2339
+ ],
+ "dpi": 200,
+ "expected": {
+  "vendor_name": "Brandkop Office Supplies (Pty) Ltd",
+  "invoice_number": "1168",
+  "invoice_date": "2026-05-16",
+  "due_date": "2026-05-30",
+  "currency": "NAD",
+  "subtotal": 16252.05,
+  "tax": 2437.81,
+  "total": 18689.86,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Angle grinder discs 115mm (10)",
+    "amount": 1113.93,
+    "alt_amounts": []
+   },
+   {
+    "description": "Engine oil 15W-40, 20 L drum",
+    "amount": 11436.8,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hex bolts M12 x 50 galvanised (box 50)",
+    "amount": 613.74,
+    "alt_amounts": []
+   },
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 3087.58,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "doc_id": "clean-za-code-zebra",
+ "file": "documents/clean-za-code-zebra.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "SA supplier, item-code column, striped rows.",
+ "sha256": "1268631a5d4fa3e01edd61f4db12ac3d60871ca784a6d2d950c311c09066868e",
+ "bytes": 3101,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Highveld Tyre & Parts (Pty) Ltd",
+  "invoice_number": "013456",
+  "invoice_date": "2025-07-28",
+  "due_date": null,
+  "currency": "ZAR",
+  "subtotal": 10208.07,
+  "tax": 1531.21,
+  "total": 11739.28,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Angle grinder discs 115mm (10)",
+    "amount": 582.06,
+    "alt_amounts": []
+   },
+   {
+    "description": "Nitrile work gloves, size L (pack 12)",
+    "amount": 242.43,
+    "alt_amounts": []
+   },
+   {
+    "description": "Ratchet straps 50mm x 9m (4)",
+    "amount": 1440.12,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 3523.8,
+    "alt_amounts": []
+   },
+   {
+    "description": "Pallet strapping kit",
+    "amount": 2540.86,
+    "alt_amounts": []
+   },
+   {
+    "description": "LED work lamp 24V",
+    "amount": 1878.8,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

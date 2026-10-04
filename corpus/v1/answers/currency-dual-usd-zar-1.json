@@ -1,0 +1,74 @@
+{
+ "doc_id": "currency-dual-usd-zar-1",
+ "file": "documents/currency-dual-usd-zar-1.pdf",
+ "category": "currency",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Lines in USD, 'TOTAL INVOICE AMOUNT PAYABLE' box in ZAR with an Amount column per line.",
+ "sha256": "41ef18da7ad74c2ce87bbe4f6a4d03d63b793ac61c1d2026202ca4bfda23f7e3",
+ "bytes": 3300,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "dual_currency"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Vaalrand Clearing & Forwarding (Pty) Ltd",
+  "invoice_number": "2026/8313",
+  "invoice_date": "2025-11-18",
+  "due_date": "2025-12-18",
+  "currency": "ZAR",
+  "subtotal": 3314.2,
+  "tax": 0.0,
+  "total": 3314.2,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Cargo inspection attendance",
+    "amount": 52.94,
+    "alt_amounts": [
+     976.81
+    ]
+   },
+   {
+    "description": "Customs clearance fee",
+    "amount": 105.04,
+    "alt_amounts": [
+     1938.11
+    ]
+   },
+   {
+    "description": "Bill of entry preparation",
+    "amount": 21.64,
+    "alt_amounts": [
+     399.28
+    ]
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": [
+   "USD",
+   179.62
+  ],
+  "notes": "Dual currency: the amount-payable box is the total, in its currency."
+ }
+}

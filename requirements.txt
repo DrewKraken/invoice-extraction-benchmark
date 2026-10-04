@@ -1,0 +1,5 @@
+# The generator: pinned, so regenerated files match the published sha256 sums.
+reportlab==5.0.1
+pillow==12.3.0
+# The scorer (date parsing).
+python-dateutil>=2.9.0

@@ -1,0 +1,70 @@
+{
+ "doc_id": "tax-sage-subtotal-after-vat-3",
+ "file": "documents/tax-sage-subtotal-after-vat-3.pdf",
+ "category": "tax",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Sage/Pastel totals: Total Exclusive / Total VAT / Sub Total (incl. VAT) / Total.",
+ "sha256": "f66eca14f2b4b98cdcb3d51473bb20765038eaa2d21396b06db1c66b9b6f77ac",
+ "bytes": 3096,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "sage_layout"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Kunene Hardware CC",
+  "invoice_number": "MA-72956",
+  "invoice_date": "2026-07-30",
+  "due_date": "2026-09-28",
+  "currency": "NAD",
+  "subtotal": 30523.06,
+  "tax": 4564.73,
+  "total": 34996.27,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Pallet strapping kit",
+    "amount": 1493.48,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 20571.27,
+    "alt_amounts": []
+   },
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 5735.34,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 2722.97,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

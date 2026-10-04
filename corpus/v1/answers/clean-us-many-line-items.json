@@ -1,0 +1,124 @@
+{
+ "doc_id": "clean-us-many-line-items",
+ "file": "documents/clean-us-many-line-items.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_many_line_items': 15 line items in one table.",
+ "sha256": "7cdbde30960b039d6da7737642cfc29f7f9489057d5ce792da61d64cefbda0d3",
+ "bytes": 3224,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Greenleaf Office Supply",
+  "invoice_number": "GLO-9301",
+  "invoice_date": "2024-04-22",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 1629.25,
+  "tax": 130.34,
+  "total": 1759.59,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Ballpoint pens, blue (box of 60)",
+    "amount": 111.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Legal pads, yellow, 8.5x14 (pack of 12)",
+    "amount": 192.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Manila file folders, letter size (box of 100)",
+    "amount": 130.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hanging file folders (box of 25)",
+    "amount": 93.75,
+    "alt_amounts": []
+   },
+   {
+    "description": "Three-ring binders, 2-inch (pack of 6)",
+    "amount": 126.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Sticky notes, 3x3 (pack of 12 pads)",
+    "amount": 142.5,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stapler, heavy-duty, 25-sheet capacity",
+    "amount": 114.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Staples, standard (box of 5000)",
+    "amount": 40.5,
+    "alt_amounts": []
+   },
+   {
+    "description": "Paper clips, jumbo (box of 100)",
+    "amount": 28.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Binder clips, assorted sizes",
+    "amount": 48.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Scissors, 8-inch titanium-bonded",
+    "amount": 93.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Tape dispensers with refills",
+    "amount": 88.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Desk organizer, mesh metal",
+    "amount": 102.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Label maker, electronic",
+    "amount": 178.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Printer labels, address (pack of 3000)",
+    "amount": 142.5,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

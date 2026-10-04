@@ -1,0 +1,84 @@
+{
+ "doc_id": "freight-clearing-za-6",
+ "file": "documents/freight-clearing-za-6.pdf",
+ "category": "freight",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Clearing & forwarding: VAT-free disbursements plus VAT-able agency fees, 'Supplier Inv No' printed.",
+ "sha256": "1149d958f83db4de928881c14c480efa30999fccf06b409b799b293aa102c691",
+ "bytes": 3413,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "clearing",
+  "disbursements"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Drakensig Border Services (Pty) Ltd",
+  "invoice_number": "F-26-5037",
+  "invoice_date": "2025-09-04",
+  "due_date": "2025-09-11",
+  "currency": "ZAR",
+  "subtotal": 12013.54,
+  "tax": 290.32,
+  "total": 12303.86,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Container storage, 4 days (disbursement)",
+    "amount": 4254.09,
+    "alt_amounts": []
+   },
+   {
+    "description": "Port charges - wharfage (disbursement)",
+    "amount": 2358.48,
+    "alt_amounts": []
+   },
+   {
+    "description": "Shipping line release fee (disbursement)",
+    "amount": 3465.48,
+    "alt_amounts": []
+   },
+   {
+    "description": "Cargo inspection attendance",
+    "amount": 488.71,
+    "alt_amounts": []
+   },
+   {
+    "description": "Documentation fee",
+    "amount": 646.15,
+    "alt_amounts": []
+   },
+   {
+    "description": "Bill of entry preparation",
+    "amount": 800.63,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "IPPU5811968"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

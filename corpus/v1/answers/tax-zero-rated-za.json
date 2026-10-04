@@ -1,0 +1,53 @@
+{
+ "doc_id": "tax-zero-rated-za",
+ "file": "documents/tax-zero-rated-za.pdf",
+ "category": "tax",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Zero-rated export: 'VAT 0% (zero-rated)' 0.00.",
+ "sha256": "9b69a6db2c2d9f92c8d2b9d9d997a6324edc56e45e67761d73a6489047945715",
+ "bytes": 2517,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Karoo Cargo (Pty) Ltd",
+  "invoice_number": "TI099928",
+  "invoice_date": "2026-05-30",
+  "due_date": "2026-06-13",
+  "currency": "ZAR",
+  "subtotal": 40491.83,
+  "tax": 0.0,
+  "total": 40491.83,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Export transport Walvis Bay - Lusaka",
+    "amount": 40491.83,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

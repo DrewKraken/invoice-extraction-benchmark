@@ -1,0 +1,65 @@
+{
+ "doc_id": "credit-r-minus-2",
+ "file": "documents/credit-r-minus-2.pdf",
+ "category": "credit",
+ "difficulty": "medium",
+ "kind": "credit_note",
+ "description": "TAX CREDIT NOTE, negatives printed as 'symbol_minus'.",
+ "sha256": "600e624511b93ea4130b54e277b305e4a78776a5986b33e4da5819f59a43eb6e",
+ "bytes": 2919,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "credit_note",
+  "neg_symbol_minus"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Highveld Industrial Supply (Pty) Ltd",
+  "invoice_number": "CRN-48277",
+  "invoice_date": "2026-06-21",
+  "due_date": null,
+  "currency": "ZAR",
+  "subtotal": 11227.33,
+  "tax": 1684.1,
+  "total": 12911.43,
+  "document_type": "credit_note",
+  "lines": [
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 6519.66,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 2304.01,
+    "alt_amounts": []
+   },
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 2403.66,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

@@ -1,0 +1,59 @@
+{
+ "doc_id": "clean-us-trade-discount",
+ "file": "documents/clean-us-trade-discount.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_trade_discount': Discount printed as 'Trade Discount'.",
+ "sha256": "d59b1c6b791c1511e16f59625eb3f1ae744a2b80306520fac470182b329a5caa",
+ "bytes": 2637,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Acme Industrial Supply Co",
+  "invoice_number": "ACM-100355",
+  "invoice_date": "2024-04-08",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 1268.0,
+  "tax": 90.35,
+  "total": 1294.95,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Heavy-duty storage bins, 27-gal (case of 4)",
+    "amount": 410.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Industrial shelving unit, 72-inch",
+    "amount": 858.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

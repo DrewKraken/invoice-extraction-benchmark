@@ -1,0 +1,55 @@
+{
+ "doc_id": "credit-ndc-za-ref",
+ "file": "documents/credit-ndc-za-ref.pdf",
+ "category": "credit",
+ "difficulty": "hard",
+ "kind": "credit_note",
+ "description": "NdC, negatives printed as 'symbol_minus'.",
+ "sha256": "7541f0e94aceee00f38a9fa74cc5ab835a675beb7662a3afaab21da562c258f9",
+ "bytes": 2591,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "credit_note",
+  "neg_symbol_minus"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Kransberg Tyre & Parts (Pty) Ltd",
+  "invoice_number": "NdC90426",
+  "invoice_date": "2026-03-17",
+  "due_date": null,
+  "currency": "ZAR",
+  "subtotal": 3397.84,
+  "tax": 509.68,
+  "total": 3907.52,
+  "document_type": "credit_note",
+  "lines": [
+   {
+    "description": "Pallet strapping kit",
+    "amount": 3397.84,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

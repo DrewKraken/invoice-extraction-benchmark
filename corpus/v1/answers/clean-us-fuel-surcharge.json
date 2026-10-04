@@ -1,0 +1,54 @@
+{
+ "doc_id": "clean-us-fuel-surcharge",
+ "file": "documents/clean-us-fuel-surcharge.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_fuel_surcharge': A 'Fuel Surcharge' fee line (not tax).",
+ "sha256": "d5c4fa17d29f9fe9a6db5fccc7ebbe2b60c838d5dac9948858ff087cd44d80d0",
+ "bytes": 2634,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Northwind Logistics LLC",
+  "invoice_number": "NWL-20240410-012",
+  "invoice_date": "2024-04-10",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 2850.0,
+  "tax": 185.25,
+  "total": 3552.25,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Freight transport, Seattle to Denver (48 ft dry van)",
+    "amount": 2850.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

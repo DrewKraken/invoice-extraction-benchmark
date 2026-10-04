@@ -1,0 +1,64 @@
+{
+ "doc_id": "tax-percentage-line-1",
+ "file": "documents/tax-percentage-line-1.pdf",
+ "category": "tax",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "A percentage line: rate column '1.80%', the customs value in the Qty column.",
+ "sha256": "dd46ad7a54a971e5c3a338383e95302d5f1f1b8b339f614d31821987a03f84fc",
+ "bytes": 2789,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "percentage_line"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Etosha Gate Shipping Agencies CC",
+  "invoice_number": "IN0001653",
+  "invoice_date": "2026-05-20",
+  "due_date": null,
+  "currency": "NAD",
+  "subtotal": 4353.39,
+  "tax": 653.01,
+  "total": 5006.4,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Customs clearance fee",
+    "amount": 1725.96,
+    "alt_amounts": []
+   },
+   {
+    "description": "Agency fee on customs value",
+    "amount": 2000.04,
+    "alt_amounts": []
+   },
+   {
+    "description": "Documentation fee",
+    "amount": 627.39,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

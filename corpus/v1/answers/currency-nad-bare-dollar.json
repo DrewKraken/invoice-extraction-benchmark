@@ -1,0 +1,68 @@
+{
+ "doc_id": "currency-nad-bare-dollar",
+ "file": "documents/currency-nad-bare-dollar.pdf",
+ "category": "currency",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Namibian vendor whose amounts print a bare '$' (NAD, not USD).",
+ "sha256": "f0d5c7acb307a593e9dfbdb64bfd5a7cf37bd18d9b0a515de1680e051e0841c1",
+ "bytes": 2944,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Skeleton Bay Engineering Supplies (Pty) Ltd",
+  "invoice_number": "016850",
+  "invoice_date": "2025-04-02",
+  "due_date": "2025-05-02",
+  "currency": "NAD",
+  "subtotal": 11070.82,
+  "tax": 1660.62,
+  "total": 12731.44,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 2247.96,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hex bolts M12 x 50 galvanised (box 50)",
+    "amount": 2061.25,
+    "alt_amounts": []
+   },
+   {
+    "description": "Angle grinder discs 115mm (10)",
+    "amount": 2033.52,
+    "alt_amounts": []
+   },
+   {
+    "description": "Engine oil 15W-40, 20 L drum",
+    "amount": 4728.09,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

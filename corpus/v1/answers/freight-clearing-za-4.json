@@ -1,0 +1,84 @@
+{
+ "doc_id": "freight-clearing-za-4",
+ "file": "documents/freight-clearing-za-4.pdf",
+ "category": "freight",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Clearing & forwarding: VAT-free disbursements plus VAT-able agency fees, 'Supplier Inv No' printed.",
+ "sha256": "bf65e81b9dfbe5f5df04fc64ae489ed26eea5b64c52dbeea1bccd372ad197dda",
+ "bytes": 3120,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "clearing",
+  "disbursements"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Suidkus Shipping Agencies CC",
+  "invoice_number": "INV-2026-86335",
+  "invoice_date": "2025-01-22",
+  "due_date": "2025-01-29",
+  "currency": "ZAR",
+  "subtotal": 45020.98,
+  "tax": 599.98,
+  "total": 45620.96,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Shipping line release fee (disbursement)",
+    "amount": 1424.68,
+    "alt_amounts": []
+   },
+   {
+    "description": "Import VAT paid on behalf (disbursement)",
+    "amount": 34537.65,
+    "alt_amounts": []
+   },
+   {
+    "description": "Container storage, 4 days (disbursement)",
+    "amount": 5058.76,
+    "alt_amounts": []
+   },
+   {
+    "description": "Customs clearance fee",
+    "amount": 2543.31,
+    "alt_amounts": []
+   },
+   {
+    "description": "Bill of entry preparation",
+    "amount": 830.15,
+    "alt_amounts": []
+   },
+   {
+    "description": "Cargo inspection attendance",
+    "amount": 626.43,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "IPPU6337290"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

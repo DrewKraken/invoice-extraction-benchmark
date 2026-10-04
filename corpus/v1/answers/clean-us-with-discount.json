@@ -1,0 +1,59 @@
+{
+ "doc_id": "clean-us-with-discount",
+ "file": "documents/clean-us-with-discount.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_with_discount': A 'Less Discount' line on the totals block.",
+ "sha256": "feba261f215a920c9f61a11b457d59a6fbc702488684765a7bfbae289cd4a789",
+ "bytes": 2613,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Greenleaf Office Supply",
+  "invoice_number": "GLO-8842",
+  "invoice_date": "2024-02-27",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 4926.0,
+  "tax": 374.08,
+  "total": 5050.08,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Ergonomic mesh office chair, black",
+    "amount": 2450.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Height-adjustable desk, 60-inch walnut",
+    "amount": 2476.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

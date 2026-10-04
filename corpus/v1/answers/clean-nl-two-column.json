@@ -1,0 +1,68 @@
+{
+ "doc_id": "clean-nl-two-column",
+ "file": "documents/clean-nl-two-column.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "Dutch supplier, bill-to and deliver-to boxes.",
+ "sha256": "a20969ab911caea9b4ae2a149317115132f8fb3e74364dae5bbd438c1f3dccdc",
+ "bytes": 2781,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "EUR",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Waalhaven Office Supplies B.V.",
+  "invoice_number": "BS-3348",
+  "invoice_date": "2025-06-13",
+  "due_date": "2025-07-13",
+  "currency": "EUR",
+  "subtotal": 41018.4,
+  "tax": 8613.86,
+  "total": 49632.26,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 27181.38,
+    "alt_amounts": []
+   },
+   {
+    "description": "Copy paper A4 80gsm, box of 5 reams",
+    "amount": 1360.16,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 4194.06,
+    "alt_amounts": []
+   },
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 8282.8,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

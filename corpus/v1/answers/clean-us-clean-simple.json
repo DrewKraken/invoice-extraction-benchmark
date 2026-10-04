@@ -1,0 +1,64 @@
+{
+ "doc_id": "clean-us-clean-simple",
+ "file": "documents/clean-us-clean-simple.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_clean_simple': Three items, sales tax, no shipping or discount.",
+ "sha256": "6af9e34707a5b4f99d4a3df0eed3dee9c0d38a11ce5d365819cc4d56b3a95c9f",
+ "bytes": 2592,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Acme Industrial Supply Co",
+  "invoice_number": "ACM-100145",
+  "invoice_date": "2024-03-12",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 346.5,
+  "tax": 25.99,
+  "total": 372.49,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Industrial grade bolts, 1/2-inch x 2-inch (pack of 100)",
+    "amount": 194.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Heavy-duty steel washers (pack of 200)",
+    "amount": 64.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Threadlocker adhesive, blue, 10ml",
+    "amount": 88.5,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

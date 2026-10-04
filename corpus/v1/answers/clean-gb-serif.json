@@ -1,0 +1,68 @@
+{
+ "doc_id": "clean-gb-serif",
+ "file": "documents/clean-gb-serif.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "UK supplier, serif letterhead, DD/MM dates.",
+ "sha256": "750f8ed7d3358e1a1d56ae3510cc1ab22fb1bbe45e2fd8b2ff690616e1f0edb0",
+ "bytes": 2996,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "GBP",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Pennine Tyre & Parts Limited",
+  "invoice_number": "IN0049923",
+  "invoice_date": "2025-08-27",
+  "due_date": "2025-09-26",
+  "currency": "GBP",
+  "subtotal": 18011.58,
+  "tax": 3602.32,
+  "total": 21613.9,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Hydraulic hose 1/2in, per metre",
+    "amount": 2386.4,
+    "alt_amounts": []
+   },
+   {
+    "description": "LED work lamp 24V",
+    "amount": 4513.6,
+    "alt_amounts": []
+   },
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 4764.18,
+    "alt_amounts": []
+   },
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 6347.4,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

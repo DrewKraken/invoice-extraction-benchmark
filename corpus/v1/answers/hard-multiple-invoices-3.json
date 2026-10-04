@@ -1,0 +1,70 @@
+{
+ "doc_id": "hard-multiple-invoices-3",
+ "file": "documents/hard-multiple-invoices-3.pdf",
+ "category": "hard",
+ "difficulty": "hard",
+ "kind": "multi_invoice",
+ "description": "3 different invoices scanned into one PDF.",
+ "sha256": "203379fb7f8747d5cb25dc065987103ec83b88577823af77c4f24fa8521d64e2",
+ "bytes": 6929,
+ "pages": 3,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "multi_invoice"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Karoo Engineering Supplies (Pty) Ltd",
+  "invoice_number": "INV-2026-19520",
+  "invoice_date": "2026-07-11",
+  "due_date": "2026-08-10",
+  "currency": "ZAR",
+  "subtotal": 16162.28,
+  "tax": 2424.34,
+  "total": 18586.62,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 563.9,
+    "alt_amounts": []
+   },
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 6855.42,
+    "alt_amounts": []
+   },
+   {
+    "description": "Angle grinder discs 115mm (10)",
+    "amount": 569.16,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 8173.8,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": true,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": "3 invoices in one file. Scored against the first invoice; the file should be flagged for a person to split."
+ }
+}

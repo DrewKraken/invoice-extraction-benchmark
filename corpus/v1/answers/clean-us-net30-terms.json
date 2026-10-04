@@ -1,0 +1,60 @@
+{
+ "doc_id": "clean-us-net30-terms",
+ "file": "documents/clean-us-net30-terms.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_net30_terms': Net 30 payment terms with a printed due date.",
+ "sha256": "d2822118a071707ab201d9f4669c0c6795ea6a25d83cb1ef283b86bfb1fa90a8",
+ "bytes": 2582,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Acme Industrial Supply Co",
+  "invoice_number": "ACM-100401",
+  "invoice_date": "2024-04-01",
+  "due_date": "2024-05-01",
+  "currency": "USD",
+  "subtotal": 1516.0,
+  "tax": 113.7,
+  "total": 1629.7,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Safety equipment bundle \u2014 hard hats, vests, gloves",
+    "amount": 1020.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Lockout/tagout kit, industrial",
+    "amount": 496.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

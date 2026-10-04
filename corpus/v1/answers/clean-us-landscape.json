@@ -1,0 +1,78 @@
+{
+ "doc_id": "clean-us-landscape",
+ "file": "documents/clean-us-landscape.pdf",
+ "category": "clean",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "US supplier, landscape page.",
+ "sha256": "dc0258b41966b0fd8a70b68bce60fb33811d331ad639b5272a18e611e9756169",
+ "bytes": 2888,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Prairie Office Supplies Co",
+  "invoice_number": "IN0017577",
+  "invoice_date": "2026-07-30",
+  "due_date": "2026-08-29",
+  "currency": "USD",
+  "subtotal": 31690.58,
+  "tax": 1901.43,
+  "total": 33592.01,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "LED work lamp 24V",
+    "amount": 2639.28,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 17604.51,
+    "alt_amounts": []
+   },
+   {
+    "description": "Ratchet straps 50mm x 9m (4)",
+    "amount": 456.39,
+    "alt_amounts": []
+   },
+   {
+    "description": "Engine oil 15W-40, 20 L drum",
+    "amount": 3445.48,
+    "alt_amounts": []
+   },
+   {
+    "description": "Copy paper A4 80gsm, box of 5 reams",
+    "amount": 1065.52,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 6479.4,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

@@ -1,0 +1,66 @@
+{
+ "doc_id": "handwritten-invoice-book-average-5",
+ "file": "documents/handwritten-invoice-book-average-5.jpg",
+ "category": "handwritten",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Pre-printed cash invoice book filled in by hand (average handwriting).",
+ "sha256": "cf9286cc913f4b357ed15cb09ecffd702470ce7f62a0ec5748ce758f82c54ecf",
+ "bytes": 190062,
+ "pages": 1,
+ "render": "image",
+ "severity": null,
+ "degradations": [],
+ "legibility": "average",
+ "currency": "ZAR",
+ "tags": [
+  "handwritten",
+  "legibility_average"
+ ],
+ "base_id": null,
+ "pixels": [
+  1654,
+  2339
+ ],
+ "dpi": 200,
+ "expected": {
+  "vendor_name": "Vaalrand Hardware (Pty) Ltd",
+  "invoice_number": "2347",
+  "invoice_date": "2025-08-27",
+  "due_date": "2025-09-10",
+  "currency": "ZAR",
+  "subtotal": 6693.54,
+  "tax": 1004.03,
+  "total": 7697.57,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 3479.46,
+    "alt_amounts": []
+   },
+   {
+    "description": "Copy paper A4 80gsm, box of 5 reams",
+    "amount": 3214.08,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

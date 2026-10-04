@@ -1,0 +1,68 @@
+{
+ "doc_id": "clean-za-band-space-groups",
+ "file": "documents/clean-za-band-space-groups.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "SA supplier, 1 234,56 amounts.",
+ "sha256": "61b18af366b98df5df6075e713142a535fc4b6b5583f39e771ae76be4618a7da",
+ "bytes": 2922,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Drakensig Tyre & Parts (Pty) Ltd",
+  "invoice_number": "INV-2026-29551",
+  "invoice_date": "2026-06-19",
+  "due_date": "2026-07-03",
+  "currency": "ZAR",
+  "subtotal": 37501.09,
+  "tax": 5625.16,
+  "total": 43126.25,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Ratchet straps 50mm x 9m (4)",
+    "amount": 1857.44,
+    "alt_amounts": []
+   },
+   {
+    "description": "LED work lamp 24V",
+    "amount": 1632.96,
+    "alt_amounts": []
+   },
+   {
+    "description": "Copy paper A4 80gsm, box of 5 reams",
+    "amount": 2724.89,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 31285.8,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

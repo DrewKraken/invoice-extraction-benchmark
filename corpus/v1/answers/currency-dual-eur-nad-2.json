@@ -1,0 +1,68 @@
+{
+ "doc_id": "currency-dual-eur-nad-2",
+ "file": "documents/currency-dual-eur-nad-2.pdf",
+ "category": "currency",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Lines in EUR, 'TOTAL INVOICE AMOUNT PAYABLE' box in NAD.",
+ "sha256": "3f4fb4a0cc9d6af94813429a3ecc4f7cc0329036ddb6383b1a48bd126e019527",
+ "bytes": 2880,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "EUR",
+ "tags": [
+  "dual_currency"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Erongo Forwarding (Pty) Ltd",
+  "invoice_number": "BA-19242",
+  "invoice_date": "2025-11-28",
+  "due_date": "2025-12-28",
+  "currency": "NAD",
+  "subtotal": 3247.51,
+  "tax": 0.0,
+  "total": 3247.51,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Delivery order handling",
+    "amount": 37.09,
+    "alt_amounts": []
+   },
+   {
+    "description": "Cargo inspection attendance",
+    "amount": 58.39,
+    "alt_amounts": []
+   },
+   {
+    "description": "Customs clearance fee",
+    "amount": 67.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": [
+   "EUR",
+   162.48
+  ],
+  "notes": "Dual currency: the amount-payable box is the total, in its currency."
+ }
+}

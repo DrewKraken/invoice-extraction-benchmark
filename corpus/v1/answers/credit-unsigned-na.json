@@ -1,0 +1,55 @@
+{
+ "doc_id": "credit-unsigned-na",
+ "file": "documents/credit-unsigned-na.pdf",
+ "category": "credit",
+ "difficulty": "hard",
+ "kind": "credit_note",
+ "description": "CREDIT NOTE, negatives printed as 'minus' (amounts printed unsigned).",
+ "sha256": "829b052342683fb78b66dab18ee5718b3edcc2586eb256c70e49d5d9475f694c",
+ "bytes": 2657,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "credit_note",
+  "neg_minus"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Namib Sands Office Supplies (Pty) Ltd",
+  "invoice_number": "CN032229",
+  "invoice_date": "2026-04-27",
+  "due_date": null,
+  "currency": "NAD",
+  "subtotal": 1809.6,
+  "tax": 271.44,
+  "total": 2081.04,
+  "document_type": "credit_note",
+  "lines": [
+   {
+    "description": "Air filter element, heavy duty",
+    "amount": 1809.6,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

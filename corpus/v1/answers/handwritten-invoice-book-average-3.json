@@ -1,0 +1,66 @@
+{
+ "doc_id": "handwritten-invoice-book-average-3",
+ "file": "documents/handwritten-invoice-book-average-3.jpg",
+ "category": "handwritten",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Pre-printed cash invoice book filled in by hand (average handwriting).",
+ "sha256": "d512e92915d24955ee838bd8c84b7cdfab8bd00ac405237bc179df4c8d23d494",
+ "bytes": 184510,
+ "pages": 1,
+ "render": "image",
+ "severity": null,
+ "degradations": [],
+ "legibility": "average",
+ "currency": "ZMW",
+ "tags": [
+  "handwritten",
+  "legibility_average"
+ ],
+ "base_id": null,
+ "pixels": [
+  1654,
+  2339
+ ],
+ "dpi": 200,
+ "expected": {
+  "vendor_name": "Kafue Office Supplies Limited",
+  "invoice_number": "3738",
+  "invoice_date": "2025-10-29",
+  "due_date": "2025-11-28",
+  "currency": "ZMW",
+  "subtotal": 3658.63,
+  "tax": 585.38,
+  "total": 4244.01,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 2875.11,
+    "alt_amounts": []
+   },
+   {
+    "description": "Ratchet straps 50mm x 9m (4)",
+    "amount": 783.52,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

@@ -1,0 +1,69 @@
+{
+ "doc_id": "hard-missing-invoice-number-1",
+ "file": "documents/hard-missing-invoice-number-1.pdf",
+ "category": "hard",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "No invoice number printed; only a PO / delivery note number.",
+ "sha256": "2d19eb5e3dc9a359224788fa9592df7f4186fd2479b54e1766c242867459d9dd",
+ "bytes": 2843,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "missing_number"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Okavango Engineering Supplies (Pty) Ltd",
+  "invoice_number": null,
+  "invoice_date": "2026-04-06",
+  "due_date": null,
+  "currency": "NAD",
+  "subtotal": 11726.98,
+  "tax": 1759.05,
+  "total": 13486.03,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Pallet strapping kit",
+    "amount": 2347.32,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hydraulic hose 1/2in, per metre",
+    "amount": 4837.2,
+    "alt_amounts": []
+   },
+   {
+    "description": "LED work lamp 24V",
+    "amount": 261.19,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 4281.27,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

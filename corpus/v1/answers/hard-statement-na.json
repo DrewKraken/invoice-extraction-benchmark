@@ -1,0 +1,40 @@
+{
+ "doc_id": "hard-statement-na",
+ "file": "documents/hard-statement-na.pdf",
+ "category": "hard",
+ "difficulty": "hard",
+ "kind": "statement",
+ "description": "A supplier statement (several invoices and a payment, aged balance) - not a bill.",
+ "sha256": "7d121f3a04188abb85e4f919eacdf836ec1266c6ad18be1be8afcd1d8c6f3406",
+ "bytes": 2874,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "statement"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Brandkop Packaging (Pty) Ltd",
+  "invoice_number": null,
+  "invoice_date": "2026-06-19",
+  "due_date": null,
+  "currency": "NAD",
+  "subtotal": null,
+  "tax": null,
+  "total": null,
+  "document_type": "other",
+  "lines": [],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "document_type"
+  ],
+  "secondary": null,
+  "notes": "A statement is not a bill; the right outcome is document_type 'other'."
+ }
+}

@@ -1,0 +1,68 @@
+{
+ "doc_id": "clean-zm-banner",
+ "file": "documents/clean-zm-banner.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "Zambian supplier, coloured banner header.",
+ "sha256": "36741c587afed9747cd8ec9c7edc19c7d66e0ed8ad566f509d8a1bc004e6953f",
+ "bytes": 2947,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZMW",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Luangwa Packaging Ltd",
+  "invoice_number": "KN-94439",
+  "invoice_date": "2025-03-18",
+  "due_date": "2025-04-17",
+  "currency": "ZMW",
+  "subtotal": 39582.4,
+  "tax": 6333.18,
+  "total": 45915.58,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 5586.36,
+    "alt_amounts": []
+   },
+   {
+    "description": "Engine oil 15W-40, 20 L drum",
+    "amount": 5215.12,
+    "alt_amounts": []
+   },
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 8810.28,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 19970.64,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

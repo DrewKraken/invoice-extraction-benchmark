@@ -1,0 +1,70 @@
+{
+ "doc_id": "hard-po-beside-invoice-number-1",
+ "file": "documents/hard-po-beside-invoice-number-1.pdf",
+ "category": "hard",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "'Our Reference' and 'Order No' printed side by side in the same format.",
+ "sha256": "3d802ae5c5b37629ce121974362c84d59ebe9da6c40ea0a0cc047e7f5e9f693b",
+ "bytes": 3139,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "po_beside_number"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Suidkus Industrial Supply (Pty) Ltd",
+  "invoice_number": "TWSINV564620",
+  "invoice_date": "2026-06-06",
+  "due_date": "2026-06-20",
+  "currency": "ZAR",
+  "subtotal": 34700.13,
+  "tax": 5205.02,
+  "total": 39905.15,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 6762.7,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 5588.96,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 3790.92,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 18557.55,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

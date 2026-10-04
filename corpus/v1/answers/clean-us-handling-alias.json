@@ -1,0 +1,54 @@
+{
+ "doc_id": "clean-us-handling-alias",
+ "file": "documents/clean-us-handling-alias.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_handling_alias': Shipping printed as 'Handling Charge'.",
+ "sha256": "4b1c8b60b9d132a02188d83d1da3a91a576ef45d67593f518d80e93e0ef72843",
+ "bytes": 2474,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Foundry Metalworks",
+  "invoice_number": "FND-2024-03-0134",
+  "invoice_date": "2024-03-28",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 1280.0,
+  "tax": 76.8,
+  "total": 1398.8,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Custom signage, powder-coated aluminum",
+    "amount": 1280.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

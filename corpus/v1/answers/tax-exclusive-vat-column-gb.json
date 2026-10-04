@@ -1,0 +1,73 @@
+{
+ "doc_id": "tax-exclusive-vat-column-gb",
+ "file": "documents/tax-exclusive-vat-column-gb.pdf",
+ "category": "tax",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "VAT-exclusive prices with a VAT % column per line.",
+ "sha256": "d0d02d0f7b76633ae1b12c0f5676ff1f78da3404ff098d23b0729f6dd3d1bb7d",
+ "bytes": 3079,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "GBP",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Severn Industrial Supply Ltd",
+  "invoice_number": "F-26-6724",
+  "invoice_date": "2025-09-09",
+  "due_date": "2025-10-09",
+  "currency": "GBP",
+  "subtotal": 16681.31,
+  "tax": 3336.26,
+  "total": 20017.57,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Air filter element, heavy duty",
+    "amount": 5306.22,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 4378.68,
+    "alt_amounts": []
+   },
+   {
+    "description": "Engine oil 15W-40, 20 L drum",
+    "amount": 5125.59,
+    "alt_amounts": []
+   },
+   {
+    "description": "Pallet strapping kit",
+    "amount": 754.02,
+    "alt_amounts": []
+   },
+   {
+    "description": "Nitrile work gloves, size L (pack 12)",
+    "amount": 1116.8,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

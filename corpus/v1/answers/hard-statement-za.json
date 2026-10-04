@@ -1,0 +1,40 @@
+{
+ "doc_id": "hard-statement-za",
+ "file": "documents/hard-statement-za.pdf",
+ "category": "hard",
+ "difficulty": "hard",
+ "kind": "statement",
+ "description": "A supplier statement (several invoices and a payment, aged balance) - not a bill.",
+ "sha256": "a85986b517789983cfeacd67d64655ebeee8acfa4d2c812e1fc6b03854f80eb1",
+ "bytes": 2906,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "statement"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Vaalrand Tyre & Parts CC",
+  "invoice_number": null,
+  "invoice_date": "2025-04-23",
+  "due_date": null,
+  "currency": "ZAR",
+  "subtotal": null,
+  "tax": null,
+  "total": null,
+  "document_type": "other",
+  "lines": [],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "document_type"
+  ],
+  "secondary": null,
+  "notes": "A statement is not a bill; the right outcome is document_type 'other'."
+ }
+}

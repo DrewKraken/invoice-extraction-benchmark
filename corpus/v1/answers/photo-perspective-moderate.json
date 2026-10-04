@@ -1,0 +1,80 @@
+{
+ "doc_id": "photo-perspective-moderate",
+ "file": "documents/photo-perspective-moderate.jpg",
+ "category": "photo",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "SA tax invoice -> perspective (moderate).",
+ "sha256": "f0d2f1441d9198a86f5a7816be2a1cb161b74b46f2113799e2865c6dc8f08961",
+ "bytes": 459599,
+ "pages": 1,
+ "render": "image",
+ "severity": "moderate",
+ "degradations": [
+  {
+   "kind": "perspective",
+   "severity": "moderate"
+  }
+ ],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "perspective"
+ ],
+ "base_id": "base-za",
+ "pixels": [
+  1984,
+  2805
+ ],
+ "dpi": 200,
+ "expected": {
+  "vendor_name": "Suidkus Workshop Supplies (Pty) Ltd",
+  "invoice_number": "IN0084778",
+  "invoice_date": "2025-08-02",
+  "due_date": "2025-08-16",
+  "currency": "ZAR",
+  "subtotal": 11332.71,
+  "tax": 1699.91,
+  "total": 13032.62,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 2539.08,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 3835.25,
+    "alt_amounts": []
+   },
+   {
+    "description": "LED work lamp 24V",
+    "amount": 2167.62,
+    "alt_amounts": []
+   },
+   {
+    "description": "Angle grinder discs 115mm (10)",
+    "amount": 2790.76,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

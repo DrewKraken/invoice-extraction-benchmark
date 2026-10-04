@@ -1,0 +1,69 @@
+{
+ "doc_id": "hard-multiple-invoices-2",
+ "file": "documents/hard-multiple-invoices-2.pdf",
+ "category": "hard",
+ "difficulty": "hard",
+ "kind": "multi_invoice",
+ "description": "2 different invoices scanned into one PDF.",
+ "sha256": "64685b7870e3f654613d0f31d3168214de231a64397f28fbc597de851dae4b1d",
+ "bytes": 5154,
+ "pages": 2,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "multi_invoice"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Klipspruit Industrial Supply CC",
+  "invoice_number": "IN0096554",
+  "invoice_date": "2025-06-12",
+  "due_date": null,
+  "currency": "ZAR",
+  "subtotal": 27650.77,
+  "tax": 4147.62,
+  "total": 31798.39,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 22170.15,
+    "alt_amounts": []
+   },
+   {
+    "description": "Nitrile work gloves, size L (pack 12)",
+    "amount": 939.96,
+    "alt_amounts": []
+   },
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 2324.98,
+    "alt_amounts": []
+   },
+   {
+    "description": "Air filter element, heavy duty",
+    "amount": 2215.68,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": true,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": "2 invoices in one file. Scored against the first invoice; the file should be flagged for a person to split."
+ }
+}

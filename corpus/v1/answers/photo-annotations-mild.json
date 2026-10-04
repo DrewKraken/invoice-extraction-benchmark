@@ -1,0 +1,80 @@
+{
+ "doc_id": "photo-annotations-mild",
+ "file": "documents/photo-annotations-mild.jpg",
+ "category": "photo",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "Zambian invoice -> annotations (mild).",
+ "sha256": "44fdd706dc0b1984a54fcb8acb4f99c0531b422b830a535add45f2ab8313fa74",
+ "bytes": 214542,
+ "pages": 1,
+ "render": "image",
+ "severity": "mild",
+ "degradations": [
+  {
+   "kind": "annotations",
+   "severity": "mild"
+  }
+ ],
+ "legibility": null,
+ "currency": "ZMW",
+ "tags": [
+  "annotations"
+ ],
+ "base_id": "base-zm",
+ "pixels": [
+  1654,
+  2339
+ ],
+ "dpi": 200,
+ "expected": {
+  "vendor_name": "Copperline Workshop Supplies Ltd",
+  "invoice_number": "F-26-8395",
+  "invoice_date": "2025-04-11",
+  "due_date": "2025-05-11",
+  "currency": "ZMW",
+  "subtotal": 48021.62,
+  "tax": 7683.46,
+  "total": 55705.08,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Pallet strapping kit",
+    "amount": 402.72,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 42186.24,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 1835.9,
+    "alt_amounts": []
+   },
+   {
+    "description": "Engine oil 15W-40, 20 L drum",
+    "amount": 3596.76,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

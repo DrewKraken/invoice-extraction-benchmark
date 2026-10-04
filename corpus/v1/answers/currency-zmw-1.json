@@ -1,0 +1,68 @@
+{
+ "doc_id": "currency-zmw-1",
+ "file": "documents/currency-zmw-1.pdf",
+ "category": "currency",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "ZMW invoice, amounts printed with 'K'.",
+ "sha256": "39a83a4b289a5afb6885ee49531092224f4cf268e250da64745311fa4c501274",
+ "bytes": 3073,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZMW",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Zambezi Reach Engineering Supplies Ltd",
+  "invoice_number": "2026/5565",
+  "invoice_date": "2025-01-25",
+  "due_date": "2025-02-08",
+  "currency": "ZMW",
+  "subtotal": 43637.88,
+  "tax": 6982.06,
+  "total": 50619.94,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 7646.58,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 5129.64,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 24697.38,
+    "alt_amounts": []
+   },
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 6164.28,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

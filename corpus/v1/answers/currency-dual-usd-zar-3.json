@@ -1,0 +1,74 @@
+{
+ "doc_id": "currency-dual-usd-zar-3",
+ "file": "documents/currency-dual-usd-zar-3.pdf",
+ "category": "currency",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Lines in USD, 'TOTAL INVOICE AMOUNT PAYABLE' box in ZAR with an Amount column per line.",
+ "sha256": "d5338c9c4e726f0cb2cee8528b0247ba8801ed964c0e08c2f4faf9bac7818109",
+ "bytes": 3124,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "dual_currency"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Kransberg Clearing & Forwarding (Pty) Ltd",
+  "invoice_number": "098052",
+  "invoice_date": "2026-02-06",
+  "due_date": "2026-03-08",
+  "currency": "ZAR",
+  "subtotal": 1709.7,
+  "tax": 256.46,
+  "total": 1966.16,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Documentation fee",
+    "amount": 27.56,
+    "alt_amounts": [
+     508.52
+    ]
+   },
+   {
+    "description": "Delivery order handling",
+    "amount": 39.31,
+    "alt_amounts": [
+     725.32
+    ]
+   },
+   {
+    "description": "Cargo inspection attendance",
+    "amount": 25.79,
+    "alt_amounts": [
+     475.86
+    ]
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": [
+   "USD",
+   92.66
+  ],
+  "notes": "Dual currency: the amount-payable box is the total, in its currency."
+ }
+}

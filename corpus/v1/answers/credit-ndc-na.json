@@ -1,0 +1,60 @@
+{
+ "doc_id": "credit-ndc-na",
+ "file": "documents/credit-ndc-na.pdf",
+ "category": "credit",
+ "difficulty": "hard",
+ "kind": "credit_note",
+ "description": "NOTA DE CR\u00c9DITO (NdC), negatives printed as 'minus'.",
+ "sha256": "5f7519c6d98f5986e402917110a4ce2285bdcb667f300a937dfec7f0f094e523",
+ "bytes": 2894,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "credit_note",
+  "neg_minus"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Namib Sands Workshop Supplies (Pty) Ltd",
+  "invoice_number": "NdC22806",
+  "invoice_date": "2026-09-02",
+  "due_date": null,
+  "currency": "NAD",
+  "subtotal": 6372.69,
+  "tax": 955.9,
+  "total": 7328.59,
+  "document_type": "credit_note",
+  "lines": [
+   {
+    "description": "Angle grinder discs 115mm (10)",
+    "amount": 2391.62,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 3981.07,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

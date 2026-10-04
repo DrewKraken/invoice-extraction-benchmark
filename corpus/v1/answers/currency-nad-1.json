@@ -1,0 +1,68 @@
+{
+ "doc_id": "currency-nad-1",
+ "file": "documents/currency-nad-1.pdf",
+ "category": "currency",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "NAD invoice, amounts printed with 'N$'.",
+ "sha256": "5b3208fe6e0150a4b7dc861ebacb8e123c719ba81a47915bb66fd295cd019b90",
+ "bytes": 2850,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Okavango Packaging (Pty) Ltd",
+  "invoice_number": "INV-2026-71012",
+  "invoice_date": "2026-07-06",
+  "due_date": "2026-07-20",
+  "currency": "NAD",
+  "subtotal": 50240.32,
+  "tax": 7536.05,
+  "total": 57776.37,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Hydraulic hose 1/2in, per metre",
+    "amount": 5140.3,
+    "alt_amounts": []
+   },
+   {
+    "description": "Copy paper A4 80gsm, box of 5 reams",
+    "amount": 2000.94,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 4356.96,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 38742.12,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "doc_id": "freight-clearing-za-5",
+ "file": "documents/freight-clearing-za-5.pdf",
+ "category": "freight",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Clearing & forwarding: VAT-free disbursements plus VAT-able agency fees, 'Supplier Inv No' printed.",
+ "sha256": "cab26b7a07c1557ecca7976295a2ad45265daa9294fc86a22f1b4c21733ed6bd",
+ "bytes": 3132,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "clearing",
+  "disbursements"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Klipspruit Clearing & Forwarding (Pty) Ltd",
+  "invoice_number": "2026/5129",
+  "invoice_date": "2026-08-22",
+  "due_date": "2026-08-29",
+  "currency": "ZAR",
+  "subtotal": 9545.85,
+  "tax": 240.62,
+  "total": 9786.47,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Shipping line release fee (disbursement)",
+    "amount": 2012.67,
+    "alt_amounts": []
+   },
+   {
+    "description": "Container storage, 4 days (disbursement)",
+    "amount": 2669.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Import VAT paid on behalf (disbursement)",
+    "amount": 3260.05,
+    "alt_amounts": []
+   },
+   {
+    "description": "Delivery order handling",
+    "amount": 525.78,
+    "alt_amounts": []
+   },
+   {
+    "description": "Documentation fee",
+    "amount": 414.34,
+    "alt_amounts": []
+   },
+   {
+    "description": "Bill of entry preparation",
+    "amount": 664.01,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "IPPU1635269"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

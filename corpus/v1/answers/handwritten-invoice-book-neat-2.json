@@ -1,0 +1,76 @@
+{
+ "doc_id": "handwritten-invoice-book-neat-2",
+ "file": "documents/handwritten-invoice-book-neat-2.jpg",
+ "category": "handwritten",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Pre-printed delivery note / invoice book filled in by hand (neat handwriting).",
+ "sha256": "d12f58595854785b19856090fd858679e6a6a5beb4659c45f81ef4d8c345b0a3",
+ "bytes": 219792,
+ "pages": 1,
+ "render": "image",
+ "severity": null,
+ "degradations": [],
+ "legibility": "neat",
+ "currency": "ZAR",
+ "tags": [
+  "handwritten",
+  "legibility_neat"
+ ],
+ "base_id": null,
+ "pixels": [
+  1654,
+  2339
+ ],
+ "dpi": 200,
+ "expected": {
+  "vendor_name": "Suidkus Workshop Supplies CC",
+  "invoice_number": "4678",
+  "invoice_date": "2025-07-04",
+  "due_date": "2025-09-02",
+  "currency": "ZAR",
+  "subtotal": 6287.6,
+  "tax": 943.14,
+  "total": 7230.74,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "LED work lamp 24V",
+    "amount": 1959.18,
+    "alt_amounts": []
+   },
+   {
+    "description": "Copy paper A4 80gsm, box of 5 reams",
+    "amount": 282.7,
+    "alt_amounts": []
+   },
+   {
+    "description": "Ratchet straps 50mm x 9m (4)",
+    "amount": 1966.68,
+    "alt_amounts": []
+   },
+   {
+    "description": "Nitrile work gloves, size L (pack 12)",
+    "amount": 2079.04,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

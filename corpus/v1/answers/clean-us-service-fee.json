@@ -1,0 +1,55 @@
+{
+ "doc_id": "clean-us-service-fee",
+ "file": "documents/clean-us-service-fee.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_service_fee': A separate 'Service Charge' line (not tax, not shipping).",
+ "sha256": "f73b6e09edea0322ab26cb021014729309a1fae3feb24944edc6689d3304eadc",
+ "bytes": 2534,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Brightware Software Inc",
+  "invoice_number": "BW-2024-1205",
+  "invoice_date": "2024-04-18",
+  "due_date": "2024-05-03",
+  "currency": "USD",
+  "subtotal": 8400.0,
+  "tax": 724.5,
+  "total": 9249.5,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Cloud infrastructure subscription, March",
+    "amount": 8400.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

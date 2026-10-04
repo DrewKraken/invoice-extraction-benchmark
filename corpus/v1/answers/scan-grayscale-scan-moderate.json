@@ -1,0 +1,80 @@
+{
+ "doc_id": "scan-grayscale-scan-moderate",
+ "file": "documents/scan-grayscale-scan-moderate.png",
+ "category": "scan",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "UK invoice -> grayscale scan (moderate).",
+ "sha256": "208cb10d7194be6a3e930e2e22a388228cfecf92c7cf11df4369036696d4570d",
+ "bytes": 3352089,
+ "pages": 1,
+ "render": "image",
+ "severity": "moderate",
+ "degradations": [
+  {
+   "kind": "grayscale_scan",
+   "severity": "moderate"
+  }
+ ],
+ "legibility": null,
+ "currency": "GBP",
+ "tags": [
+  "grayscale_scan"
+ ],
+ "base_id": "base-gb",
+ "pixels": [
+  1654,
+  2339
+ ],
+ "dpi": 200,
+ "expected": {
+  "vendor_name": "Wolds Workshop Supplies plc",
+  "invoice_number": "050179",
+  "invoice_date": "2025-08-02",
+  "due_date": "2025-09-01",
+  "currency": "GBP",
+  "subtotal": 14953.29,
+  "tax": 2990.66,
+  "total": 17943.95,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 3737.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Air filter element, heavy duty",
+    "amount": 4002.84,
+    "alt_amounts": []
+   },
+   {
+    "description": "Ratchet straps 50mm x 9m (4)",
+    "amount": 3536.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 3677.45,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

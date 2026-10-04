@@ -1,0 +1,227 @@
+{
+ "doc_id": "multipage-3p-na-3",
+ "file": "documents/multipage-3p-na-3.pdf",
+ "category": "multipage",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "3 pages, 35 lines continuing across pages, totals on the last page, carried/brought forward rows.",
+ "sha256": "6c896e73b02dfed221d685ff318cefa670303343103497b278ea5704580793b4",
+ "bytes": 7007,
+ "pages": 3,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "multipage",
+  "pages_3",
+  "carried_forward"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Skeleton Bay Industrial Supply CC",
+  "invoice_number": "IN0005183",
+  "invoice_date": "2026-02-22",
+  "due_date": "2026-03-24",
+  "currency": "NAD",
+  "subtotal": 61209.13,
+  "tax": 9181.37,
+  "total": 70390.5,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Copy paper A4 80gsm, box of 5 reams",
+    "amount": 231.74,
+    "alt_amounts": []
+   },
+   {
+    "description": "Ratchet straps 50mm x 9m (4)",
+    "amount": 1157.45,
+    "alt_amounts": []
+   },
+   {
+    "description": "Air filter element, heavy duty",
+    "amount": 1617.24,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 9584.4,
+    "alt_amounts": []
+   },
+   {
+    "description": "Pallet strapping kit",
+    "amount": 157.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 1512.7,
+    "alt_amounts": []
+   },
+   {
+    "description": "Angle grinder discs 115mm (10)",
+    "amount": 56.53,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hex bolts M12 x 50 galvanised (box 50)",
+    "amount": 1452.11,
+    "alt_amounts": []
+   },
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 870.9,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 943.76,
+    "alt_amounts": []
+   },
+   {
+    "description": "LED work lamp 24V",
+    "amount": 1411.04,
+    "alt_amounts": []
+   },
+   {
+    "description": "Engine oil 15W-40, 20 L drum",
+    "amount": 4134.9,
+    "alt_amounts": []
+   },
+   {
+    "description": "Nitrile work gloves, size L (pack 12)",
+    "amount": 269.2,
+    "alt_amounts": []
+   },
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 1739.78,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hydraulic hose 1/2in, per metre",
+    "amount": 608.44,
+    "alt_amounts": []
+   },
+   {
+    "description": "Copy paper A4 80gsm, box of 5 reams (batch 2)",
+    "amount": 611.9,
+    "alt_amounts": []
+   },
+   {
+    "description": "Ratchet straps 50mm x 9m (4) (batch 2)",
+    "amount": 710.64,
+    "alt_amounts": []
+   },
+   {
+    "description": "Air filter element, heavy duty (batch 2)",
+    "amount": 196.41,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive (batch 2)",
+    "amount": 3325.7,
+    "alt_amounts": []
+   },
+   {
+    "description": "Pallet strapping kit (batch 2)",
+    "amount": 1438.78,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap film 500mm x 300m (batch 2)",
+    "amount": 1022.76,
+    "alt_amounts": []
+   },
+   {
+    "description": "Angle grinder discs 115mm (10) (batch 2)",
+    "amount": 526.96,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hex bolts M12 x 50 galvanised (box 50) (batch 2)",
+    "amount": 1241.64,
+    "alt_amounts": []
+   },
+   {
+    "description": "Brake pads, trailer axle set (batch 2)",
+    "amount": 3934.9,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toner cartridge, black, high yield (batch 2)",
+    "amount": 858.63,
+    "alt_amounts": []
+   },
+   {
+    "description": "LED work lamp 24V (batch 2)",
+    "amount": 142.21,
+    "alt_amounts": []
+   },
+   {
+    "description": "Engine oil 15W-40, 20 L drum (batch 2)",
+    "amount": 6568.1,
+    "alt_amounts": []
+   },
+   {
+    "description": "Nitrile work gloves, size L (pack 12) (batch 2)",
+    "amount": 167.1,
+    "alt_amounts": []
+   },
+   {
+    "description": "Safety boots, steel toe, size 9 (batch 2)",
+    "amount": 1971.44,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hydraulic hose 1/2in, per metre (batch 2)",
+    "amount": 615.06,
+    "alt_amounts": []
+   },
+   {
+    "description": "Copy paper A4 80gsm, box of 5 reams (batch 3)",
+    "amount": 121.4,
+    "alt_amounts": []
+   },
+   {
+    "description": "Ratchet straps 50mm x 9m (4) (batch 3)",
+    "amount": 852.39,
+    "alt_amounts": []
+   },
+   {
+    "description": "Air filter element, heavy duty (batch 3)",
+    "amount": 1174.8,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive (batch 3)",
+    "amount": 9718.5,
+    "alt_amounts": []
+   },
+   {
+    "description": "Pallet strapping kit (batch 3)",
+    "amount": 262.62,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

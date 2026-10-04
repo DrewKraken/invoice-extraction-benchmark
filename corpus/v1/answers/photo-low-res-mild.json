@@ -1,0 +1,80 @@
+{
+ "doc_id": "photo-low-res-mild",
+ "file": "documents/photo-low-res-mild.jpg",
+ "category": "photo",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice -> low res (mild).",
+ "sha256": "a438677d3283faecc86769e5e90132f8324254ac6efaca555291719c4e8e162f",
+ "bytes": 95719,
+ "pages": 1,
+ "render": "image",
+ "severity": "mild",
+ "degradations": [
+  {
+   "kind": "low_res",
+   "severity": "mild"
+  }
+ ],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "low_res"
+ ],
+ "base_id": "base-us",
+ "pixels": [
+  1020,
+  1320
+ ],
+ "dpi": 120,
+ "expected": {
+  "vendor_name": "Prairie Workshop Supplies LLC",
+  "invoice_number": "IN0099973",
+  "invoice_date": "2025-12-06",
+  "due_date": "2025-12-20",
+  "currency": "USD",
+  "subtotal": 13873.38,
+  "tax": 1231.26,
+  "total": 15104.64,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 3899.5,
+    "alt_amounts": []
+   },
+   {
+    "description": "Nitrile work gloves, size L (pack 12)",
+    "amount": 629.75,
+    "alt_amounts": []
+   },
+   {
+    "description": "Engine oil 15W-40, 20 L drum",
+    "amount": 7525.35,
+    "alt_amounts": []
+   },
+   {
+    "description": "Copy paper A4 80gsm, box of 5 reams",
+    "amount": 1818.78,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

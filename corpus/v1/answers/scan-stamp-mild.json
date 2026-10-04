@@ -1,0 +1,80 @@
+{
+ "doc_id": "scan-stamp-mild",
+ "file": "documents/scan-stamp-mild.png",
+ "category": "scan",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "Namibian tax invoice -> stamp (mild).",
+ "sha256": "fa4115ae9f5c34c50c87d4afcb1f99a7234ea43f06a63b1c20e9445d834f0621",
+ "bytes": 187299,
+ "pages": 1,
+ "render": "image",
+ "severity": "mild",
+ "degradations": [
+  {
+   "kind": "stamp",
+   "severity": "mild"
+  }
+ ],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "stamp"
+ ],
+ "base_id": "base-na",
+ "pixels": [
+  1654,
+  2339
+ ],
+ "dpi": 200,
+ "expected": {
+  "vendor_name": "Okavango Hardware (Pty) Ltd",
+  "invoice_number": "INV-2026-70022",
+  "invoice_date": "2025-09-23",
+  "due_date": "2025-11-22",
+  "currency": "NAD",
+  "subtotal": 38696.11,
+  "tax": 5804.42,
+  "total": 44500.53,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 7604.94,
+    "alt_amounts": []
+   },
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 4451.44,
+    "alt_amounts": []
+   },
+   {
+    "description": "LED work lamp 24V",
+    "amount": 547.58,
+    "alt_amounts": []
+   },
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 26092.15,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

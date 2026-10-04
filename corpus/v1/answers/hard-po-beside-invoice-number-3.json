@@ -1,0 +1,70 @@
+{
+ "doc_id": "hard-po-beside-invoice-number-3",
+ "file": "documents/hard-po-beside-invoice-number-3.pdf",
+ "category": "hard",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "'Document No' and 'Customer Order No' printed side by side in the same format.",
+ "sha256": "e035c53e149f8df513a5f446b266254ace02403661ebbd2496ca206283de97f4",
+ "bytes": 3319,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "po_beside_number"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Blouberg Engineering Supplies (Pty) Ltd",
+  "invoice_number": "ABCINV832356",
+  "invoice_date": "2026-05-14",
+  "due_date": "2026-06-13",
+  "currency": "ZAR",
+  "subtotal": 15093.58,
+  "tax": 2264.04,
+  "total": 17357.62,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Hex bolts M12 x 50 galvanised (box 50)",
+    "amount": 180.24,
+    "alt_amounts": []
+   },
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 7703.12,
+    "alt_amounts": []
+   },
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 6519.8,
+    "alt_amounts": []
+   },
+   {
+    "description": "LED work lamp 24V",
+    "amount": 690.42,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

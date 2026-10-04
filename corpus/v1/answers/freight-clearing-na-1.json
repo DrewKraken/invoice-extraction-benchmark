@@ -1,0 +1,84 @@
+{
+ "doc_id": "freight-clearing-na-1",
+ "file": "documents/freight-clearing-na-1.pdf",
+ "category": "freight",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Clearing & forwarding: VAT-free disbursements plus VAT-able agency fees, 'Supplier Inv No' printed.",
+ "sha256": "ff5576ebbdca5289552aec7fc57e66e76b68704a7a2a984380fd3409b61831ef",
+ "bytes": 3171,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "clearing",
+  "disbursements"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Erongo Border Services (Pty) Ltd",
+  "invoice_number": "KN-71210",
+  "invoice_date": "2026-08-02",
+  "due_date": "2026-08-09",
+  "currency": "NAD",
+  "subtotal": 16655.5,
+  "tax": 619.17,
+  "total": 17274.67,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Import VAT paid on behalf (disbursement)",
+    "amount": 4279.34,
+    "alt_amounts": []
+   },
+   {
+    "description": "Container storage, 4 days (disbursement)",
+    "amount": 2505.39,
+    "alt_amounts": []
+   },
+   {
+    "description": "Port charges - wharfage (disbursement)",
+    "amount": 5742.94,
+    "alt_amounts": []
+   },
+   {
+    "description": "Customs clearance fee",
+    "amount": 2674.82,
+    "alt_amounts": []
+   },
+   {
+    "description": "Cargo inspection attendance",
+    "amount": 965.29,
+    "alt_amounts": []
+   },
+   {
+    "description": "Documentation fee",
+    "amount": 487.72,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "IPPU8832877"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "doc_id": "freight-carrier-za-4",
+ "file": "documents/freight-carrier-za-4.pdf",
+ "category": "freight",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Carrier invoice Durban - Ndola: linehaul, fuel surcharge %, accessorials.",
+ "sha256": "69ec979facc895317b8b812f37e9b0912f1b24aeae004774c6311220d246173b",
+ "bytes": 3021,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "carrier",
+  "fuel_surcharge",
+  "accessorials"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Drakensig Freight (Pty) Ltd",
+  "invoice_number": "2026/2251",
+  "invoice_date": "2026-01-18",
+  "due_date": "2026-02-17",
+  "currency": "ZAR",
+  "subtotal": 21279.25,
+  "tax": 3191.89,
+  "total": 24471.14,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Linehaul Durban - Ndola",
+    "amount": 15898.47,
+    "alt_amounts": []
+   },
+   {
+    "description": "Fuel surcharge 22.5%",
+    "amount": 3577.16,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toll fees recovered",
+    "amount": 593.1,
+    "alt_amounts": []
+   },
+   {
+    "description": "Redelivery charge",
+    "amount": 1210.52,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "TR46452",
+   "LD-749871"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

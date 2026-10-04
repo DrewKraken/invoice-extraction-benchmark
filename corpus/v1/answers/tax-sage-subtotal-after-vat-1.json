@@ -1,0 +1,69 @@
+{
+ "doc_id": "tax-sage-subtotal-after-vat-1",
+ "file": "documents/tax-sage-subtotal-after-vat-1.pdf",
+ "category": "tax",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Sage/Pastel totals: Total Exclusive / Total VAT / Sub Total (incl. VAT) / Total.",
+ "sha256": "ae2b9d4fcc703de52ed028791be02eb655bfd9041816b4455ca77376866089e6",
+ "bytes": 2824,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "sage_layout"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Namib Sands Industrial Supply (Pty) Ltd",
+  "invoice_number": "TI080660",
+  "invoice_date": "2025-11-20",
+  "due_date": null,
+  "currency": "NAD",
+  "subtotal": 7903.29,
+  "tax": 1185.49,
+  "total": 9088.78,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 2269.32,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hydraulic hose 1/2in, per metre",
+    "amount": 819.24,
+    "alt_amounts": []
+   },
+   {
+    "description": "Nitrile work gloves, size L (pack 12)",
+    "amount": 647.01,
+    "alt_amounts": []
+   },
+   {
+    "description": "Ratchet straps 50mm x 9m (4)",
+    "amount": 4167.72,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

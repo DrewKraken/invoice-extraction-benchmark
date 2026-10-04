@@ -1,0 +1,70 @@
+{
+ "doc_id": "hard-lines-vs-subtotal",
+ "file": "documents/hard-lines-vs-subtotal.pdf",
+ "category": "hard",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Printed subtotal 7% above the sum of the lines.",
+ "sha256": "c48940d3ead2428336cedc02ed540d6f1bd696ee7f04565a6fbdf0af0518e317",
+ "bytes": 2846,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "inconsistent"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Blouberg Tyre & Parts (Pty) Ltd",
+  "invoice_number": "IN0009065",
+  "invoice_date": "2026-03-14",
+  "due_date": "2026-04-13",
+  "currency": "ZAR",
+  "subtotal": 10661.48,
+  "tax": 1494.6,
+  "total": 12156.08,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Hex bolts M12 x 50 galvanised (box 50)",
+    "amount": 304.24,
+    "alt_amounts": []
+   },
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 1695.66,
+    "alt_amounts": []
+   },
+   {
+    "description": "Ratchet straps 50mm x 9m (4)",
+    "amount": 3961.98,
+    "alt_amounts": []
+   },
+   {
+    "description": "LED work lamp 24V",
+    "amount": 4002.12,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": true,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

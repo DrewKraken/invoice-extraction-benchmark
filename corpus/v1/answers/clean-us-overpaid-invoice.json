@@ -1,0 +1,60 @@
+{
+ "doc_id": "clean-us-overpaid-invoice",
+ "file": "documents/clean-us-overpaid-invoice.pdf",
+ "category": "clean",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "US invoice 'us_overpaid_invoice': Printed total is about 23% above subtotal + tax with no charge line explaining it: should be flagged.",
+ "sha256": "c28d6c7f235de98cdf25a6ba11e004e8beace567727ff5532c91015906974a05",
+ "bytes": 2565,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture",
+  "inconsistent"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Foundry Metalworks",
+  "invoice_number": "FND-2024-05-0044",
+  "invoice_date": "2024-05-09",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 2370.0,
+  "tax": 142.2,
+  "total": 3100.0,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Custom steel gate, 10ft",
+    "amount": 1800.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Installation labor (6 hrs)",
+    "amount": 570.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": true,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

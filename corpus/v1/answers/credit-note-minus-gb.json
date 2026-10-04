@@ -1,0 +1,55 @@
+{
+ "doc_id": "credit-note-minus-gb",
+ "file": "documents/credit-note-minus-gb.pdf",
+ "category": "credit",
+ "difficulty": "easy",
+ "kind": "credit_note",
+ "description": "CREDIT NOTE, negatives printed as 'minus'.",
+ "sha256": "2d557ea441235baf0ae8ef98fb5a007218eedd8d18bfe287c9f47cf1066d7d83",
+ "bytes": 2694,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "GBP",
+ "tags": [
+  "credit_note",
+  "neg_minus"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Severn Workshop Supplies plc",
+  "invoice_number": "CN060662",
+  "invoice_date": "2026-06-23",
+  "due_date": null,
+  "currency": "GBP",
+  "subtotal": 3154.44,
+  "tax": 630.89,
+  "total": 3785.33,
+  "document_type": "credit_note",
+  "lines": [
+   {
+    "description": "Air filter element, heavy duty",
+    "amount": 3154.44,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

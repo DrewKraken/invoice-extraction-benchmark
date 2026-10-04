@@ -1,0 +1,59 @@
+{
+ "doc_id": "clean-us-sh-abbrev",
+ "file": "documents/clean-us-sh-abbrev.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_sh_abbrev': Shipping abbreviated as 'S&H'.",
+ "sha256": "fecd17e7207efa4e64bae82cf43aac3aac52de9ca788a150f893ac9a8aee75fc",
+ "bytes": 2505,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Acme Industrial Supply Co",
+  "invoice_number": "ACM-100312",
+  "invoice_date": "2024-04-02",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 391.0,
+  "tax": 29.33,
+  "total": 438.83,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Precision measuring calipers, digital",
+    "amount": 296.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Calibration service, annual",
+    "amount": 95.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

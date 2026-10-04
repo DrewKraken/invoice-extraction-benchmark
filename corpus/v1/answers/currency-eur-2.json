@@ -1,0 +1,68 @@
+{
+ "doc_id": "currency-eur-2",
+ "file": "documents/currency-eur-2.pdf",
+ "category": "currency",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "EUR invoice, amounts printed with '\u20ac'.",
+ "sha256": "65a3fa5c1044659a55ca2dd1ca952d005d945c970d3a9fb7d548b83e4c8d0762",
+ "bytes": 3207,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "EUR",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Waalhaven Industrial Supply B.V.",
+  "invoice_number": "BN-19064",
+  "invoice_date": "2025-06-06",
+  "due_date": "2025-08-05",
+  "currency": "EUR",
+  "subtotal": 8367.15,
+  "tax": 1757.1,
+  "total": 10124.25,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 1810.24,
+    "alt_amounts": []
+   },
+   {
+    "description": "Ratchet straps 50mm x 9m (4)",
+    "amount": 2750.13,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 2649.66,
+    "alt_amounts": []
+   },
+   {
+    "description": "Copy paper A4 80gsm, box of 5 reams",
+    "amount": 1157.12,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

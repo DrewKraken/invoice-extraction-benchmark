@@ -1,0 +1,65 @@
+{
+ "doc_id": "tax-percentage-line-2",
+ "file": "documents/tax-percentage-line-2.pdf",
+ "category": "tax",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "A percentage line: rate column '1.80%', the customs value in the Qty column.",
+ "sha256": "63b9319997239241d925fa2379a599ae1505e480b4944b73e344d0827a725472",
+ "bytes": 2800,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "percentage_line"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Suidkus Clearing & Forwarding CC",
+  "invoice_number": "IN0035632",
+  "invoice_date": "2025-02-18",
+  "due_date": "2025-03-20",
+  "currency": "ZAR",
+  "subtotal": 3582.26,
+  "tax": 537.34,
+  "total": 4119.6,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Customs clearance fee",
+    "amount": 1829.67,
+    "alt_amounts": []
+   },
+   {
+    "description": "Agency fee on customs value",
+    "amount": 1401.62,
+    "alt_amounts": []
+   },
+   {
+    "description": "Documentation fee",
+    "amount": 350.97,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

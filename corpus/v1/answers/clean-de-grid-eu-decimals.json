@@ -1,0 +1,68 @@
+{
+ "doc_id": "clean-de-grid-eu-decimals",
+ "file": "documents/clean-de-grid-eu-decimals.pdf",
+ "category": "clean",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "German supplier, gridded table, 1.234,56 amounts, DD.MM.YYYY dates.",
+ "sha256": "8dcd79335c81e94f310c557db92bcaedd2b3989af392c12481c2883d984fe8a5",
+ "bytes": 3052,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "EUR",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Nordhafen Workshop Supplies GmbH & Co. KG",
+  "invoice_number": "IN0089266",
+  "invoice_date": "2026-04-30",
+  "due_date": "2026-06-29",
+  "currency": "EUR",
+  "subtotal": 5632.69,
+  "tax": 1070.21,
+  "total": 6702.9,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 1151.18,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hydraulic hose 1/2in, per metre",
+    "amount": 1269.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hex bolts M12 x 50 galvanised (box 50)",
+    "amount": 2261.98,
+    "alt_amounts": []
+   },
+   {
+    "description": "Angle grinder discs 115mm (10)",
+    "amount": 950.53,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

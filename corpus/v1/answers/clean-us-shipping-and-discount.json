@@ -1,0 +1,59 @@
+{
+ "doc_id": "clean-us-shipping-and-discount",
+ "file": "documents/clean-us-shipping-and-discount.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_shipping_and_discount': Both a shipping line and a discount line.",
+ "sha256": "24807aeb1f5d395e27d94e3b613e1b0fe1060d475927c41953a32235296d7e9c",
+ "bytes": 2586,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Foundry Metalworks",
+  "invoice_number": "FND-2024-03-0091",
+  "invoice_date": "2024-03-05",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 3275.0,
+  "tax": 196.5,
+  "total": 3492.5,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Fabricated steel brackets, custom (lot of 50)",
+    "amount": 2850.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Powder coat finish, gray",
+    "amount": 425.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

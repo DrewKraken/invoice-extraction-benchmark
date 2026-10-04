@@ -1,0 +1,65 @@
+{
+ "doc_id": "credit-r-minus-1",
+ "file": "documents/credit-r-minus-1.pdf",
+ "category": "credit",
+ "difficulty": "medium",
+ "kind": "credit_note",
+ "description": "CREDIT NOTE, negatives printed as 'symbol_minus'.",
+ "sha256": "dc9e6f8339269777f5317829e930fa9e6a5f8ae8fb0508f892957cd04da7251f",
+ "bytes": 2755,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "credit_note",
+  "neg_symbol_minus"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Drakensig Packaging (Pty) Ltd",
+  "invoice_number": "CRN-42418",
+  "invoice_date": "2025-03-24",
+  "due_date": null,
+  "currency": "ZAR",
+  "subtotal": 15227.77,
+  "tax": 2284.17,
+  "total": 17511.94,
+  "document_type": "credit_note",
+  "lines": [
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 4820.48,
+    "alt_amounts": []
+   },
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 7685.76,
+    "alt_amounts": []
+   },
+   {
+    "description": "Pallet strapping kit",
+    "amount": 2721.53,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

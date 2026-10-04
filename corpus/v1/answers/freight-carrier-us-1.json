@@ -1,0 +1,81 @@
+{
+ "doc_id": "freight-carrier-us-1",
+ "file": "documents/freight-carrier-us-1.pdf",
+ "category": "freight",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Carrier invoice Felixstowe - Leeds: linehaul, fuel surcharge %, accessorials.",
+ "sha256": "7a4b6854b85b07b07954bbbd1e2905d6f5e057c89af73754bd6b4e050553cc55",
+ "bytes": 3221,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "carrier",
+  "fuel_surcharge",
+  "accessorials"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Redwood Line Haul Co",
+  "invoice_number": "2026/4214",
+  "invoice_date": "2026-05-01",
+  "due_date": "2026-05-31",
+  "currency": "USD",
+  "subtotal": 1376.99,
+  "tax": 122.21,
+  "total": 1499.2,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Linehaul Felixstowe - Leeds",
+    "amount": 940.08,
+    "alt_amounts": []
+   },
+   {
+    "description": "Fuel surcharge 18%",
+    "amount": 169.21,
+    "alt_amounts": []
+   },
+   {
+    "description": "Tarping fee",
+    "amount": 28.65,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toll fees recovered",
+    "amount": 118.07,
+    "alt_amounts": []
+   },
+   {
+    "description": "Border crossing fee",
+    "amount": 120.98,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "TR78656",
+   "LD-241822"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

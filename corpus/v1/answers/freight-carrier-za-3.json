@@ -1,0 +1,71 @@
+{
+ "doc_id": "freight-carrier-za-3",
+ "file": "documents/freight-carrier-za-3.pdf",
+ "category": "freight",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Carrier invoice Kitwe - Walvis Bay: linehaul, fuel surcharge %, accessorials.",
+ "sha256": "842fed6e98c29639de27274124cee4c3a3804f7212a4b802f1c08d3722e24692",
+ "bytes": 2757,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "carrier",
+  "fuel_surcharge",
+  "accessorials"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Karoo Carriers (Pty) Ltd",
+  "invoice_number": "INV-2026-15508",
+  "invoice_date": "2026-04-07",
+  "due_date": "2026-05-07",
+  "currency": "ZAR",
+  "subtotal": 43343.94,
+  "tax": 6501.59,
+  "total": 49845.53,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Linehaul Kitwe - Walvis Bay",
+    "amount": 34978.05,
+    "alt_amounts": []
+   },
+   {
+    "description": "Fuel surcharge 22.5%",
+    "amount": 7870.06,
+    "alt_amounts": []
+   },
+   {
+    "description": "Tarping fee",
+    "amount": 495.83,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "TR26193",
+   "LD-195620"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

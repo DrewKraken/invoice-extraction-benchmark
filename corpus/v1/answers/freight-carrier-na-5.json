@@ -1,0 +1,76 @@
+{
+ "doc_id": "freight-carrier-na-5",
+ "file": "documents/freight-carrier-na-5.pdf",
+ "category": "freight",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Carrier invoice Windhoek - Lusaka: linehaul, fuel surcharge %, accessorials.",
+ "sha256": "580f9445b960e9201d705029b5a73add16f0502b30ca33a0be2350570632b058",
+ "bytes": 2770,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "carrier",
+  "fuel_surcharge",
+  "accessorials"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Namib Sands Transport (Pty) Ltd",
+  "invoice_number": "AS-903",
+  "invoice_date": "2025-03-16",
+  "due_date": "2025-04-15",
+  "currency": "NAD",
+  "subtotal": 28943.29,
+  "tax": 4341.49,
+  "total": 33284.78,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Linehaul Windhoek - Lusaka",
+    "amount": 23026.23,
+    "alt_amounts": []
+   },
+   {
+    "description": "Fuel surcharge 18%",
+    "amount": 4144.72,
+    "alt_amounts": []
+   },
+   {
+    "description": "Border crossing fee",
+    "amount": 974.58,
+    "alt_amounts": []
+   },
+   {
+    "description": "Tarping fee",
+    "amount": 797.76,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "TR27001",
+   "LD-744129"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

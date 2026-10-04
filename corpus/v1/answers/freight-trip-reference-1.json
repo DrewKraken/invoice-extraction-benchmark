@@ -1,0 +1,64 @@
+{
+ "doc_id": "freight-trip-reference-1",
+ "file": "documents/freight-trip-reference-1.pdf",
+ "category": "freight",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Transport invoice with Trip No / Load Ref / truck registration printed.",
+ "sha256": "40d4ac9e63329e9aed1e93ddf98dd4091723ee1fe7a6a4dff9dd7d5d05c200cf",
+ "bytes": 2894,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "trip_reference"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Skeleton Bay Haulage (Pty) Ltd",
+  "invoice_number": "INV-2026-96480",
+  "invoice_date": "2025-04-25",
+  "due_date": "2025-05-25",
+  "currency": "NAD",
+  "subtotal": 52752.33,
+  "tax": 7912.85,
+  "total": 60665.18,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Container haulage 40ft {a} depot",
+    "amount": 23571.74,
+    "alt_amounts": []
+   },
+   {
+    "description": "Linehaul {a} - {b}",
+    "amount": 29180.59,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "TR53231",
+   "LD-510339"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

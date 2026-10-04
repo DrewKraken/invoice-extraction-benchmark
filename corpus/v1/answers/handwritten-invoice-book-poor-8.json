@@ -1,0 +1,65 @@
+{
+ "doc_id": "handwritten-invoice-book-poor-8",
+ "file": "documents/handwritten-invoice-book-poor-8.jpg",
+ "category": "handwritten",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Pre-printed delivery note / invoice book filled in by hand (poor handwriting).",
+ "sha256": "d174db2886ce7913ef63bab2a360abb08c58afd06fe01cc92a490dfe3fbf2176",
+ "bytes": 195733,
+ "pages": 1,
+ "render": "image",
+ "severity": null,
+ "degradations": [],
+ "legibility": "poor",
+ "currency": "ZAR",
+ "tags": [
+  "handwritten",
+  "legibility_poor"
+ ],
+ "base_id": null,
+ "pixels": [
+  1654,
+  2339
+ ],
+ "dpi": 200,
+ "expected": {
+  "vendor_name": "Karoo Packaging CC",
+  "invoice_number": "9268",
+  "invoice_date": "2026-08-21",
+  "due_date": null,
+  "currency": "ZAR",
+  "subtotal": 13361.61,
+  "tax": 2004.24,
+  "total": 15365.85,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 6726.25,
+    "alt_amounts": []
+   },
+   {
+    "description": "Safety boots, steel toe, size 9",
+    "amount": 6635.36,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

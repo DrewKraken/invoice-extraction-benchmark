@@ -1,0 +1,70 @@
+{
+ "doc_id": "hard-total-small-residual",
+ "file": "documents/hard-total-small-residual.pdf",
+ "category": "hard",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Printed total 4% above subtotal + VAT: small enough to be 'reconciled' as a charge.",
+ "sha256": "d8dd565d60ee183c107a4fc7fa3a73af902a896a65232d57e1d2a28e07a63b3f",
+ "bytes": 3025,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "inconsistent"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Erongo Engineering Supplies (Pty) Ltd",
+  "invoice_number": "2026/9165",
+  "invoice_date": "2025-09-08",
+  "due_date": "2025-10-08",
+  "currency": "NAD",
+  "subtotal": 8732.29,
+  "tax": 1309.84,
+  "total": 10443.82,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Stretch wrap film 500mm x 300m",
+    "amount": 828.35,
+    "alt_amounts": []
+   },
+   {
+    "description": "Pallet strapping kit",
+    "amount": 1168.71,
+    "alt_amounts": []
+   },
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 1358.99,
+    "alt_amounts": []
+   },
+   {
+    "description": "Engine oil 15W-40, 20 L drum",
+    "amount": 5376.24,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": true,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "doc_id": "freight-trip-reference-2",
+ "file": "documents/freight-trip-reference-2.pdf",
+ "category": "freight",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Transport invoice with Trip No / Load Ref / truck registration printed.",
+ "sha256": "9884790123e77568b8af6452dfdd15fd1c431c023bc685b613476dd076e22038",
+ "bytes": 2819,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "trip_reference"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Drakensig Transport (Pty) Ltd",
+  "invoice_number": "TL-96821",
+  "invoice_date": "2025-08-19",
+  "due_date": null,
+  "currency": "ZAR",
+  "subtotal": 49181.56,
+  "tax": 7377.23,
+  "total": 56558.79,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Cross-border transit {a} - {b}",
+    "amount": 45076.41,
+    "alt_amounts": []
+   },
+   {
+    "description": "Abnormal load escort",
+    "amount": 4105.15,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "TR15611",
+   "LD-525205"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

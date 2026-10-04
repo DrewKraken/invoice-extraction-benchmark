@@ -1,0 +1,70 @@
+{
+ "doc_id": "tax-inclusive-total-na",
+ "file": "documents/tax-inclusive-total-na.pdf",
+ "category": "tax",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Prices include VAT; 'VAT included in total' note.",
+ "sha256": "9040fcaca69b1a4a4eedc827b827b75e01ee4aba49c66530c8c39a9e6e8ce45e",
+ "bytes": 3030,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [
+  "vat_inclusive"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Brandkop Hardware CC",
+  "invoice_number": "051812",
+  "invoice_date": "2025-05-10",
+  "due_date": "2025-07-09",
+  "currency": "NAD",
+  "subtotal": 6364.93,
+  "tax": 954.74,
+  "total": 7319.67,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Copy paper A4 80gsm, box of 5 reams",
+    "amount": 971.36,
+    "alt_amounts": []
+   },
+   {
+    "description": "Angle grinder discs 115mm (10)",
+    "amount": 841.5,
+    "alt_amounts": []
+   },
+   {
+    "description": "Ratchet straps 50mm x 9m (4)",
+    "amount": 2883.37,
+    "alt_amounts": []
+   },
+   {
+    "description": "Air filter element, heavy duty",
+    "amount": 2623.44,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

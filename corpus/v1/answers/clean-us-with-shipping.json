@@ -1,0 +1,64 @@
+{
+ "doc_id": "clean-us-with-shipping",
+ "file": "documents/clean-us-with-shipping.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_with_shipping': A 'Shipping & Handling' line on the totals block.",
+ "sha256": "44a5eec150ca7271a49f6bfe24a5f97a5ecb50b1562cf36910379a33bfe3ebd0",
+ "bytes": 2750,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Northwind Logistics LLC",
+  "invoice_number": "NWL-20240318-002",
+  "invoice_date": "2024-03-18",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 1422.0,
+  "tax": 92.43,
+  "total": 1599.43,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Pallet jack, 5500 lb capacity",
+    "amount": 978.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Stretch wrap rolls, 18-inch x 1500 ft",
+    "amount": 294.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Warehouse floor tape, yellow, 100 ft",
+    "amount": 150.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

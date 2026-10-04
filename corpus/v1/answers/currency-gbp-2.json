@@ -1,0 +1,67 @@
+{
+ "doc_id": "currency-gbp-2",
+ "file": "documents/currency-gbp-2.pdf",
+ "category": "currency",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "GBP invoice, amounts printed with '\u00a3'.",
+ "sha256": "97282d67789e5e47b14585516ebdc38ba7ff825cd0015f6a58df822ca998a7dd",
+ "bytes": 2900,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "GBP",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Pennine Tyre & Parts plc",
+  "invoice_number": "TI055128",
+  "invoice_date": "2025-02-06",
+  "due_date": null,
+  "currency": "GBP",
+  "subtotal": 17884.04,
+  "tax": 3576.81,
+  "total": 21460.85,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Truck tyre 315/80R22.5 drive",
+    "amount": 4444.22,
+    "alt_amounts": []
+   },
+   {
+    "description": "Angle grinder discs 115mm (10)",
+    "amount": 473.88,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 2831.04,
+    "alt_amounts": []
+   },
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 10134.9,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

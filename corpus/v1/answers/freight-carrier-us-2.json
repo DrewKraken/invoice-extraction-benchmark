@@ -1,0 +1,81 @@
+{
+ "doc_id": "freight-carrier-us-2",
+ "file": "documents/freight-carrier-us-2.pdf",
+ "category": "freight",
+ "difficulty": "medium",
+ "kind": "invoice",
+ "description": "Carrier invoice Durban - Ndola: linehaul, fuel surcharge %, accessorials.",
+ "sha256": "26689220e3ae200a102513e0b1c0c0ee5c10a68ddf4b471625cc46c61bcc17e3",
+ "bytes": 2809,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "carrier",
+  "fuel_surcharge",
+  "accessorials"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Summit Cargo LLC",
+  "invoice_number": "INV-2026-11954",
+  "invoice_date": "2025-05-31",
+  "due_date": "2025-06-30",
+  "currency": "USD",
+  "subtotal": 3181.61,
+  "tax": 282.37,
+  "total": 3463.98,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Linehaul Durban - Ndola",
+    "amount": 2390.27,
+    "alt_amounts": []
+   },
+   {
+    "description": "Fuel surcharge 22.5%",
+    "amount": 537.81,
+    "alt_amounts": []
+   },
+   {
+    "description": "Tarping fee",
+    "amount": 37.97,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toll fees recovered",
+    "amount": 122.17,
+    "alt_amounts": []
+   },
+   {
+    "description": "Lumper / offloading fee",
+    "amount": 93.39,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [
+   "TR90151",
+   "LD-878533"
+  ],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date",
+   "references"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

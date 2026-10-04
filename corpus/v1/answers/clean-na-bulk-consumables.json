@@ -1,0 +1,63 @@
+{
+ "doc_id": "clean-na-bulk-consumables",
+ "file": "documents/clean-na-bulk-consumables.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "Cheap items in bulk: quantities (500, 1 200) larger than their line totals.",
+ "sha256": "1d8b9c0d7953993f5fbe7c83a4b19890c00220214254aa67ca086d1ee172e5ea",
+ "bytes": 2708,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "NAD",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Kalahari Office Supplies (Pty) Ltd",
+  "invoice_number": "RF-95917",
+  "invoice_date": "2026-07-11",
+  "due_date": "2026-07-25",
+  "currency": "NAD",
+  "subtotal": 498.0,
+  "tax": 74.7,
+  "total": 572.7,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Cable ties 200mm, black",
+    "amount": 60.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Split pins 3mm",
+    "amount": 96.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Hose clamps 32mm",
+    "amount": 342.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

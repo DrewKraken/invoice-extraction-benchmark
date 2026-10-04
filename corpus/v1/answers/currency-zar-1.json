@@ -1,0 +1,68 @@
+{
+ "doc_id": "currency-zar-1",
+ "file": "documents/currency-zar-1.pdf",
+ "category": "currency",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "ZAR invoice, amounts printed with 'R'.",
+ "sha256": "ed001f67fc2cf839f2ca1ac1bc5e02b0e917fbaa384a3cbb3c6038e7e9b7c15c",
+ "bytes": 2830,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Karoo Tyre & Parts (Pty) Ltd",
+  "invoice_number": "IN0091021",
+  "invoice_date": "2025-04-23",
+  "due_date": "2025-05-23",
+  "currency": "ZAR",
+  "subtotal": 22962.88,
+  "tax": 3444.43,
+  "total": 26407.31,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Hydraulic hose 1/2in, per metre",
+    "amount": 2805.18,
+    "alt_amounts": []
+   },
+   {
+    "description": "Brake pads, trailer axle set",
+    "amount": 8261.36,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 3755.24,
+    "alt_amounts": []
+   },
+   {
+    "description": "Engine oil 15W-40, 20 L drum",
+    "amount": 8141.1,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

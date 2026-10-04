@@ -1,0 +1,59 @@
+{
+ "doc_id": "clean-us-two-tax-lines",
+ "file": "documents/clean-us-two-tax-lines.pdf",
+ "category": "clean",
+ "difficulty": "easy",
+ "kind": "invoice",
+ "description": "US invoice 'us_two_tax_lines': State and county tax on separate lines.",
+ "sha256": "aa535379441e0f69e51aeaec4013944d7bc586f4439c74a5500ef8a9e1d58fdd",
+ "bytes": 2548,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "fixture"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Acme Industrial Supply Co",
+  "invoice_number": "ACM-100458",
+  "invoice_date": "2024-05-03",
+  "due_date": null,
+  "currency": "USD",
+  "subtotal": 1108.0,
+  "tax": 83.1,
+  "total": 1191.1,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Pneumatic impact wrench, 1/2-inch drive",
+    "amount": 940.0,
+    "alt_amounts": []
+   },
+   {
+    "description": "Air compressor oil, 1 gallon",
+    "amount": 168.0,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

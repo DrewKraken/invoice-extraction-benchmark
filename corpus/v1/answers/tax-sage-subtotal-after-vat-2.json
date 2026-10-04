@@ -1,0 +1,70 @@
+{
+ "doc_id": "tax-sage-subtotal-after-vat-2",
+ "file": "documents/tax-sage-subtotal-after-vat-2.pdf",
+ "category": "tax",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Sage/Pastel totals: Total Exclusive / Total VAT / Sub Total (incl. VAT) / Total.",
+ "sha256": "45435828463af8be0f084a5cb7899c1da847d801d79deff190a23fba98335699",
+ "bytes": 2799,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "ZAR",
+ "tags": [
+  "sage_layout"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Highveld Packaging (Pty) Ltd",
+  "invoice_number": "049181",
+  "invoice_date": "2026-02-28",
+  "due_date": "2026-03-30",
+  "currency": "ZAR",
+  "subtotal": 12843.69,
+  "tax": 1926.55,
+  "total": 14770.24,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Pallet strapping kit",
+    "amount": 2742.48,
+    "alt_amounts": []
+   },
+   {
+    "description": "Air filter element, heavy duty",
+    "amount": 4436.2,
+    "alt_amounts": []
+   },
+   {
+    "description": "Angle grinder discs 115mm (10)",
+    "amount": 2959.65,
+    "alt_amounts": []
+   },
+   {
+    "description": "Toner cartridge, black, high yield",
+    "amount": 2705.36,
+    "alt_amounts": []
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": null,
+  "notes": ""
+ }
+}

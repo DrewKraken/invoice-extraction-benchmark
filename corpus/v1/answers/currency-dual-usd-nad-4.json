@@ -1,0 +1,74 @@
+{
+ "doc_id": "currency-dual-usd-nad-4",
+ "file": "documents/currency-dual-usd-nad-4.pdf",
+ "category": "currency",
+ "difficulty": "hard",
+ "kind": "invoice",
+ "description": "Lines in USD, 'TOTAL INVOICE AMOUNT PAYABLE' box in NAD with an Amount column per line.",
+ "sha256": "017c5e7f1c92bea132b75ac02034de5dd43fb4416f810cc50ca39f10daff2822",
+ "bytes": 3258,
+ "pages": 1,
+ "render": "pdf",
+ "severity": null,
+ "degradations": [],
+ "legibility": null,
+ "currency": "USD",
+ "tags": [
+  "dual_currency"
+ ],
+ "base_id": null,
+ "expected": {
+  "vendor_name": "Kunene Clearing & Forwarding (Pty) Ltd",
+  "invoice_number": "F-26-9064",
+  "invoice_date": "2026-03-16",
+  "due_date": "2026-04-15",
+  "currency": "NAD",
+  "subtotal": 3581.1,
+  "tax": 0.0,
+  "total": 3581.1,
+  "document_type": "invoice",
+  "lines": [
+   {
+    "description": "Documentation fee",
+    "amount": 26.02,
+    "alt_amounts": [
+     478.56
+    ]
+   },
+   {
+    "description": "Customs clearance fee",
+    "amount": 136.39,
+    "alt_amounts": [
+     2508.48
+    ]
+   },
+   {
+    "description": "Cargo inspection attendance",
+    "amount": 32.3,
+    "alt_amounts": [
+     594.06
+    ]
+   }
+  ],
+  "should_flag": false,
+  "references": [],
+  "scored": [
+   "vendor_name",
+   "invoice_number",
+   "invoice_date",
+   "currency",
+   "subtotal",
+   "tax",
+   "total",
+   "document_type",
+   "line_items",
+   "flag",
+   "due_date"
+  ],
+  "secondary": [
+   "USD",
+   194.71
+  ],
+  "notes": "Dual currency: the amount-payable box is the total, in its currency."
+ }
+}
