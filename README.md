@@ -17,6 +17,9 @@ extraction product. IPP's own results are below. Weigh that when you read them: 
 benchmark is not independent, and IPP chose the categories. Everything needed to check the
 answer keys and re-score any tool is in this repository.
 
+Also on Hugging Face (same documents and answer keys, with a dataset viewer):
+[drew-ipp/invoice-extraction-benchmark](https://huggingface.co/datasets/drew-ipp/invoice-extraction-benchmark).
+
 ## Contents
 
 | | |
