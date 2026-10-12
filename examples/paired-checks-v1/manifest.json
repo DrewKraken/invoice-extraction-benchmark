@@ -1,0 +1,687 @@
+{
+  "schema": "ipp-paired-source-evaluation/1",
+  "version": "1.0.0",
+  "created_at_utc": "2026-10-12T20:11:30.240945+00:00",
+  "title": "Fictional invoice source checks: ordered duplicate and arithmetic controls",
+  "synthetic_only": true,
+  "new_source_bytes": true,
+  "document_namespace": "EV26-1012",
+  "supplier_namespace": "Fictional Evaluation Supplier Alpha",
+  "upload_count": 9,
+  "unique_pdf_hashes": 7,
+  "label_policy": {
+    "authored_before_run": true,
+    "economic_truth": "Author-declared fictional source register, corroborated by printed order/currency/reissue references where present; not real-world supplier validation.",
+    "number_only_changes": "Unresolved; excluded from correctness scoring.",
+    "economic_labels_are_separate_from_expected_current_behavior": true,
+    "all_unlisted_relationships": "No statistical scoring; declared instrument IDs permit interpretation, but no unlisted pair is silently counted."
+  },
+  "documents": [
+    {
+      "id": "d01",
+      "file": "01-document.pdf",
+      "source": {
+        "order_reference": "ORDER-A-20261012",
+        "service_period": {
+          "start": "2026-09-01",
+          "end": "2026-09-30"
+        },
+        "notes": []
+      },
+      "expected": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "customer_name": "Fictional Evaluation Customer",
+        "invoice_number": "EV26-1012-001",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "document_type": "invoice",
+        "po_number": "ORDER-A-20261012",
+        "money": {
+          "subtotal": "300.00",
+          "discount": "0.00",
+          "shipping": "0.00",
+          "tax": "0.00",
+          "total_amount": "300.00"
+        },
+        "lines": [
+          {
+            "description": "Service hours",
+            "quantity": "4.00",
+            "unit_price": "75.00",
+            "line_total": "300.00"
+          }
+        ],
+        "arithmetic": {
+          "outcome": "pass",
+          "mismatch_line_indices": [],
+          "line_residuals": [
+            "0.00"
+          ],
+          "printed_line_sum": "300.00",
+          "subtotal_residual": "0.00",
+          "totals_residual": "0.00"
+        }
+      },
+      "economic": {
+        "instrument_id": "obligation-a",
+        "relation_to_anchor": "anchor",
+        "anchor_id": null,
+        "basis": "Anchor invoice for the declared fictional September ORDER-A obligation; no prior pack documents exist."
+      },
+      "expected_current_duplicate": {
+        "potential_match_returned": false,
+        "counterpart_ids": [],
+        "conditional_on_faithful_extraction": true
+      },
+      "sha256": "24cf6b19d759d078653bf232b993a32825653237e2f9fe1a13ab17906eddadb9"
+    },
+    {
+      "id": "d02",
+      "file": "02-document.pdf",
+      "source": {
+        "order_reference": "ORDER-A-20261012",
+        "service_period": {
+          "start": "2026-09-01",
+          "end": "2026-09-30"
+        },
+        "notes": []
+      },
+      "expected": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "customer_name": "Fictional Evaluation Customer",
+        "invoice_number": "EV26-1012-001",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "document_type": "invoice",
+        "po_number": "ORDER-A-20261012",
+        "money": {
+          "subtotal": "300.00",
+          "discount": "0.00",
+          "shipping": "0.00",
+          "tax": "0.00",
+          "total_amount": "300.00"
+        },
+        "lines": [
+          {
+            "description": "Service hours",
+            "quantity": "4.00",
+            "unit_price": "75.00",
+            "line_total": "300.00"
+          }
+        ],
+        "arithmetic": {
+          "outcome": "pass",
+          "mismatch_line_indices": [],
+          "line_residuals": [
+            "0.00"
+          ],
+          "printed_line_sum": "300.00",
+          "subtotal_residual": "0.00",
+          "totals_residual": "0.00"
+        }
+      },
+      "economic": {
+        "instrument_id": "obligation-a",
+        "relation_to_anchor": "duplicate",
+        "anchor_id": "d01",
+        "basis": "Byte-identical second representation of d01; the source register declares the same invoice and obligation, no additional charge."
+      },
+      "expected_current_duplicate": {
+        "potential_match_returned": true,
+        "counterpart_ids": [
+          "d01"
+        ],
+        "conditional_on_faithful_extraction": true
+      },
+      "sha256": "24cf6b19d759d078653bf232b993a32825653237e2f9fe1a13ab17906eddadb9"
+    },
+    {
+      "id": "d03",
+      "file": "03-document.pdf",
+      "source": {
+        "order_reference": "ORDER-A-20261012",
+        "service_period": {
+          "start": "2026-09-01",
+          "end": "2026-09-30"
+        },
+        "notes": []
+      },
+      "expected": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "customer_name": "Fictional Evaluation Customer",
+        "invoice_number": "EV26-1012-001B",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "document_type": "invoice",
+        "po_number": "ORDER-A-20261012",
+        "money": {
+          "subtotal": "300.00",
+          "discount": "0.00",
+          "shipping": "0.00",
+          "tax": "0.00",
+          "total_amount": "300.00"
+        },
+        "lines": [
+          {
+            "description": "Service hours",
+            "quantity": "4.00",
+            "unit_price": "75.00",
+            "line_total": "300.00"
+          }
+        ],
+        "arithmetic": {
+          "outcome": "pass",
+          "mismatch_line_indices": [],
+          "line_residuals": [
+            "0.00"
+          ],
+          "printed_line_sum": "300.00",
+          "subtotal_residual": "0.00",
+          "totals_residual": "0.00"
+        }
+      },
+      "economic": {
+        "instrument_id": null,
+        "relation_to_anchor": "ambiguous",
+        "anchor_id": "d01",
+        "basis": "Only the invoice number changes. Same order/period/figures do not establish whether this is a reissue, progress bill or an independent charge. No source relation is declared."
+      },
+      "expected_current_duplicate": {
+        "potential_match_returned": false,
+        "counterpart_ids": [],
+        "conditional_on_faithful_extraction": true
+      },
+      "sha256": "178e222597dd61d5e0e2dc750a531b9233cff87ed9565a6c54a74ed5b8ff598b"
+    },
+    {
+      "id": "d04",
+      "file": "04-document.pdf",
+      "source": {
+        "order_reference": "ORDER-B-20261012",
+        "service_period": {
+          "start": "2026-09-01",
+          "end": "2026-09-30"
+        },
+        "notes": []
+      },
+      "expected": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "customer_name": "Fictional Evaluation Customer",
+        "invoice_number": "EV26-1012-002",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "document_type": "invoice",
+        "po_number": "ORDER-B-20261012",
+        "money": {
+          "subtotal": "300.00",
+          "discount": "0.00",
+          "shipping": "0.00",
+          "tax": "0.00",
+          "total_amount": "300.00"
+        },
+        "lines": [
+          {
+            "description": "Service hours",
+            "quantity": "4.00",
+            "unit_price": "75.00",
+            "line_total": "300.00"
+          }
+        ],
+        "arithmetic": {
+          "outcome": "pass",
+          "mismatch_line_indices": [],
+          "line_residuals": [
+            "0.00"
+          ],
+          "printed_line_sum": "300.00",
+          "subtotal_residual": "0.00",
+          "totals_residual": "0.00"
+        }
+      },
+      "economic": {
+        "instrument_id": "obligation-b",
+        "relation_to_anchor": "distinct",
+        "anchor_id": "d01",
+        "basis": "Separate printed ORDER-B and independently declared fictional purchase; same-day equal-price service is a distinct obligation."
+      },
+      "expected_current_duplicate": {
+        "potential_match_returned": false,
+        "counterpart_ids": [],
+        "conditional_on_faithful_extraction": true
+      },
+      "sha256": "681d3538bdadd1e106912cdb6b5fa92c8b1a142421737ba11f8238465eb9321b"
+    },
+    {
+      "id": "d05",
+      "file": "05-document.pdf",
+      "source": {
+        "order_reference": "ORDER-E-20261012",
+        "service_period": {
+          "start": "2026-09-01",
+          "end": "2026-09-30"
+        },
+        "notes": []
+      },
+      "expected": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "customer_name": "Fictional Evaluation Customer",
+        "invoice_number": "EV26-1012-001",
+        "invoice_date": "2026-10-01",
+        "currency": "EUR",
+        "document_type": "invoice",
+        "po_number": "ORDER-E-20261012",
+        "money": {
+          "subtotal": "300.00",
+          "discount": "0.00",
+          "shipping": "0.00",
+          "tax": "0.00",
+          "total_amount": "300.00"
+        },
+        "lines": [
+          {
+            "description": "Service hours",
+            "quantity": "4.00",
+            "unit_price": "75.00",
+            "line_total": "300.00"
+          }
+        ],
+        "arithmetic": {
+          "outcome": "pass",
+          "mismatch_line_indices": [],
+          "line_residuals": [
+            "0.00"
+          ],
+          "printed_line_sum": "300.00",
+          "subtotal_residual": "0.00",
+          "totals_residual": "0.00"
+        }
+      },
+      "economic": {
+        "instrument_id": "obligation-e",
+        "relation_to_anchor": "distinct",
+        "anchor_id": "d01",
+        "basis": "Supplier uses separate USD/EUR numbering series. Printed EUR ORDER-E is a separate fictional purchase from USD ORDER-A; no currency correction, FX conversion or shared obligation."
+      },
+      "expected_current_duplicate": {
+        "potential_match_returned": false,
+        "counterpart_ids": [],
+        "conditional_on_faithful_extraction": true
+      },
+      "sha256": "421700d839ede0620ca72f3d0e67c185e4a6d115743f3175545b03723db9dd54"
+    },
+    {
+      "id": "d06",
+      "file": "06-document.pdf",
+      "source": {
+        "order_reference": "ORDER-A-20261012",
+        "service_period": {
+          "start": "2026-09-01",
+          "end": "2026-09-30"
+        },
+        "notes": [
+          "Supplier reissue reference: EV26-1012-001. Same September ORDER-A-20261012 charge.",
+          "No additional charge. The original invoice remains outstanding."
+        ]
+      },
+      "expected": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "customer_name": "Fictional Evaluation Customer",
+        "invoice_number": "EV26-1012-001R",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "document_type": "invoice",
+        "po_number": "ORDER-A-20261012",
+        "money": {
+          "subtotal": "300.00",
+          "discount": "0.00",
+          "shipping": "0.00",
+          "tax": "0.00",
+          "total_amount": "300.00"
+        },
+        "lines": [
+          {
+            "description": "Service hours",
+            "quantity": "4.00",
+            "unit_price": "75.00",
+            "line_total": "300.00"
+          }
+        ],
+        "arithmetic": {
+          "outcome": "pass",
+          "mismatch_line_indices": [],
+          "line_residuals": [
+            "0.00"
+          ],
+          "printed_line_sum": "300.00",
+          "subtotal_residual": "0.00",
+          "totals_residual": "0.00"
+        }
+      },
+      "economic": {
+        "instrument_id": "obligation-a",
+        "relation_to_anchor": "duplicate",
+        "anchor_id": "d01",
+        "basis": "Printed supplier reissue reference explicitly links to the same outstanding ORDER-A charge; this is a second representation, not an additional obligation."
+      },
+      "expected_current_duplicate": {
+        "potential_match_returned": false,
+        "counterpart_ids": [],
+        "conditional_on_faithful_extraction": true
+      },
+      "sha256": "dc74fe53b42ab2fa87a0e6a02865762d0514e95da7967c7071ce48abc7aa3386"
+    },
+    {
+      "id": "d07",
+      "file": "07-document.pdf",
+      "source": {
+        "order_reference": "ORDER-A-20261012",
+        "service_period": {
+          "start": "2026-09-01",
+          "end": "2026-09-30"
+        },
+        "notes": [
+          "Credit reference: invoice EV26-1012-001, ORDER-A-20261012.",
+          "Printed line amounts and the total are signed credit amounts."
+        ]
+      },
+      "expected": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "customer_name": "Fictional Evaluation Customer",
+        "invoice_number": "EV26-1012-C001",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "document_type": "credit_note",
+        "po_number": "ORDER-A-20261012",
+        "money": {
+          "subtotal": "-300.00",
+          "discount": "0.00",
+          "shipping": "0.00",
+          "tax": "0.00",
+          "total_amount": "-300.00"
+        },
+        "lines": [
+          {
+            "description": "Service credit",
+            "quantity": "4.00",
+            "unit_price": "-75.00",
+            "line_total": "-300.00"
+          }
+        ],
+        "arithmetic": {
+          "outcome": "pass",
+          "mismatch_line_indices": [],
+          "line_residuals": [
+            "0.00"
+          ],
+          "printed_line_sum": "-300.00",
+          "subtotal_residual": "0.00",
+          "totals_residual": "0.00"
+        }
+      },
+      "economic": {
+        "instrument_id": "credit-a",
+        "relation_to_anchor": "distinct",
+        "anchor_id": "d01",
+        "basis": "A separate signed credit instrument referencing d01; it offsets a charge rather than representing a second copy of the positive invoice."
+      },
+      "expected_current_duplicate": {
+        "potential_match_returned": false,
+        "counterpart_ids": [],
+        "conditional_on_faithful_extraction": true
+      },
+      "sha256": "4cb40bb62daf0c2600caecad456319e8158ddcc5cec85b0fd7b287ebf1d23c33"
+    },
+    {
+      "id": "d08",
+      "file": "08-document.pdf",
+      "source": {
+        "order_reference": "ORDER-A-20261012",
+        "service_period": {
+          "start": "2026-09-01",
+          "end": "2026-09-30"
+        },
+        "notes": [
+          "Credit reference: invoice EV26-1012-001, ORDER-A-20261012.",
+          "Printed line amounts and the total are signed credit amounts."
+        ]
+      },
+      "expected": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "customer_name": "Fictional Evaluation Customer",
+        "invoice_number": "EV26-1012-C001",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "document_type": "credit_note",
+        "po_number": "ORDER-A-20261012",
+        "money": {
+          "subtotal": "-300.00",
+          "discount": "0.00",
+          "shipping": "0.00",
+          "tax": "0.00",
+          "total_amount": "-300.00"
+        },
+        "lines": [
+          {
+            "description": "Service credit",
+            "quantity": "4.00",
+            "unit_price": "-75.00",
+            "line_total": "-300.00"
+          }
+        ],
+        "arithmetic": {
+          "outcome": "pass",
+          "mismatch_line_indices": [],
+          "line_residuals": [
+            "0.00"
+          ],
+          "printed_line_sum": "-300.00",
+          "subtotal_residual": "0.00",
+          "totals_residual": "0.00"
+        }
+      },
+      "economic": {
+        "instrument_id": "credit-a",
+        "relation_to_anchor": "duplicate",
+        "anchor_id": "d07",
+        "basis": "Byte-identical second representation of the same signed credit instrument d07; no additional credit."
+      },
+      "expected_current_duplicate": {
+        "potential_match_returned": true,
+        "counterpart_ids": [
+          "d07"
+        ],
+        "conditional_on_faithful_extraction": true
+      },
+      "sha256": "4cb40bb62daf0c2600caecad456319e8158ddcc5cec85b0fd7b287ebf1d23c33"
+    },
+    {
+      "id": "d09",
+      "file": "09-document.pdf",
+      "source": {
+        "order_reference": "ORDER-M-20261012",
+        "service_period": {
+          "start": "2026-09-01",
+          "end": "2026-09-30"
+        },
+        "notes": []
+      },
+      "expected": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "customer_name": "Fictional Evaluation Customer",
+        "invoice_number": "EV26-1012-003",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "document_type": "invoice",
+        "po_number": "ORDER-M-20261012",
+        "money": {
+          "subtotal": "500.00",
+          "discount": "0.00",
+          "shipping": "0.00",
+          "tax": "0.00",
+          "total_amount": "500.00"
+        },
+        "lines": [
+          {
+            "description": "Service hours",
+            "quantity": "4.00",
+            "unit_price": "75.00",
+            "line_total": "375.00"
+          },
+          {
+            "description": "Administration",
+            "quantity": "1.00",
+            "unit_price": "125.00",
+            "line_total": "125.00"
+          }
+        ],
+        "arithmetic": {
+          "outcome": "mismatch",
+          "mismatch_line_indices": [
+            0
+          ],
+          "line_residuals": [
+            "75.00",
+            "0.00"
+          ],
+          "printed_line_sum": "500.00",
+          "subtotal_residual": "0.00",
+          "totals_residual": "0.00"
+        }
+      },
+      "economic": {
+        "instrument_id": "obligation-m",
+        "relation_to_anchor": "distinct",
+        "anchor_id": "d01",
+        "basis": "Separate printed ORDER-M fictional purchase. Its first printed line amount disagrees with quantity times unit price; this arithmetic label is independent of duplicate identity."
+      },
+      "expected_current_duplicate": {
+        "potential_match_returned": false,
+        "counterpart_ids": [],
+        "conditional_on_faithful_extraction": true
+      },
+      "sha256": "0a8455c028c5afb087717713440ca9326291a3ed3a4d1d59511974e2af729304"
+    }
+  ],
+  "pairwise_labels": [
+    {
+      "new_id": "d02",
+      "prior_id": "d01",
+      "relation": "duplicate",
+      "basis": "Byte-identical second representation of d01; the source register declares the same invoice and obligation, no additional charge."
+    },
+    {
+      "new_id": "d03",
+      "prior_id": "d01",
+      "relation": "ambiguous",
+      "basis": "Only the invoice number changes. Same order/period/figures do not establish whether this is a reissue, progress bill or an independent charge. No source relation is declared."
+    },
+    {
+      "new_id": "d04",
+      "prior_id": "d01",
+      "relation": "distinct",
+      "basis": "Separate printed ORDER-B and independently declared fictional purchase; same-day equal-price service is a distinct obligation."
+    },
+    {
+      "new_id": "d05",
+      "prior_id": "d01",
+      "relation": "distinct",
+      "basis": "Supplier uses separate USD/EUR numbering series. Printed EUR ORDER-E is a separate fictional purchase from USD ORDER-A; no currency correction, FX conversion or shared obligation."
+    },
+    {
+      "new_id": "d06",
+      "prior_id": "d01",
+      "relation": "duplicate",
+      "basis": "Printed supplier reissue reference explicitly links to the same outstanding ORDER-A charge; this is a second representation, not an additional obligation."
+    },
+    {
+      "new_id": "d07",
+      "prior_id": "d01",
+      "relation": "distinct",
+      "basis": "A separate signed credit instrument referencing d01; it offsets a charge rather than representing a second copy of the positive invoice."
+    },
+    {
+      "new_id": "d08",
+      "prior_id": "d07",
+      "relation": "duplicate",
+      "basis": "Byte-identical second representation of the same signed credit instrument d07; no additional credit."
+    },
+    {
+      "new_id": "d09",
+      "prior_id": "d01",
+      "relation": "distinct",
+      "basis": "Separate printed ORDER-M fictional purchase. Its first printed line amount disagrees with quantity times unit price; this arithmetic label is independent of duplicate identity."
+    }
+  ],
+  "expected_reference_groups_after_sequence": [
+    [
+      "d01",
+      "d02"
+    ],
+    [
+      "d07",
+      "d08"
+    ]
+  ],
+  "reference_expectation_limits": [
+    "Conditional on faithful primary identifiers/currency and completed prior uploads in this namespace.",
+    "Renumbered d06 is a known economic repeat with no current detector signal expected; the number-conflict safeguard is deliberately preserved.",
+    "d03 economic relation is unknown; its expected no-match is only observable behavior, never a scored true negative.",
+    "Unknown-currency bridges, preexisting raw historical signals and 400-day selection boundaries require separate controlled fixtures."
+  ],
+  "protocol": {
+    "id": "sequential-v1",
+    "upload_order": [
+      "d01",
+      "d02",
+      "d03",
+      "d04",
+      "d05",
+      "d06",
+      "d07",
+      "d08",
+      "d09"
+    ],
+    "request_shape": "One PDF per separate upload; wait for extraction/persistence before the next document.",
+    "history_precondition": "Confirm this fresh supplier/number namespace is absent before the first upload. Existing unrelated workspace history is retained and disclosed.",
+    "automation_policy": "Do not silently alter workspace settings. Record actual review states; auto-approve may remain on. Confirm auto-export is disabled before replay; no accounting push, approval override or removal.",
+    "quota_policy": "Record actual usage before and after. Nine one-page PDFs; declared allowance is operational context, not a performance claim.",
+    "repeatability": "Rerunning in a workspace containing earlier pack documents changes history; use a fresh isolated namespace/workspace or clearly label the rerun as contaminated.",
+    "no_second_paid_batch_run": true,
+    "observation_fields": [
+      "run_id",
+      "UTC timestamps",
+      "application/deployment version and availability",
+      "workspace scope/pseudonymous ID",
+      "prior namespace search",
+      "settings observed",
+      "quota before/after",
+      "upload request and document ID mapping",
+      "raw extracted fields before edits",
+      "match type/confidence/reasons/counterpart IDs",
+      "group snapshots after each completion",
+      "actual review status",
+      "CSV/XLSX download hashes and source-field comparisons",
+      "errors/refusals",
+      "any manual intervention"
+    ]
+  },
+  "arithmetic_policy": {
+    "method": "Exact decimal multiplication, printed-line sums and printed subtotal-discount+shipping+tax identity.",
+    "preserve_printed_values": true,
+    "currency_conversion": false,
+    "d09": "4.00 * 75.00 = 300.00, but printed line is 375.00 (75.00 high). Printed 375.00+125.00=500.00 and header equation totals 500.00. Expected line mismatch; preserve printed line375 and total500, never silently replace them with300/425."
+  },
+  "measurement_limits": [
+    "Selected synthetic text-based PDFs, one layout, one fictional supplier and two currencies. No population precision/recall, competitor ranking, customer incidence or recommendation uplift.",
+    "Potential match/group is a review suggestion, not proof of a duplicate; absent signal is not proof a charge is legitimate.",
+    "No OCR degradation, multi-page, handwriting, unreadability, missing-currency, concurrency, deletion, dismissal, restoration or ERP execution is measured by this main sequence.",
+    "Invoice date is not the history window clock; repository candidate age is upload created_at. Uploading an old invoice date today does not test a 401-day-old stored candidate.",
+    "CSV/XLSX prove preserved fields and arithmetic warnings only; duplicate-group observations require recorded workspace/UI evidence.",
+    "New public wording/assets require review and Drew approval; previously approved EXAMPLE assets were reference-only and are not reused."
+  ],
+  "prior_structured_evaluation": {
+    "scenario_sha256": "5a4e060a429e591ec0dbb05e067262135f5dc84e8a6ddcefa6328929fc3f03c0",
+    "relationship": "Selected source-based extensions; original frozen labels remain unchanged."
+  },
+  "production_observations_included": false
+}

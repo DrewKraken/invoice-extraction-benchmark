@@ -1,0 +1,486 @@
+{
+  "schema": "ipp-paired-source-observations/1",
+  "run_id": "owner-ai-assisted-sequential-2026-10-12",
+  "source_mode": "pdf-workspace-upload",
+  "performed_at_utc": "2026-10-12T20:13:32.649Z",
+  "completed_at_utc": "2026-10-12T20:47:02.218Z",
+  "source_release": "805f69a2b7551daf31b8d23dd4897096178b70eb",
+  "operator": {
+    "affiliation": "InvoiceParser Pro company owner workspace",
+    "method": "AI-assisted browser operation and source review by the managing session",
+    "personally_reviewed_by_Drew": false,
+    "independent_external_review": false
+  },
+  "source_manifest_sha256": "6d01eeb8eca35717e23f7dc0b0962a60e9e061ac0bb7dfc1fe7fd0271e2bfcc4",
+  "workspace_scope": {
+    "type": "existing company QA workspace",
+    "prior_unrelated_invoice_count": 13,
+    "initial_pack_namespace_search": "All invoices / EV26-1012 / no matching invoices"
+  },
+  "settings_before_and_after": {
+    "auto_approve": true,
+    "auto_export": false,
+    "auto_export_control_disabled": true,
+    "conditional_automation_rules": 0,
+    "changed_by_operator": false
+  },
+  "quota": {
+    "before": 46,
+    "after": 55,
+    "limit": 1500,
+    "source": "Visible company billing page"
+  },
+  "source_corrections": [],
+  "manual_approvals": [],
+  "deletions": [],
+  "dismissals": [],
+  "accounting_pushes": [],
+  "pdf_source_fidelity_scope": "Initial visible result fields compared with separately rendered frozen PDFs; actual downloaded exports checked separately. One layout, selected fictional sources.",
+  "provider_configuration": "Normal existing production pipeline; model/provider versions were not independently recorded.",
+  "duplicate_groups": [
+    [
+      "d01",
+      "d02"
+    ],
+    [
+      "d07",
+      "d08"
+    ]
+  ],
+  "group_observation_method": "Visible Duplicates page Open links mapped to previously witnessed source review IDs; no keep/remove/dismiss action taken.",
+  "documents": [
+    {
+      "id": "d01",
+      "observed_at_utc": "2026-10-12T20:15:20.634Z",
+      "review_state": "pending",
+      "confidence": "medium",
+      "duplicate": {
+        "potential_match_returned": false,
+        "counterpart_ids": [],
+        "method": "AI-assisted operator-recorded visible workspace observation",
+        "evidence": "No duplicate banner; list signal Needs review"
+      },
+      "source_corrections": [],
+      "manual_approval": false,
+      "math_ui": "Math verified",
+      "fields_source_reviewed": true,
+      "raw_result": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "invoice_number": "EV26-1012-001",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "total_amount": 300,
+        "document_type": "invoice"
+      },
+      "upload_outcome": "persisted",
+      "exports": {
+        "csv": {
+          "file": "recorded/d01.csv",
+          "sha256": "d1a598996d37c540f85bb30fd0561fb74a8054a227051f10a636a89418650da0",
+          "mode": "Full",
+          "preserved_as_generated": true
+        },
+        "xlsx": {
+          "file": "recorded/d01.xlsx",
+          "sha256": "7c39c9a02a9c071bef351604b0bf4f0b398d837721d55ca2cf7111640752b8cd",
+          "mode": "Full",
+          "preserved_as_generated": true
+        }
+      }
+    },
+    {
+      "id": "d02",
+      "observed_at_utc": "2026-10-12T20:24:37.027Z",
+      "review_state": "pending",
+      "confidence": "medium",
+      "duplicate": {
+        "potential_match_returned": true,
+        "counterpart_ids": [
+          "d01"
+        ],
+        "match_type": "exact_hash",
+        "confidence": "high",
+        "method": "AI-assisted operator-recorded visible workspace observation",
+        "evidence": "02-document.pdf review shows1 High confidence Exactmatch and Viewinvoice linking d01"
+      },
+      "source_corrections": [],
+      "manual_approval": false,
+      "math_ui": "Math verified",
+      "fields_source_reviewed": true,
+      "upload_outcome": "persisted",
+      "exports": {
+        "csv": {
+          "file": "recorded/d02.csv",
+          "sha256": "d1a598996d37c540f85bb30fd0561fb74a8054a227051f10a636a89418650da0",
+          "mode": "Full",
+          "preserved_as_generated": true
+        },
+        "xlsx": {
+          "file": "recorded/d02.xlsx",
+          "sha256": "67c7c77ea07915cd483415d8622bcdd4614af6d618ede26bb2e42628a2b7cba1",
+          "mode": "Full",
+          "preserved_as_generated": true
+        }
+      }
+    },
+    {
+      "id": "d03",
+      "observed_at_utc": "2026-10-12T20:28:49.675Z",
+      "review_state": "pending",
+      "confidence": "MEDIUM",
+      "duplicate": {
+        "potential_match_returned": false,
+        "counterpart_ids": [],
+        "method": "AI-assisted operator-recorded visible workspace observation",
+        "matches": []
+      },
+      "source_corrections": [],
+      "manual_approval": false,
+      "raw_result": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "invoice_number": "EV26-1012-001B",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "total_amount": 300,
+        "document_type": "invoice",
+        "validation_status": "valid",
+        "line_items": [
+          {
+            "total": 300,
+            "quantity": 4,
+            "line_total": 300,
+            "unit_price": 75,
+            "description": "Service hours"
+          }
+        ]
+      },
+      "upload_outcome": "persisted",
+      "exports": {
+        "csv": {
+          "file": "recorded/d03.csv",
+          "sha256": "4937060bdfad2c04b9aa08bb5b5f2eec90a993766cad9174685582e63809a046",
+          "mode": "Full",
+          "preserved_as_generated": true
+        },
+        "xlsx": {
+          "file": "recorded/d03.xlsx",
+          "sha256": "06de61ffca148852285a4103e6fe989c6ec56aff6ce25a368d3a913b983cadd9",
+          "mode": "Full",
+          "preserved_as_generated": true
+        }
+      }
+    },
+    {
+      "id": "d04",
+      "observed_at_utc": "2026-10-12T20:30:40.882Z",
+      "review_state": "pending",
+      "confidence": "MEDIUM",
+      "duplicate": {
+        "potential_match_returned": false,
+        "counterpart_ids": [],
+        "method": "AI-assisted operator-recorded visible workspace observation",
+        "matches": []
+      },
+      "source_corrections": [],
+      "manual_approval": false,
+      "raw_result": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "invoice_number": "EV26-1012-002",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "total_amount": 300,
+        "document_type": "invoice",
+        "validation_status": "valid",
+        "line_items": [
+          {
+            "total": 300,
+            "quantity": 4,
+            "line_total": 300,
+            "unit_price": 75,
+            "description": "Service hours"
+          }
+        ]
+      },
+      "upload_outcome": "persisted",
+      "exports": {
+        "csv": {
+          "file": "recorded/d04.csv",
+          "sha256": "f79df08667a0402d1bf57d10c381967c3161818a2d15a3612c3c4788ac3feff2",
+          "mode": "Full",
+          "preserved_as_generated": true
+        },
+        "xlsx": {
+          "file": "recorded/d04.xlsx",
+          "sha256": "01c0dd455f811eee77532b8cbaf901c7c758f94dec97feea064b27c87cae7b6d",
+          "mode": "Full",
+          "preserved_as_generated": true
+        }
+      }
+    },
+    {
+      "id": "d05",
+      "observed_at_utc": "2026-10-12T20:31:42.099Z",
+      "review_state": "pending",
+      "confidence": "MEDIUM",
+      "duplicate": {
+        "potential_match_returned": false,
+        "counterpart_ids": [],
+        "method": "AI-assisted operator-recorded visible workspace observation",
+        "matches": []
+      },
+      "source_corrections": [],
+      "manual_approval": false,
+      "raw_result": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "invoice_number": "EV26-1012-001",
+        "invoice_date": "2026-10-01",
+        "currency": "EUR",
+        "total_amount": 300,
+        "document_type": "invoice",
+        "validation_status": "valid",
+        "line_items": [
+          {
+            "total": 300,
+            "quantity": 4,
+            "line_total": 300,
+            "unit_price": 75,
+            "description": "Service hours"
+          }
+        ]
+      },
+      "upload_outcome": "persisted",
+      "exports": {
+        "csv": {
+          "file": "recorded/d05.csv",
+          "sha256": "960f76b5e8a4410e455f9aee10557880b1066ed4f2cadfb9f28d7b8be9772e72",
+          "mode": "Full",
+          "preserved_as_generated": true
+        },
+        "xlsx": {
+          "file": "recorded/d05.xlsx",
+          "sha256": "d685cc3f8ad9150d06ef3de4f0a0db9916d49ac429c72196df50a07300fccfde",
+          "mode": "Full",
+          "preserved_as_generated": true
+        }
+      }
+    },
+    {
+      "id": "d06",
+      "observed_at_utc": "2026-10-12T20:32:52.155Z",
+      "review_state": "pending",
+      "confidence": "MEDIUM",
+      "duplicate": {
+        "potential_match_returned": false,
+        "counterpart_ids": [],
+        "method": "AI-assisted operator-recorded visible workspace observation",
+        "matches": []
+      },
+      "source_corrections": [],
+      "manual_approval": false,
+      "raw_result": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "invoice_number": "EV26-1012-001R",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "total_amount": 300,
+        "document_type": "invoice",
+        "validation_status": "valid",
+        "line_items": [
+          {
+            "total": 300,
+            "quantity": 4,
+            "line_total": 300,
+            "unit_price": 75,
+            "description": "Service hours"
+          }
+        ]
+      },
+      "upload_outcome": "persisted",
+      "exports": {
+        "csv": {
+          "file": "recorded/d06.csv",
+          "sha256": "f9a44b836a1e8ed2ba074dd5bc124d3fdfc99a4608aca84a65a93c8f3ce387e2",
+          "mode": "Full",
+          "preserved_as_generated": true
+        },
+        "xlsx": {
+          "file": "recorded/d06.xlsx",
+          "sha256": "f7cb13c3d24ae96140407bb7d87830b227a2040d1e09ce8ed47f2b958afb0c5b",
+          "mode": "Full",
+          "preserved_as_generated": true
+        }
+      }
+    },
+    {
+      "id": "d07",
+      "observed_at_utc": "2026-10-12T20:34:28.326Z",
+      "review_state": "pending",
+      "confidence": "MEDIUM",
+      "duplicate": {
+        "potential_match_returned": false,
+        "counterpart_ids": [],
+        "method": "AI-assisted operator-recorded visible workspace observation",
+        "matches": []
+      },
+      "source_corrections": [],
+      "manual_approval": false,
+      "raw_result": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "invoice_number": "EV26-1012-C001",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "total_amount": -300,
+        "document_type": "credit_note",
+        "validation_status": "valid",
+        "line_items": [
+          {
+            "total": -300,
+            "quantity": 4,
+            "line_total": -300,
+            "unit_price": -75,
+            "description": "Service credit"
+          }
+        ]
+      },
+      "upload_outcome": "persisted",
+      "exports": {
+        "csv": {
+          "file": "recorded/d07.csv",
+          "sha256": "31ccbb12eb0d44be7d2e52dae6722b4a504bb08c94c033de73987b8c336a3b1f",
+          "mode": "Full",
+          "preserved_as_generated": true
+        },
+        "xlsx": {
+          "file": "recorded/d07.xlsx",
+          "sha256": "0d4451593a442564f4fb36ee1ee1c3332a800e674c56b7f6e7600ca4d3a876e6",
+          "mode": "Full",
+          "preserved_as_generated": true
+        }
+      }
+    },
+    {
+      "id": "d08",
+      "observed_at_utc": "2026-10-12T20:35:47.733Z",
+      "review_state": "pending",
+      "confidence": "MEDIUM",
+      "duplicate": {
+        "potential_match_returned": true,
+        "counterpart_ids": [
+          "d07"
+        ],
+        "method": "AI-assisted operator-recorded visible workspace observation",
+        "matches": [
+          {
+            "match_type": "exact_hash",
+            "confidence": "high",
+            "reason": "Exact match: same vendor, invoice number, total, and date"
+          }
+        ],
+        "evidence": "Visible raw matched_invoice_id mapped to the separately observed d07 review URL"
+      },
+      "source_corrections": [],
+      "manual_approval": false,
+      "raw_result": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "invoice_number": "EV26-1012-C001",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "total_amount": -300,
+        "document_type": "credit_note",
+        "validation_status": "valid",
+        "line_items": [
+          {
+            "total": -300,
+            "quantity": 4,
+            "line_total": -300,
+            "unit_price": -75,
+            "description": "Service credit"
+          }
+        ]
+      },
+      "upload_outcome": "persisted",
+      "exports": {
+        "csv": {
+          "file": "recorded/d08.csv",
+          "sha256": "31ccbb12eb0d44be7d2e52dae6722b4a504bb08c94c033de73987b8c336a3b1f",
+          "mode": "Full",
+          "preserved_as_generated": true
+        },
+        "xlsx": {
+          "file": "recorded/d08.xlsx",
+          "sha256": "0a089b991503aa0a3cec4c5e3349d71e0d24f46445d580a00b64797c83278b3c",
+          "mode": "Full",
+          "preserved_as_generated": true
+        }
+      }
+    },
+    {
+      "id": "d09",
+      "observed_at_utc": "2026-10-12T20:37:13.663Z",
+      "review_state": "pending",
+      "confidence": "MEDIUM",
+      "duplicate": {
+        "potential_match_returned": false,
+        "counterpart_ids": [],
+        "method": "AI-assisted operator-recorded visible workspace observation",
+        "matches": []
+      },
+      "source_corrections": [],
+      "manual_approval": false,
+      "raw_result": {
+        "vendor_name": "Fictional Evaluation Supplier Alpha",
+        "invoice_number": "EV26-1012-003",
+        "invoice_date": "2026-10-01",
+        "currency": "USD",
+        "total_amount": 500,
+        "document_type": "invoice",
+        "validation_status": "valid",
+        "line_items": [
+          {
+            "total": 375,
+            "quantity": 4,
+            "line_total": 375,
+            "unit_price": 75,
+            "description": "Service hours"
+          },
+          {
+            "total": 125,
+            "quantity": 1,
+            "line_total": 125,
+            "unit_price": 125,
+            "description": "Administration"
+          }
+        ]
+      },
+      "math_ui": {
+        "totals_label": "Math verified",
+        "line_warning": "Line 1: 4.0×75.0=300.0, shows 375.0",
+        "suggested_line_total": "300.00",
+        "printed_line_total": "375.00",
+        "printed_header_total": "500.00",
+        "scope": "Totals label and per-line warning are separate surfaces"
+      },
+      "upload_outcome": "persisted",
+      "exports": {
+        "csv": {
+          "file": "recorded/d09.csv",
+          "sha256": "5679260d01c6d8c22ca66c1d930ce6e8cb100e66f59f5bf77efb6f9660118cec",
+          "mode": "Full",
+          "preserved_as_generated": true
+        },
+        "xlsx": {
+          "file": "recorded/d09.xlsx",
+          "sha256": "d8f1aef7d0932e7b42a1bcaa257bd3eb4eec510c3dcca8b592db1e416ac9f378",
+          "mode": "Full",
+          "preserved_as_generated": true
+        }
+      }
+    }
+  ],
+  "group_capture": {
+    "file": "recorded/duplicate-groups.jpg",
+    "sha256": "4c7a768964207ade6814325a804e40147d74224151d89ef8f995311ae2e9f616",
+    "scope": "Only the two new fictional groups, before any removal; sidebar/account details excluded."
+  },
+  "group_observation_scope": "Per-document potential-match observations were recorded after each completed reading; group membership was inspected only once at the final state. Intermediate group snapshots were not captured."
+}

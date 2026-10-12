@@ -1,0 +1,25 @@
+{
+  "schema": "ipp-paired-source-freeze/1",
+  "freeze_id": "paired-checks-v1-pre-run",
+  "frozen_at_utc": "2026-10-12T20:12:22.380573+00:00",
+  "manifest_sha256": "6d01eeb8eca35717e23f7dc0b0962a60e9e061ac0bb7dfc1fe7fd0271e2bfcc4",
+  "source_file_sha256": {
+    "01-document.pdf": "24cf6b19d759d078653bf232b993a32825653237e2f9fe1a13ab17906eddadb9",
+    "02-document.pdf": "24cf6b19d759d078653bf232b993a32825653237e2f9fe1a13ab17906eddadb9",
+    "03-document.pdf": "178e222597dd61d5e0e2dc750a531b9233cff87ed9565a6c54a74ed5b8ff598b",
+    "04-document.pdf": "681d3538bdadd1e106912cdb6b5fa92c8b1a142421737ba11f8238465eb9321b",
+    "05-document.pdf": "421700d839ede0620ca72f3d0e67c185e4a6d115743f3175545b03723db9dd54",
+    "06-document.pdf": "dc74fe53b42ab2fa87a0e6a02865762d0514e95da7967c7071ce48abc7aa3386",
+    "07-document.pdf": "4cb40bb62daf0c2600caecad456319e8158ddcc5cec85b0fd7b287ebf1d23c33",
+    "08-document.pdf": "4cb40bb62daf0c2600caecad456319e8158ddcc5cec85b0fd7b287ebf1d23c33",
+    "09-document.pdf": "0a8455c028c5afb087717713440ca9326291a3ed3a4d1d59511974e2af729304"
+  },
+  "economic_labels_sha256": "ddd344e6ee95ffc4af5c2e2ba56b14d9db4f130869adbac3a4caee16fa210d3e",
+  "arithmetic_expectations_sha256": "1da2a21f6525827db1dcb108db305cbed7d6d6bf774c7f2c582d08870d9d009f",
+  "sequential_protocol_sha256": "9f1b521b677d4b6397159fa4729c0f8f953833aea52c6842156a2f48c29a30e1",
+  "document_count": 9,
+  "unique_pdf_sha256_count": 7,
+  "author_pipeline_execution_started": false,
+  "review": "Author inspected text and all seven unique rendered pages; managing-session review required before any live upload.",
+  "change_policy": "Keep frozen manifest/PDFs unchanged. Append actual observations separately. A source or label correction creates a new version and freeze before rerun."
+}

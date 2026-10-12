@@ -1,0 +1,123 @@
+%PDF-1.3
+%“Œ‹ž ReportLab Generated PDF document (opensource)
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/Contents 8 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 7 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+5 0 obj
+<<
+/PageMode /UseNone /Pages 7 0 R /Type /Catalog
+>>
+endobj
+6 0 obj
+<<
+/Author (Fictional evaluation fixture) /CreationDate (D:20000101000000+00'00') /Creator (anonymous) /Keywords () /ModDate (D:20000101000000+00'00') /Producer (ReportLab PDF Library - \(opensource\)) 
+  /Subject (unspecified) /Title (Synthetic evaluation source) /Trapped /False
+>>
+endobj
+7 0 obj
+<<
+/Count 1 /Kids [ 4 0 R ] /Type /Pages
+>>
+endobj
+8 0 obj
+<<
+/Length 2043
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 42 804 Tm (SYNTHETIC EVALUATION - NOT A REAL FINANCIAL DOCUMENT) Tj T* ET
+BT /F2 20 Tf 24 TL ET
+BT 1 0 0 1 42 766 Tm (INVOICE) Tj T* ET
+BT /F2 13 Tf 15.6 TL ET
+BT 1 0 0 1 42 735 Tm (Fictional Evaluation Supplier Alpha) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 42 712 Tm (Bill to: Fictional Evaluation Customer) Tj T* ET
+BT 1 0 0 1 42 676 Tm (Document: EV26-1012-001) Tj T* ET
+BT 1 0 0 1 351 676 Tm (Date: 2026-10-01) Tj T* ET
+BT 1 0 0 1 42 655 Tm (Currency: EUR) Tj T* ET
+BT 1 0 0 1 267 655 Tm (Order / PO: ORDER-E-20261012) Tj T* ET
+BT 1 0 0 1 42 634 Tm (Service period: 2026-09-01 to 2026-09-30) Tj T* ET
+.92 .94 .96 rg
+n 42 582 511 29 re f*
+0 0 0 rg
+BT /F2 10 Tf 12 TL ET
+BT 1 0 0 1 50 592 Tm (Description) Tj T* ET
+BT 1 0 0 1 304.44 592 Tm (Quantity) Tj T* ET
+BT 1 0 0 1 396.88 592 Tm (Unit price) Tj T* ET
+BT 1 0 0 1 471.66 592 Tm (Printed amount) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 50 564 Tm (Service hours) Tj T* ET
+BT 1 0 0 1 323.594 564 Tm (4.00) Tj T* ET
+BT 1 0 0 1 415.478 564 Tm (75.00) Tj T* ET
+BT 1 0 0 1 511.362 564 Tm (300.00) Tj T* ET
+.82 .84 .86 RG
+n 42 551 m 553 551 l S
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 50 512 Tm (Subtotal as printed:) Tj T* ET
+BT 1 0 0 1 485.083 512 Tm (EUR 300.00) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 50 489 Tm (Discount as printed:) Tj T* ET
+BT 1 0 0 1 497.315 489 Tm (EUR 0.00) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 50 466 Tm (Shipping as printed:) Tj T* ET
+BT 1 0 0 1 497.315 466 Tm (EUR 0.00) Tj T* ET
+BT /F1 11 Tf 13.2 TL ET
+BT 1 0 0 1 50 443 Tm (Tax as printed:) Tj T* ET
+BT 1 0 0 1 497.315 443 Tm (EUR 0.00) Tj T* ET
+BT /F2 11 Tf 13.2 TL ET
+BT 1 0 0 1 50 420 Tm (Signed total as printed:) Tj T* ET
+BT 1 0 0 1 485.083 420 Tm (EUR 300.00) Tj T* ET
+BT /F1 10 Tf 12 TL ET
+BT 1 0 0 1 42 380 Tm (All amounts shown on this page are printed source values.) Tj T* ET
+BT /F1 9 Tf 10.8 TL ET
+BT 1 0 0 1 42 72 Tm (Fictional evaluation document. No real supplier, customer, purchase or payment.) Tj T* ET
+ 
+endstream
+endobj
+xref
+0 9
+0000000000 65535 f 
+0000000061 00000 n 
+0000000102 00000 n 
+0000000209 00000 n 
+0000000321 00000 n 
+0000000524 00000 n 
+0000000592 00000 n 
+0000000891 00000 n 
+0000000950 00000 n 
+trailer
+<<
+/ID 
+[<75679c0529abfe38a9f4628bf3776f5a><75679c0529abfe38a9f4628bf3776f5a>]
+% ReportLab generated PDF document -- digest (opensource)
+
+/Info 6 0 R
+/Root 5 0 R
+/Size 9
+>>
+startxref
+3044
+%%EOF
