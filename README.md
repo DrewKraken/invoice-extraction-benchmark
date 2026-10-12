@@ -34,6 +34,10 @@ Also on Hugging Face (same documents and answer keys, with a dataset viewer):
 
 About 37 MB in all. 220 pages; the longest document is 8 pages.
 
+A separate [paired-source exercise](examples/paired-checks-v1/README.md) supplies nine ordered
+fictional uploads with frozen duplicate/arithmetic labels and recorded CSV/XLSX checks.
+It does not change the 181-document extraction scores.
+
 ## What is in the set
 
 | Category | Docs | What it is there to test |

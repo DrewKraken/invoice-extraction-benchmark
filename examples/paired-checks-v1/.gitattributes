@@ -1,0 +1,5 @@
+# Preserve pre-run freezes and unmodified recorded download bytes across platforms.
+*.json -text
+recorded/*.csv -text
+recorded/*.xlsx binary
+*.pdf binary
