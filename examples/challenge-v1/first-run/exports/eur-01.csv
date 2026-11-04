@@ -1,0 +1,2 @@
+Vendor,Invoice #,Date,Total,Currency,Confidence,Line Items Count,Validation Status,Warning Severity,Document Type,Signed Total,Original Invoice Reference
+Aster Example Supplies,AES-8301,2026-11-03,355.8,EUR,Extracted Successfully,2,valid,none,invoice,355.80,

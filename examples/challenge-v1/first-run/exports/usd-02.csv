@@ -1,0 +1,2 @@
+Vendor,Invoice #,Date,Total,Currency,Confidence,Line Items Count,Validation Status,Warning Severity,Document Type,Signed Total,Original Invoice Reference
+Larkspur Example Services,LXS-6102,2026-11-03,285.0,USD,Extracted Successfully,2,valid,none,invoice,285.00,

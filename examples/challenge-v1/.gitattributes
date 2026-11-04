@@ -1,0 +1,4 @@
+# Preserve the original production download bytes, including CSV CRLF endings.
+first-run/exports/*.csv -text whitespace=cr-at-eol
+first-run/exports/*.xlsx binary
+*.zip binary

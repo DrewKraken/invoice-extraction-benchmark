@@ -1,0 +1,36 @@
+{
+  "case_count": 8,
+  "created_on": "2026-11-04",
+  "design": "Eight new authored one-page synthetic invoices, four new independently drawn header layouts. Not sampled from customers, not third-party validation, not an overall accuracy estimate.",
+  "execution_rule": "One submission per case, all eight retained including errors. get_result may retrieve the same job without another extraction. No prompt, extraction or answer-key tuning in response to outcomes. Once inspected this pack is no longer held out for later releases.",
+  "first_run_transport": "IPP connected MCP extract_invoice_data, then get_result for the same job",
+  "freeze_rule": "Commit all source PDFs, answer key, protocol, manifest and scorer before first extraction. Record commit and manifest hash. No post-result edits to frozen files. New version required for changes.",
+  "limitations": [
+    "All digital PDFs, two short rows each; no handwriting, photos, multipage invoices or credit notes.",
+    "Same authors created fixtures and scorer. Different from historical181-document production-API benchmark. Results must be reported separately.",
+    "MCP transport does not expose model/provider versions; do not claim identical provider configuration to historical runs.",
+    "Public normalized results must remove internal IDs, workspace details, tokens and expiring download URLs; retain original evidence privately."
+  ],
+  "pack_id": "ipp-frozen-challenge-v1",
+  "scoring": {
+    "denominator": "Every predefined check for all eight cases. Missing/unobservable fields labeled unobserved and never passed; failed/not-run cases cannot pass. Extra/missing rows fail line_count.",
+    "headers": [
+      "vendor_name",
+      "invoice_number",
+      "invoice_date",
+      "due_date",
+      "currency",
+      "subtotal",
+      "tax",
+      "total",
+      "document_type"
+    ],
+    "lines": "Printed row order, exact row count; description, quantity, unit_price, amount for every row.",
+    "math_status": "Separate arithmetic result: ok for consistent printed arithmetic, mismatch for zar-02. unchecked or missing is not pass. This does not claim app approval/review state.",
+    "mcp_mapping": "document.vendor.name -> vendor_name; direct document invoice_number/invoice_date/due_date/currency/document_type; document.totals subtotal/total; tax_total when not null else tax; line_items description/quantity/unit_price/amount; get_result check.result -> math_status. No inferred fields or answer-key substitutions.",
+    "numbers": "Decimal comparison. Quantity exact; money absolute tolerance <=0.005. NaN/infinity rejected. Printed inconsistent values must be preserved, never corrected.",
+    "text": "Vendor and description: casefold and collapse whitespace only. Other strings exact, dates YYYY-MM-DD, currency ISO4217, document_type invoice."
+  },
+  "status_at_freeze": "not_run",
+  "version": 1
+}

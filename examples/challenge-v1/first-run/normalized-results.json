@@ -1,0 +1,848 @@
+{
+  "cases": {
+    "eur-01": {
+      "confidence": {
+        "fields": {
+          "currency": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_name": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_tax_id": {
+            "level": "high",
+            "reason": null
+          },
+          "discount": {
+            "level": "high",
+            "reason": null
+          },
+          "due_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_number": {
+            "level": "high",
+            "reason": null
+          },
+          "line_items": {
+            "level": "high",
+            "reason": null
+          },
+          "payment_terms": {
+            "level": "high",
+            "reason": null
+          },
+          "po_number": {
+            "level": "high",
+            "reason": null
+          },
+          "shipping": {
+            "level": "high",
+            "reason": null
+          },
+          "subtotal": {
+            "level": "high",
+            "reason": null
+          },
+          "tax": {
+            "level": "high",
+            "reason": null
+          },
+          "total_amount": {
+            "level": "medium",
+            "reason": "Extractor confidence below the review threshold for: invoice_number, total_amount, vendor_name"
+          },
+          "vendor_name": {
+            "level": "medium",
+            "reason": "Extractor confidence below the review threshold for: invoice_number, total_amount, vendor_name"
+          }
+        },
+        "overall": "MEDIUM",
+        "reasons": [
+          "Extractor confidence below the review threshold for: invoice_number, total_amount, vendor_name",
+          "All fields match the source image.",
+          "Math verification passed."
+        ]
+      },
+      "fields": {
+        "currency": "EUR",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "AES-8301",
+        "subtotal": 296.5,
+        "tax": 59.3,
+        "total": 355.8,
+        "vendor_name": "Aster Example Supplies"
+      },
+      "first_response_at": "2026-11-04T15:09:21.893Z",
+      "first_response_sha256": "ee5552f62a7dc060f3ea7181faefb132ce882c450c37ef761906f7da26b127e6",
+      "last_retrieved_at": "2026-11-04T15:10:53.952Z",
+      "lines": [
+        {
+          "amount": 136.5,
+          "description": "Storage trays",
+          "quantity": 7,
+          "unit_price": 19.5
+        },
+        {
+          "amount": 160,
+          "description": "Installation hours",
+          "quantity": 2.5,
+          "unit_price": 64
+        }
+      ],
+      "math_findings": [],
+      "math_status": "ok",
+      "retrieved_response_sha256": "bf28c860bbb706c21e04b8334ab07c417a927d878a2f9846a69a3be7fa5066e0",
+      "status": "completed",
+      "submitted_at": "2026-11-04T15:08:58.491Z"
+    },
+    "eur-02": {
+      "confidence": {
+        "fields": {
+          "currency": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_name": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_tax_id": {
+            "level": "high",
+            "reason": null
+          },
+          "discount": {
+            "level": "high",
+            "reason": null
+          },
+          "due_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_number": {
+            "level": "high",
+            "reason": null
+          },
+          "line_items": {
+            "level": "high",
+            "reason": null
+          },
+          "payment_terms": {
+            "level": "high",
+            "reason": null
+          },
+          "po_number": {
+            "level": "high",
+            "reason": null
+          },
+          "shipping": {
+            "level": "high",
+            "reason": null
+          },
+          "subtotal": {
+            "level": "high",
+            "reason": null
+          },
+          "tax": {
+            "level": "high",
+            "reason": null
+          },
+          "total_amount": {
+            "level": "medium",
+            "reason": "Extractor confidence below the review threshold for: invoice_number, total_amount"
+          },
+          "vendor_name": {
+            "level": "high",
+            "reason": null
+          }
+        },
+        "overall": "MEDIUM",
+        "reasons": [
+          "Extractor confidence below the review threshold for: invoice_number, total_amount",
+          "All fields match the source image.",
+          "Math verification passed."
+        ]
+      },
+      "fields": {
+        "currency": "EUR",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "AES-8302",
+        "subtotal": 427.15,
+        "tax": 85.43,
+        "total": 512.58,
+        "vendor_name": "Aster Example Supplies"
+      },
+      "first_response_at": "2026-11-04T15:09:52.455Z",
+      "first_response_sha256": "276a706194e73a2d1ad9190877ee9faafcc7cc1388a6e0c4f458e99f9025128e",
+      "last_retrieved_at": "2026-11-04T15:10:53.631Z",
+      "lines": [
+        {
+          "amount": 372.75,
+          "description": "Workshop cabinets",
+          "quantity": 3,
+          "unit_price": 124.25
+        },
+        {
+          "amount": 54.4,
+          "description": "Label holders",
+          "quantity": 8,
+          "unit_price": 6.8
+        }
+      ],
+      "math_findings": [],
+      "math_status": "ok",
+      "retrieved_response_sha256": "a412e92109edfae9c51253ca51da17be7946220f21db9a5f7f20c84276f8cb38",
+      "status": "completed",
+      "submitted_at": "2026-11-04T15:09:33.110Z"
+    },
+    "gbp-01": {
+      "confidence": {
+        "fields": {
+          "currency": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_name": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_tax_id": {
+            "level": "high",
+            "reason": null
+          },
+          "discount": {
+            "level": "high",
+            "reason": null
+          },
+          "due_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_number": {
+            "level": "high",
+            "reason": null
+          },
+          "line_items": {
+            "level": "high",
+            "reason": null
+          },
+          "payment_terms": {
+            "level": "high",
+            "reason": null
+          },
+          "po_number": {
+            "level": "high",
+            "reason": null
+          },
+          "shipping": {
+            "level": "high",
+            "reason": null
+          },
+          "subtotal": {
+            "level": "high",
+            "reason": null
+          },
+          "tax": {
+            "level": "high",
+            "reason": null
+          },
+          "total_amount": {
+            "level": "high",
+            "reason": null
+          },
+          "vendor_name": {
+            "level": "medium",
+            "reason": "Extractor confidence below the review threshold for: invoice_number, vendor_name"
+          }
+        },
+        "overall": "MEDIUM",
+        "reasons": [
+          "Extractor confidence below the review threshold for: invoice_number, vendor_name",
+          "All extracted data matches the source image.",
+          "Math verification passed."
+        ]
+      },
+      "fields": {
+        "currency": "GBP",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "BES-7201",
+        "subtotal": 224.5,
+        "tax": 44.9,
+        "total": 269.4,
+        "vendor_name": "Bracken Example Studio"
+      },
+      "first_response_at": "2026-11-04T15:08:24.496Z",
+      "first_response_sha256": "fb340e316b72512d3457fa52365f1b802afa6e3ae44d5d6e11c5eb7fa9641423",
+      "last_retrieved_at": "2026-11-04T15:10:53.645Z",
+      "lines": [
+        {
+          "amount": 130,
+          "description": "Print preparation",
+          "quantity": 4,
+          "unit_price": 32.5
+        },
+        {
+          "amount": 94.5,
+          "description": "Proof review",
+          "quantity": 2,
+          "unit_price": 47.25
+        }
+      ],
+      "math_findings": [],
+      "math_status": "ok",
+      "retrieved_response_sha256": "79865a17d05227ed90f2e56cd1f8845f7634e556d58eadbfbc71673c70bc310e",
+      "status": "completed",
+      "submitted_at": "2026-11-04T15:08:03.119Z"
+    },
+    "gbp-02": {
+      "confidence": {
+        "fields": {
+          "currency": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_name": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_tax_id": {
+            "level": "high",
+            "reason": null
+          },
+          "discount": {
+            "level": "high",
+            "reason": null
+          },
+          "due_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_number": {
+            "level": "high",
+            "reason": null
+          },
+          "line_items": {
+            "level": "high",
+            "reason": null
+          },
+          "payment_terms": {
+            "level": "high",
+            "reason": null
+          },
+          "po_number": {
+            "level": "high",
+            "reason": null
+          },
+          "shipping": {
+            "level": "high",
+            "reason": null
+          },
+          "subtotal": {
+            "level": "high",
+            "reason": null
+          },
+          "tax": {
+            "level": "high",
+            "reason": null
+          },
+          "total_amount": {
+            "level": "high",
+            "reason": null
+          },
+          "vendor_name": {
+            "level": "medium",
+            "reason": "Extractor confidence below the review threshold for: invoice_number, vendor_name"
+          }
+        },
+        "overall": "MEDIUM",
+        "reasons": [
+          "Extractor confidence below the review threshold for: invoice_number, vendor_name",
+          "All fields match the source image.",
+          "Math verification passed."
+        ]
+      },
+      "fields": {
+        "currency": "GBP",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "BES-7202",
+        "subtotal": 277.5,
+        "tax": 55.5,
+        "total": 333,
+        "vendor_name": "Bracken Example Studio"
+      },
+      "first_response_at": "2026-11-04T15:08:57.902Z",
+      "first_response_sha256": "2c0847c922007a2bb226d88a75af0dbbba21e2331a6c94a6e776543f5efdd38a",
+      "last_retrieved_at": "2026-11-04T15:10:53.696Z",
+      "lines": [
+        {
+          "amount": 165,
+          "description": "Design consultation hours",
+          "quantity": 1.5,
+          "unit_price": 110
+        },
+        {
+          "amount": 112.5,
+          "description": "Display panels",
+          "quantity": 6,
+          "unit_price": 18.75
+        }
+      ],
+      "math_findings": [],
+      "math_status": "ok",
+      "retrieved_response_sha256": "157218a5b2dda51eb3e15f185f8e3e6aff1b58684f4f4e19397ef281e8e008ba",
+      "status": "completed",
+      "submitted_at": "2026-11-04T15:08:34.107Z"
+    },
+    "usd-01": {
+      "confidence": {
+        "fields": {
+          "currency": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_name": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_tax_id": {
+            "level": "high",
+            "reason": null
+          },
+          "discount": {
+            "level": "high",
+            "reason": null
+          },
+          "due_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_number": {
+            "level": "high",
+            "reason": null
+          },
+          "line_items": {
+            "level": "high",
+            "reason": null
+          },
+          "payment_terms": {
+            "level": "high",
+            "reason": null
+          },
+          "po_number": {
+            "level": "high",
+            "reason": null
+          },
+          "shipping": {
+            "level": "high",
+            "reason": null
+          },
+          "subtotal": {
+            "level": "high",
+            "reason": null
+          },
+          "tax": {
+            "level": "high",
+            "reason": null
+          },
+          "total_amount": {
+            "level": "medium",
+            "reason": "Extractor confidence below the review threshold for: total_amount"
+          },
+          "vendor_name": {
+            "level": "high",
+            "reason": null
+          }
+        },
+        "overall": "MEDIUM",
+        "reasons": [
+          "Extractor confidence below the review threshold for: total_amount",
+          "All extracted data matches the source image.",
+          "Math verification passed."
+        ]
+      },
+      "fields": {
+        "currency": "USD",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "LXS-6101",
+        "subtotal": 271.5,
+        "tax": 0,
+        "total": 271.5,
+        "vendor_name": "Larkspur Example Services"
+      },
+      "first_response_at": "2026-11-04T15:07:09.611Z",
+      "first_response_sha256": "a6f4c9ffa88fb29ce3526258d3394c1a85a4a5f4da3bc77a74a99f2105e95276",
+      "last_retrieved_at": "2026-11-04T15:07:30.342Z",
+      "lines": [
+        {
+          "amount": 127.5,
+          "description": "Equipment inspection",
+          "quantity": 3,
+          "unit_price": 42.5
+        },
+        {
+          "amount": 144,
+          "description": "Site planning hours",
+          "quantity": 1.5,
+          "unit_price": 96
+        }
+      ],
+      "math_findings": [],
+      "math_status": "ok",
+      "retrieved_response_sha256": "084af928b07055cf641a0a64226b9e6a93a64fe494468da89a43c7ae6f32a857",
+      "status": "completed",
+      "submitted_at": "2026-11-04T15:06:44.038Z"
+    },
+    "usd-02": {
+      "confidence": {
+        "fields": {
+          "currency": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_name": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_tax_id": {
+            "level": "high",
+            "reason": null
+          },
+          "discount": {
+            "level": "high",
+            "reason": null
+          },
+          "due_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_number": {
+            "level": "high",
+            "reason": null
+          },
+          "line_items": {
+            "level": "high",
+            "reason": null
+          },
+          "payment_terms": {
+            "level": "high",
+            "reason": null
+          },
+          "po_number": {
+            "level": "high",
+            "reason": null
+          },
+          "shipping": {
+            "level": "high",
+            "reason": null
+          },
+          "subtotal": {
+            "level": "high",
+            "reason": null
+          },
+          "tax": {
+            "level": "high",
+            "reason": null
+          },
+          "total_amount": {
+            "level": "high",
+            "reason": null
+          },
+          "vendor_name": {
+            "level": "high",
+            "reason": null
+          }
+        },
+        "overall": "HIGH",
+        "reasons": [
+          "All fields are clear and match the source image.",
+          "Math verification passed."
+        ]
+      },
+      "fields": {
+        "currency": "USD",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "LXS-6102",
+        "subtotal": 285,
+        "tax": 0,
+        "total": 285,
+        "vendor_name": "Larkspur Example Services"
+      },
+      "first_response_at": "2026-11-04T15:08:02.537Z",
+      "first_response_sha256": "5ef85f4f8dc793bb1398365e4e1458adf400636991123e0e500674f538a859cd",
+      "last_retrieved_at": "2026-11-04T15:10:53.684Z",
+      "lines": [
+        {
+          "amount": 105,
+          "description": "Packing labels",
+          "quantity": 12,
+          "unit_price": 8.75
+        },
+        {
+          "amount": 180,
+          "description": "Assembly support hours",
+          "quantity": 2.25,
+          "unit_price": 80
+        }
+      ],
+      "math_findings": [],
+      "math_status": "ok",
+      "retrieved_response_sha256": "db4838294db377f2f21cdc55b9dc8bf7f858d4433b8b0f52db4ca11cc3da0ceb",
+      "status": "completed",
+      "submitted_at": "2026-11-04T15:07:30.953Z"
+    },
+    "zar-01": {
+      "confidence": {
+        "fields": {
+          "currency": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_name": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_tax_id": {
+            "level": "high",
+            "reason": null
+          },
+          "discount": {
+            "level": "high",
+            "reason": null
+          },
+          "due_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_number": {
+            "level": "high",
+            "reason": null
+          },
+          "line_items": {
+            "level": "high",
+            "reason": null
+          },
+          "payment_terms": {
+            "level": "high",
+            "reason": null
+          },
+          "po_number": {
+            "level": "high",
+            "reason": null
+          },
+          "shipping": {
+            "level": "high",
+            "reason": null
+          },
+          "subtotal": {
+            "level": "high",
+            "reason": null
+          },
+          "tax": {
+            "level": "high",
+            "reason": null
+          },
+          "total_amount": {
+            "level": "high",
+            "reason": null
+          },
+          "vendor_name": {
+            "level": "medium",
+            "reason": "Extractor confidence below the review threshold for: invoice_number, vendor_name"
+          }
+        },
+        "overall": "MEDIUM",
+        "reasons": [
+          "Extractor confidence below the review threshold for: invoice_number, vendor_name",
+          "Currency correction from USD to ZAR based on image",
+          "Payment terms corrected to include full date"
+        ]
+      },
+      "fields": {
+        "currency": "ZAR",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "CEE-9401",
+        "subtotal": 1823,
+        "tax": 273.45,
+        "total": 2096.45,
+        "vendor_name": "Cedar Example Engineering"
+      },
+      "first_response_at": "2026-11-04T15:10:14.687Z",
+      "first_response_sha256": "5a7f95eb6b438cb55d9a7995ef4a8247b1c943d977a265070f4ed55ad5e57c6c",
+      "last_retrieved_at": "2026-11-04T15:10:53.645Z",
+      "lines": [
+        {
+          "amount": 983,
+          "description": "Mounting brackets",
+          "quantity": 4,
+          "unit_price": 245.75
+        },
+        {
+          "amount": 840,
+          "description": "Calibration hours",
+          "quantity": 1.5,
+          "unit_price": 560
+        }
+      ],
+      "math_findings": [],
+      "math_status": "ok",
+      "retrieved_response_sha256": "7679bcc62fc18d64875195d29a31d49596c22ed26300f435712f3557abb3ace7",
+      "status": "completed",
+      "submitted_at": "2026-11-04T15:09:53.091Z"
+    },
+    "zar-02": {
+      "confidence": {
+        "fields": {
+          "currency": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_name": {
+            "level": "high",
+            "reason": null
+          },
+          "customer_tax_id": {
+            "level": "high",
+            "reason": null
+          },
+          "discount": {
+            "level": "high",
+            "reason": null
+          },
+          "due_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_date": {
+            "level": "high",
+            "reason": null
+          },
+          "invoice_number": {
+            "level": "high",
+            "reason": null
+          },
+          "line_items": {
+            "level": "high",
+            "reason": null
+          },
+          "payment_terms": {
+            "level": "high",
+            "reason": null
+          },
+          "po_number": {
+            "level": "high",
+            "reason": null
+          },
+          "shipping": {
+            "level": "high",
+            "reason": null
+          },
+          "subtotal": {
+            "level": "high",
+            "reason": null
+          },
+          "tax": {
+            "level": "high",
+            "reason": null
+          },
+          "total_amount": {
+            "level": "low",
+            "reason": "Subtotal (1913.00) + Tax (286.95) - Discount (0.00) = 2199.95, but total is 2239.95"
+          },
+          "vendor_name": {
+            "level": "medium",
+            "reason": "Extractor confidence below the review threshold for: invoice_number, vendor_name"
+          }
+        },
+        "overall": "MEDIUM",
+        "reasons": [
+          "Extractor confidence below the review threshold for: invoice_number, vendor_name",
+          "Currency correction from USD to ZAR based on document",
+          "Payment terms corrected to include full date"
+        ]
+      },
+      "fields": {
+        "currency": "ZAR",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "CEE-9402",
+        "subtotal": 1913,
+        "tax": 286.95,
+        "total": 2239.95,
+        "vendor_name": "Cedar Example Engineering"
+      },
+      "first_response_at": "2026-11-04T15:10:52.604Z",
+      "first_response_sha256": "829b9a1baa88874ba82f7f72effbde84141acf8391aba3484778a972979aa724",
+      "last_retrieved_at": "2026-11-04T15:10:53.565Z",
+      "lines": [
+        {
+          "amount": 1113,
+          "description": "Seal kits",
+          "quantity": 6,
+          "unit_price": 185.5
+        },
+        {
+          "amount": 800,
+          "description": "Machining hours",
+          "quantity": 2.5,
+          "unit_price": 320
+        }
+      ],
+      "math_findings": [],
+      "math_status": "mismatch",
+      "retrieved_response_sha256": "15273deb8c1814fd225d7b354283c7a9be8d09309ca93f7bba6323210d4a6913",
+      "status": "completed",
+      "submitted_at": "2026-11-04T15:10:31.244Z"
+    }
+  },
+  "freeze_commit": "6202e1893d53b2ecf9c4e015dba6f4a7f646c219",
+  "manifest_sha256": "9b3e396cecefa435aa547b6c397ca7c2ddb796590186746cc85b77710a125180",
+  "mapping": "protocol.json scoring.mcp_mapping; normalize_mcp.py v1",
+  "pack_id": "ipp-frozen-challenge-v1",
+  "transport": "IPP connected MCP account lane"
+}
