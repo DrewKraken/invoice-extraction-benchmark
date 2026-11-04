@@ -1,0 +1,2 @@
+Vendor,Invoice #,Date,Total,Currency,Confidence,Line Items Count,Validation Status,Warning Severity,Document Type,Signed Total,Original Invoice Reference
+Bracken Example Studio,BES-7202,2026-11-03,333.0,GBP,Extracted Successfully,2,valid,none,invoice,333.00,

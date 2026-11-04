@@ -38,6 +38,13 @@ A separate [paired-source exercise](examples/paired-checks-v1/README.md) supplie
 fictional uploads with frozen duplicate/arithmetic labels and recorded CSV/XLSX checks.
 It does not change the 181-document extraction scores.
 
+A separate [eight-invoice challenge](examples/challenge-v1/README.md), frozen before
+its first IPP run on November 4, 2026, adds new synthetic PDFs, answer keys and
+actual Excel/CSV results. These are short, two-row digital invoices: a small
+internal check, not a broader accuracy estimate or independent validation.
+Its eight-case results remain separate from the 181-document benchmark.
+[Try a starter invoice and inspect its result](https://invoiceparserpro.com/accuracy#frozen-challenge).
+
 ## What is in the set
 
 | Category | Docs | What it is there to test |

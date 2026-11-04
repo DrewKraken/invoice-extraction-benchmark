@@ -1,0 +1,119 @@
+{
+  "exports_checked": 16,
+  "all_passed": true,
+  "checks": [
+    {
+      "case_id": "eur-01",
+      "format": "csv",
+      "bytes": 261,
+      "sha256": "2733bf1e9fae6ad86b3ddcacbc787427f0b5272294abb32a5afdf7dd5b6ac554",
+      "verified": "header fields (CSV is invoice summary)"
+    },
+    {
+      "case_id": "eur-01",
+      "format": "xlsx",
+      "bytes": 8300,
+      "sha256": "b86c6ae300a5535b7acdd95070ceb5bdea2c299dadc3970b338ed9b2bdf8ab50",
+      "verified": "header fields and line rows"
+    },
+    {
+      "case_id": "eur-02",
+      "format": "csv",
+      "bytes": 262,
+      "sha256": "dfd19a963f7343e5856efaca27c9408bd140cea3fb03d99a7f2cf9c2aeb38e0b",
+      "verified": "header fields (CSV is invoice summary)"
+    },
+    {
+      "case_id": "eur-02",
+      "format": "xlsx",
+      "bytes": 8308,
+      "sha256": "c6f1a1fddda5651068989e1a5715be7c07ddfe2136c16dd92d7feb98e57080d4",
+      "verified": "header fields and line rows"
+    },
+    {
+      "case_id": "gbp-01",
+      "format": "csv",
+      "bytes": 261,
+      "sha256": "3bc44e67134bc781d45e419502c331ba936943ec7cc7005a837cc5937fb58af4",
+      "verified": "header fields (CSV is invoice summary)"
+    },
+    {
+      "case_id": "gbp-01",
+      "format": "xlsx",
+      "bytes": 8301,
+      "sha256": "385ad4c1f1e48376e0ab83bcbba148552e02398039e74846079b9bbef956a722",
+      "verified": "header fields and line rows"
+    },
+    {
+      "case_id": "gbp-02",
+      "format": "csv",
+      "bytes": 261,
+      "sha256": "a1effcadf0ecf9f7b9a856a504977112bc6fbfbe3480a340dadaaa4c09c75265",
+      "verified": "header fields (CSV is invoice summary)"
+    },
+    {
+      "case_id": "gbp-02",
+      "format": "xlsx",
+      "bytes": 8301,
+      "sha256": "21f6ee656ed3556995d3883b9c834494d92aa126927d5affb6c0f6d74a46dc4b",
+      "verified": "header fields and line rows"
+    },
+    {
+      "case_id": "usd-01",
+      "format": "csv",
+      "bytes": 264,
+      "sha256": "5bb3d06944ec81f22ab44d9f289dbce6839ea7b293f4664f1143554c5758f2be",
+      "verified": "header fields (CSV is invoice summary)"
+    },
+    {
+      "case_id": "usd-01",
+      "format": "xlsx",
+      "bytes": 8343,
+      "sha256": "411e42b9e659d341018adae63343fcebbacc2dfbdf76ba10cf87f500524acfcf",
+      "verified": "header fields and line rows"
+    },
+    {
+      "case_id": "usd-02",
+      "format": "csv",
+      "bytes": 264,
+      "sha256": "a8014cdfd27d2bcdf20cf275f17b6713134e47690a9f16790e08e8f620adc933",
+      "verified": "header fields (CSV is invoice summary)"
+    },
+    {
+      "case_id": "usd-02",
+      "format": "xlsx",
+      "bytes": 8338,
+      "sha256": "4167467151f2aa77e5dbcc978808d04941cd285d86d7967e2fd42f7b78c26ac5",
+      "verified": "header fields and line rows"
+    },
+    {
+      "case_id": "zar-01",
+      "format": "csv",
+      "bytes": 267,
+      "sha256": "7b3a517b7054031055b44ff3e55885a36945f43065bbe0cc09bbc217cac6255b",
+      "verified": "header fields (CSV is invoice summary)"
+    },
+    {
+      "case_id": "zar-01",
+      "format": "xlsx",
+      "bytes": 8316,
+      "sha256": "50faff3b6506159fe2d84df1ca6af5758d82ae977d57b35d69d022af9d92b080",
+      "verified": "header fields and line rows"
+    },
+    {
+      "case_id": "zar-02",
+      "format": "csv",
+      "bytes": 271,
+      "sha256": "117e135d995300db77f4203a2a4fd3af671f130ba7d005b83b8b30ae56d8f58c",
+      "verified": "header fields (CSV is invoice summary)"
+    },
+    {
+      "case_id": "zar-02",
+      "format": "xlsx",
+      "bytes": 8370,
+      "sha256": "b8821c1cddd2ad418060fa56ba989942485c24528541a994516dc2f226d4b930",
+      "verified": "header fields and line rows"
+    }
+  ],
+  "scope": "Additional downloaded-file QA; separate from the frozen MCP-field score. CSV exports are invoice summaries; XLSX includes line items."
+}

@@ -1,0 +1,262 @@
+{
+  "cases": {
+    "eur-01": {
+      "fields": {
+        "currency": "EUR",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "AES-8301",
+        "subtotal": "296.50",
+        "tax": "59.30",
+        "total": "355.80",
+        "vendor_name": "Aster Example Supplies"
+      },
+      "file": "invoices/eur-01.pdf",
+      "layout": "eur",
+      "lines": [
+        {
+          "amount": "136.50",
+          "description": "Storage trays",
+          "quantity": "7",
+          "unit_price": "19.50"
+        },
+        {
+          "amount": "160.00",
+          "description": "Installation hours",
+          "quantity": "2.5",
+          "unit_price": "64.00"
+        }
+      ],
+      "math_status": "ok",
+      "note": "Printed arithmetic is consistent.",
+      "tax_rate": "0.20"
+    },
+    "eur-02": {
+      "fields": {
+        "currency": "EUR",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "AES-8302",
+        "subtotal": "427.15",
+        "tax": "85.43",
+        "total": "512.58",
+        "vendor_name": "Aster Example Supplies"
+      },
+      "file": "invoices/eur-02.pdf",
+      "layout": "eur",
+      "lines": [
+        {
+          "amount": "372.75",
+          "description": "Workshop cabinets",
+          "quantity": "3",
+          "unit_price": "124.25"
+        },
+        {
+          "amount": "54.40",
+          "description": "Label holders",
+          "quantity": "8",
+          "unit_price": "6.80"
+        }
+      ],
+      "math_status": "ok",
+      "note": "Printed arithmetic is consistent.",
+      "tax_rate": "0.20"
+    },
+    "gbp-01": {
+      "fields": {
+        "currency": "GBP",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "BES-7201",
+        "subtotal": "224.50",
+        "tax": "44.90",
+        "total": "269.40",
+        "vendor_name": "Bracken Example Studio"
+      },
+      "file": "invoices/gbp-01.pdf",
+      "layout": "gbp",
+      "lines": [
+        {
+          "amount": "130.00",
+          "description": "Print preparation",
+          "quantity": "4",
+          "unit_price": "32.50"
+        },
+        {
+          "amount": "94.50",
+          "description": "Proof review",
+          "quantity": "2",
+          "unit_price": "47.25"
+        }
+      ],
+      "math_status": "ok",
+      "note": "Printed arithmetic is consistent.",
+      "tax_rate": "0.20"
+    },
+    "gbp-02": {
+      "fields": {
+        "currency": "GBP",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "BES-7202",
+        "subtotal": "277.50",
+        "tax": "55.50",
+        "total": "333.00",
+        "vendor_name": "Bracken Example Studio"
+      },
+      "file": "invoices/gbp-02.pdf",
+      "layout": "gbp",
+      "lines": [
+        {
+          "amount": "165.00",
+          "description": "Design consultation hours",
+          "quantity": "1.5",
+          "unit_price": "110.00"
+        },
+        {
+          "amount": "112.50",
+          "description": "Display panels",
+          "quantity": "6",
+          "unit_price": "18.75"
+        }
+      ],
+      "math_status": "ok",
+      "note": "Printed arithmetic is consistent.",
+      "tax_rate": "0.20"
+    },
+    "usd-01": {
+      "fields": {
+        "currency": "USD",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "LXS-6101",
+        "subtotal": "271.50",
+        "tax": "0.00",
+        "total": "271.50",
+        "vendor_name": "Larkspur Example Services"
+      },
+      "file": "invoices/usd-01.pdf",
+      "layout": "usd",
+      "lines": [
+        {
+          "amount": "127.50",
+          "description": "Equipment inspection",
+          "quantity": "3",
+          "unit_price": "42.50"
+        },
+        {
+          "amount": "144.00",
+          "description": "Site planning hours",
+          "quantity": "1.5",
+          "unit_price": "96.00"
+        }
+      ],
+      "math_status": "ok",
+      "note": "Printed arithmetic is consistent.",
+      "tax_rate": "0"
+    },
+    "usd-02": {
+      "fields": {
+        "currency": "USD",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "LXS-6102",
+        "subtotal": "285.00",
+        "tax": "0.00",
+        "total": "285.00",
+        "vendor_name": "Larkspur Example Services"
+      },
+      "file": "invoices/usd-02.pdf",
+      "layout": "usd",
+      "lines": [
+        {
+          "amount": "105.00",
+          "description": "Packing labels",
+          "quantity": "12",
+          "unit_price": "8.75"
+        },
+        {
+          "amount": "180.00",
+          "description": "Assembly support hours",
+          "quantity": "2.25",
+          "unit_price": "80.00"
+        }
+      ],
+      "math_status": "ok",
+      "note": "Printed arithmetic is consistent.",
+      "tax_rate": "0"
+    },
+    "zar-01": {
+      "fields": {
+        "currency": "ZAR",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "CEE-9401",
+        "subtotal": "1823.00",
+        "tax": "273.45",
+        "total": "2096.45",
+        "vendor_name": "Cedar Example Engineering"
+      },
+      "file": "invoices/zar-01.pdf",
+      "layout": "zar",
+      "lines": [
+        {
+          "amount": "983.00",
+          "description": "Mounting brackets",
+          "quantity": "4",
+          "unit_price": "245.75"
+        },
+        {
+          "amount": "840.00",
+          "description": "Calibration hours",
+          "quantity": "1.5",
+          "unit_price": "560.00"
+        }
+      ],
+      "math_status": "ok",
+      "note": "Printed arithmetic is consistent.",
+      "tax_rate": "0.15"
+    },
+    "zar-02": {
+      "fields": {
+        "currency": "ZAR",
+        "document_type": "invoice",
+        "due_date": "2026-12-03",
+        "invoice_date": "2026-11-03",
+        "invoice_number": "CEE-9402",
+        "subtotal": "1913.00",
+        "tax": "286.95",
+        "total": "2239.95",
+        "vendor_name": "Cedar Example Engineering"
+      },
+      "file": "invoices/zar-02.pdf",
+      "layout": "zar",
+      "lines": [
+        {
+          "amount": "1113.00",
+          "description": "Seal kits",
+          "quantity": "6",
+          "unit_price": "185.50"
+        },
+        {
+          "amount": "800.00",
+          "description": "Machining hours",
+          "quantity": "2.5",
+          "unit_price": "320.00"
+        }
+      ],
+      "math_status": "mismatch",
+      "note": "Printed total exceeds subtotal plus tax by ZAR 40.00; preserve the printed total and flag the arithmetic.",
+      "tax_rate": "0.15"
+    }
+  },
+  "created_on": "2026-11-04",
+  "pack_id": "ipp-frozen-challenge-v1"
+}

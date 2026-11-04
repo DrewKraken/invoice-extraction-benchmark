@@ -1,0 +1,62 @@
+{
+  "created_on": "2026-11-04",
+  "files": {
+    "LICENSE-CODE.txt": {
+      "bytes": 1074,
+      "sha256": "5b2da0234539c2de3b1dc042735d44d3cc2f3199ec6c61d9d2a80415aa0dbbb5"
+    },
+    "README.md": {
+      "bytes": 2198,
+      "sha256": "361d9d7dce986d6ba54c868197030d643dcc004eac3e8879fe62a9c6bcd7349d"
+    },
+    "answer-key.json": {
+      "bytes": 7001,
+      "sha256": "883658de20398ee313c259a09ea22b6cf487bcd59cecc0ce84e90f1bb602c93b"
+    },
+    "generate.py": {
+      "bytes": 15347,
+      "sha256": "e50477159f7bf4c07f7ec9566fcde41affa2902a8a443f5ab7c00eabe005276b"
+    },
+    "invoices/eur-01.pdf": {
+      "bytes": 2382,
+      "sha256": "641b318e6a92993b5b59cf32b1bb77df8b4f997cc64c43d43c124005a37b04de"
+    },
+    "invoices/eur-02.pdf": {
+      "bytes": 2382,
+      "sha256": "38312c7114358f5222b1c2f597dd02bf8c8e006ac4b8a2b5d0841a0a69deb4d6"
+    },
+    "invoices/gbp-01.pdf": {
+      "bytes": 2372,
+      "sha256": "08c208430913c0ac7dfad456b1de24fcb9e0a201f01d2a23d185afecb23c721b"
+    },
+    "invoices/gbp-02.pdf": {
+      "bytes": 2383,
+      "sha256": "907ca6d9edc016e16de579d447ddc821bb9f6da99f654aa6a31149851af1bc9a"
+    },
+    "invoices/usd-01.pdf": {
+      "bytes": 2387,
+      "sha256": "6f51a842ebd5d480d667371114f2e6a5c8c322400a824da947e7c6610cec4d1d"
+    },
+    "invoices/usd-02.pdf": {
+      "bytes": 2387,
+      "sha256": "850685d124ad5df49a7f3e2cb289cbe99f8c84ce0d08c3d1ce27d3d7de0bd805"
+    },
+    "invoices/zar-01.pdf": {
+      "bytes": 2359,
+      "sha256": "40a2542df1cd152107053fccef1ed78bd53e7dfd168bfe96906a5487359f6d61"
+    },
+    "invoices/zar-02.pdf": {
+      "bytes": 2352,
+      "sha256": "7faa83e5ae4e008e12407f3c1d36525e6cfd2c29a7c677ecc735d016f0c02315"
+    },
+    "protocol.json": {
+      "bytes": 2885,
+      "sha256": "a981fff2f759d147f88dcf1a17ec4d4ae94bbadc46d2f8add080b1429c889854"
+    },
+    "verify.py": {
+      "bytes": 4858,
+      "sha256": "ee9842ba0bfa3d85d37453214a5c2b70cca4df538ddbb550e09a3098dd952883"
+    }
+  },
+  "pack_id": "ipp-frozen-challenge-v1"
+}

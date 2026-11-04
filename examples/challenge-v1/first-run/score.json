@@ -1,0 +1,981 @@
+{
+  "pack_id": "ipp-frozen-challenge-v1",
+  "case_count": 8,
+  "all_checks_pass_count": 8,
+  "checks": {
+    "pass": 152,
+    "fail": 0,
+    "unobserved": 0
+  },
+  "cases": [
+    {
+      "case_id": "eur-01",
+      "status": "completed",
+      "all_checks_pass": true,
+      "checks": [
+        {
+          "field": "vendor_name",
+          "expected": "Aster Example Supplies",
+          "observed": "Aster Example Supplies",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_number",
+          "expected": "AES-8301",
+          "observed": "AES-8301",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_date",
+          "expected": "2026-11-03",
+          "observed": "2026-11-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "due_date",
+          "expected": "2026-12-03",
+          "observed": "2026-12-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "currency",
+          "expected": "EUR",
+          "observed": "EUR",
+          "outcome": "pass"
+        },
+        {
+          "field": "subtotal",
+          "expected": "296.50",
+          "observed": 296.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "tax",
+          "expected": "59.30",
+          "observed": 59.3,
+          "outcome": "pass"
+        },
+        {
+          "field": "total",
+          "expected": "355.80",
+          "observed": 355.8,
+          "outcome": "pass"
+        },
+        {
+          "field": "document_type",
+          "expected": "invoice",
+          "observed": "invoice",
+          "outcome": "pass"
+        },
+        {
+          "field": "line_count",
+          "expected": 2,
+          "observed": 2,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.description",
+          "expected": "Storage trays",
+          "observed": "Storage trays",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.quantity",
+          "expected": "7",
+          "observed": 7,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.unit_price",
+          "expected": "19.50",
+          "observed": 19.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.amount",
+          "expected": "136.50",
+          "observed": 136.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.description",
+          "expected": "Installation hours",
+          "observed": "Installation hours",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.quantity",
+          "expected": "2.5",
+          "observed": 2.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.unit_price",
+          "expected": "64.00",
+          "observed": 64,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.amount",
+          "expected": "160.00",
+          "observed": 160,
+          "outcome": "pass"
+        },
+        {
+          "field": "math_status",
+          "expected": "ok",
+          "observed": "ok",
+          "outcome": "pass"
+        }
+      ]
+    },
+    {
+      "case_id": "eur-02",
+      "status": "completed",
+      "all_checks_pass": true,
+      "checks": [
+        {
+          "field": "vendor_name",
+          "expected": "Aster Example Supplies",
+          "observed": "Aster Example Supplies",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_number",
+          "expected": "AES-8302",
+          "observed": "AES-8302",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_date",
+          "expected": "2026-11-03",
+          "observed": "2026-11-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "due_date",
+          "expected": "2026-12-03",
+          "observed": "2026-12-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "currency",
+          "expected": "EUR",
+          "observed": "EUR",
+          "outcome": "pass"
+        },
+        {
+          "field": "subtotal",
+          "expected": "427.15",
+          "observed": 427.15,
+          "outcome": "pass"
+        },
+        {
+          "field": "tax",
+          "expected": "85.43",
+          "observed": 85.43,
+          "outcome": "pass"
+        },
+        {
+          "field": "total",
+          "expected": "512.58",
+          "observed": 512.58,
+          "outcome": "pass"
+        },
+        {
+          "field": "document_type",
+          "expected": "invoice",
+          "observed": "invoice",
+          "outcome": "pass"
+        },
+        {
+          "field": "line_count",
+          "expected": 2,
+          "observed": 2,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.description",
+          "expected": "Workshop cabinets",
+          "observed": "Workshop cabinets",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.quantity",
+          "expected": "3",
+          "observed": 3,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.unit_price",
+          "expected": "124.25",
+          "observed": 124.25,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.amount",
+          "expected": "372.75",
+          "observed": 372.75,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.description",
+          "expected": "Label holders",
+          "observed": "Label holders",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.quantity",
+          "expected": "8",
+          "observed": 8,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.unit_price",
+          "expected": "6.80",
+          "observed": 6.8,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.amount",
+          "expected": "54.40",
+          "observed": 54.4,
+          "outcome": "pass"
+        },
+        {
+          "field": "math_status",
+          "expected": "ok",
+          "observed": "ok",
+          "outcome": "pass"
+        }
+      ]
+    },
+    {
+      "case_id": "gbp-01",
+      "status": "completed",
+      "all_checks_pass": true,
+      "checks": [
+        {
+          "field": "vendor_name",
+          "expected": "Bracken Example Studio",
+          "observed": "Bracken Example Studio",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_number",
+          "expected": "BES-7201",
+          "observed": "BES-7201",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_date",
+          "expected": "2026-11-03",
+          "observed": "2026-11-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "due_date",
+          "expected": "2026-12-03",
+          "observed": "2026-12-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "currency",
+          "expected": "GBP",
+          "observed": "GBP",
+          "outcome": "pass"
+        },
+        {
+          "field": "subtotal",
+          "expected": "224.50",
+          "observed": 224.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "tax",
+          "expected": "44.90",
+          "observed": 44.9,
+          "outcome": "pass"
+        },
+        {
+          "field": "total",
+          "expected": "269.40",
+          "observed": 269.4,
+          "outcome": "pass"
+        },
+        {
+          "field": "document_type",
+          "expected": "invoice",
+          "observed": "invoice",
+          "outcome": "pass"
+        },
+        {
+          "field": "line_count",
+          "expected": 2,
+          "observed": 2,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.description",
+          "expected": "Print preparation",
+          "observed": "Print preparation",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.quantity",
+          "expected": "4",
+          "observed": 4,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.unit_price",
+          "expected": "32.50",
+          "observed": 32.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.amount",
+          "expected": "130.00",
+          "observed": 130,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.description",
+          "expected": "Proof review",
+          "observed": "Proof review",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.quantity",
+          "expected": "2",
+          "observed": 2,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.unit_price",
+          "expected": "47.25",
+          "observed": 47.25,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.amount",
+          "expected": "94.50",
+          "observed": 94.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "math_status",
+          "expected": "ok",
+          "observed": "ok",
+          "outcome": "pass"
+        }
+      ]
+    },
+    {
+      "case_id": "gbp-02",
+      "status": "completed",
+      "all_checks_pass": true,
+      "checks": [
+        {
+          "field": "vendor_name",
+          "expected": "Bracken Example Studio",
+          "observed": "Bracken Example Studio",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_number",
+          "expected": "BES-7202",
+          "observed": "BES-7202",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_date",
+          "expected": "2026-11-03",
+          "observed": "2026-11-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "due_date",
+          "expected": "2026-12-03",
+          "observed": "2026-12-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "currency",
+          "expected": "GBP",
+          "observed": "GBP",
+          "outcome": "pass"
+        },
+        {
+          "field": "subtotal",
+          "expected": "277.50",
+          "observed": 277.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "tax",
+          "expected": "55.50",
+          "observed": 55.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "total",
+          "expected": "333.00",
+          "observed": 333,
+          "outcome": "pass"
+        },
+        {
+          "field": "document_type",
+          "expected": "invoice",
+          "observed": "invoice",
+          "outcome": "pass"
+        },
+        {
+          "field": "line_count",
+          "expected": 2,
+          "observed": 2,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.description",
+          "expected": "Design consultation hours",
+          "observed": "Design consultation hours",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.quantity",
+          "expected": "1.5",
+          "observed": 1.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.unit_price",
+          "expected": "110.00",
+          "observed": 110,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.amount",
+          "expected": "165.00",
+          "observed": 165,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.description",
+          "expected": "Display panels",
+          "observed": "Display panels",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.quantity",
+          "expected": "6",
+          "observed": 6,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.unit_price",
+          "expected": "18.75",
+          "observed": 18.75,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.amount",
+          "expected": "112.50",
+          "observed": 112.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "math_status",
+          "expected": "ok",
+          "observed": "ok",
+          "outcome": "pass"
+        }
+      ]
+    },
+    {
+      "case_id": "usd-01",
+      "status": "completed",
+      "all_checks_pass": true,
+      "checks": [
+        {
+          "field": "vendor_name",
+          "expected": "Larkspur Example Services",
+          "observed": "Larkspur Example Services",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_number",
+          "expected": "LXS-6101",
+          "observed": "LXS-6101",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_date",
+          "expected": "2026-11-03",
+          "observed": "2026-11-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "due_date",
+          "expected": "2026-12-03",
+          "observed": "2026-12-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "currency",
+          "expected": "USD",
+          "observed": "USD",
+          "outcome": "pass"
+        },
+        {
+          "field": "subtotal",
+          "expected": "271.50",
+          "observed": 271.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "tax",
+          "expected": "0.00",
+          "observed": 0,
+          "outcome": "pass"
+        },
+        {
+          "field": "total",
+          "expected": "271.50",
+          "observed": 271.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "document_type",
+          "expected": "invoice",
+          "observed": "invoice",
+          "outcome": "pass"
+        },
+        {
+          "field": "line_count",
+          "expected": 2,
+          "observed": 2,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.description",
+          "expected": "Equipment inspection",
+          "observed": "Equipment inspection",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.quantity",
+          "expected": "3",
+          "observed": 3,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.unit_price",
+          "expected": "42.50",
+          "observed": 42.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.amount",
+          "expected": "127.50",
+          "observed": 127.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.description",
+          "expected": "Site planning hours",
+          "observed": "Site planning hours",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.quantity",
+          "expected": "1.5",
+          "observed": 1.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.unit_price",
+          "expected": "96.00",
+          "observed": 96,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.amount",
+          "expected": "144.00",
+          "observed": 144,
+          "outcome": "pass"
+        },
+        {
+          "field": "math_status",
+          "expected": "ok",
+          "observed": "ok",
+          "outcome": "pass"
+        }
+      ]
+    },
+    {
+      "case_id": "usd-02",
+      "status": "completed",
+      "all_checks_pass": true,
+      "checks": [
+        {
+          "field": "vendor_name",
+          "expected": "Larkspur Example Services",
+          "observed": "Larkspur Example Services",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_number",
+          "expected": "LXS-6102",
+          "observed": "LXS-6102",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_date",
+          "expected": "2026-11-03",
+          "observed": "2026-11-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "due_date",
+          "expected": "2026-12-03",
+          "observed": "2026-12-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "currency",
+          "expected": "USD",
+          "observed": "USD",
+          "outcome": "pass"
+        },
+        {
+          "field": "subtotal",
+          "expected": "285.00",
+          "observed": 285,
+          "outcome": "pass"
+        },
+        {
+          "field": "tax",
+          "expected": "0.00",
+          "observed": 0,
+          "outcome": "pass"
+        },
+        {
+          "field": "total",
+          "expected": "285.00",
+          "observed": 285,
+          "outcome": "pass"
+        },
+        {
+          "field": "document_type",
+          "expected": "invoice",
+          "observed": "invoice",
+          "outcome": "pass"
+        },
+        {
+          "field": "line_count",
+          "expected": 2,
+          "observed": 2,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.description",
+          "expected": "Packing labels",
+          "observed": "Packing labels",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.quantity",
+          "expected": "12",
+          "observed": 12,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.unit_price",
+          "expected": "8.75",
+          "observed": 8.75,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.amount",
+          "expected": "105.00",
+          "observed": 105,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.description",
+          "expected": "Assembly support hours",
+          "observed": "Assembly support hours",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.quantity",
+          "expected": "2.25",
+          "observed": 2.25,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.unit_price",
+          "expected": "80.00",
+          "observed": 80,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.amount",
+          "expected": "180.00",
+          "observed": 180,
+          "outcome": "pass"
+        },
+        {
+          "field": "math_status",
+          "expected": "ok",
+          "observed": "ok",
+          "outcome": "pass"
+        }
+      ]
+    },
+    {
+      "case_id": "zar-01",
+      "status": "completed",
+      "all_checks_pass": true,
+      "checks": [
+        {
+          "field": "vendor_name",
+          "expected": "Cedar Example Engineering",
+          "observed": "Cedar Example Engineering",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_number",
+          "expected": "CEE-9401",
+          "observed": "CEE-9401",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_date",
+          "expected": "2026-11-03",
+          "observed": "2026-11-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "due_date",
+          "expected": "2026-12-03",
+          "observed": "2026-12-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "currency",
+          "expected": "ZAR",
+          "observed": "ZAR",
+          "outcome": "pass"
+        },
+        {
+          "field": "subtotal",
+          "expected": "1823.00",
+          "observed": 1823,
+          "outcome": "pass"
+        },
+        {
+          "field": "tax",
+          "expected": "273.45",
+          "observed": 273.45,
+          "outcome": "pass"
+        },
+        {
+          "field": "total",
+          "expected": "2096.45",
+          "observed": 2096.45,
+          "outcome": "pass"
+        },
+        {
+          "field": "document_type",
+          "expected": "invoice",
+          "observed": "invoice",
+          "outcome": "pass"
+        },
+        {
+          "field": "line_count",
+          "expected": 2,
+          "observed": 2,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.description",
+          "expected": "Mounting brackets",
+          "observed": "Mounting brackets",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.quantity",
+          "expected": "4",
+          "observed": 4,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.unit_price",
+          "expected": "245.75",
+          "observed": 245.75,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.amount",
+          "expected": "983.00",
+          "observed": 983,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.description",
+          "expected": "Calibration hours",
+          "observed": "Calibration hours",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.quantity",
+          "expected": "1.5",
+          "observed": 1.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.unit_price",
+          "expected": "560.00",
+          "observed": 560,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.amount",
+          "expected": "840.00",
+          "observed": 840,
+          "outcome": "pass"
+        },
+        {
+          "field": "math_status",
+          "expected": "ok",
+          "observed": "ok",
+          "outcome": "pass"
+        }
+      ]
+    },
+    {
+      "case_id": "zar-02",
+      "status": "completed",
+      "all_checks_pass": true,
+      "checks": [
+        {
+          "field": "vendor_name",
+          "expected": "Cedar Example Engineering",
+          "observed": "Cedar Example Engineering",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_number",
+          "expected": "CEE-9402",
+          "observed": "CEE-9402",
+          "outcome": "pass"
+        },
+        {
+          "field": "invoice_date",
+          "expected": "2026-11-03",
+          "observed": "2026-11-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "due_date",
+          "expected": "2026-12-03",
+          "observed": "2026-12-03",
+          "outcome": "pass"
+        },
+        {
+          "field": "currency",
+          "expected": "ZAR",
+          "observed": "ZAR",
+          "outcome": "pass"
+        },
+        {
+          "field": "subtotal",
+          "expected": "1913.00",
+          "observed": 1913,
+          "outcome": "pass"
+        },
+        {
+          "field": "tax",
+          "expected": "286.95",
+          "observed": 286.95,
+          "outcome": "pass"
+        },
+        {
+          "field": "total",
+          "expected": "2239.95",
+          "observed": 2239.95,
+          "outcome": "pass"
+        },
+        {
+          "field": "document_type",
+          "expected": "invoice",
+          "observed": "invoice",
+          "outcome": "pass"
+        },
+        {
+          "field": "line_count",
+          "expected": 2,
+          "observed": 2,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.description",
+          "expected": "Seal kits",
+          "observed": "Seal kits",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.quantity",
+          "expected": "6",
+          "observed": 6,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.unit_price",
+          "expected": "185.50",
+          "observed": 185.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.0.amount",
+          "expected": "1113.00",
+          "observed": 1113,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.description",
+          "expected": "Machining hours",
+          "observed": "Machining hours",
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.quantity",
+          "expected": "2.5",
+          "observed": 2.5,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.unit_price",
+          "expected": "320.00",
+          "observed": 320,
+          "outcome": "pass"
+        },
+        {
+          "field": "lines.1.amount",
+          "expected": "800.00",
+          "observed": 800,
+          "outcome": "pass"
+        },
+        {
+          "field": "math_status",
+          "expected": "mismatch",
+          "observed": "mismatch",
+          "outcome": "pass"
+        }
+      ]
+    }
+  ],
+  "limitation": "Eight authored synthetic cases; not an accuracy estimate or third-party validation."
+}

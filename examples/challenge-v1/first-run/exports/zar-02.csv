@@ -1,0 +1,2 @@
+Vendor,Invoice #,Date,Total,Currency,Confidence,Line Items Count,Validation Status,Warning Severity,Document Type,Signed Total,Original Invoice Reference
+Cedar Example Engineering,CEE-9402,2026-11-03,2239.95,ZAR,Extracted with Warnings,2,mismatch,risk,invoice,2239.95,
